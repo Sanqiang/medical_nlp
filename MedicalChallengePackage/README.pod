@@ -1,0 +1,156 @@
+=head1 2007 Medical Challenge Classification Package
+
+2007 Medical Challenge Classification Package
+
+=head1 SYNOPSIS
+
+This package was created for the 2007 Medical Challenge. It's 
+purpose is to classify radiology reports with their appropriate
+ICD9CM code.
+
+=head1 DOCUMENTATION
+
+All programs have inline source code documentation written in pod style
+and this can be browsed from command line as a man page or using the
+'perldoc' command. For example, 'man classify.pl' or 'perldoc
+classify.pl' will displayed the documentation for the classify.pl
+program. Each program also has a --help option to provide information
+about program options.
+
+=head1 SYSTEM REQUIREMENTS
+
+=item * Perl (version 5.8.5 or better) - http://www.perl.org
+
+=item * WEKA data mining package - http://sourceforge.net/projects/weka/
+ 
+=head1 GETTING STARTED
+
+The classify program acts a wrapper program for the classifier that 
+we used for our Medical Challenge submission.It runs our testing 
+simulations and the output for the challenge submission.
+
+The simulation randomly splits the training data into a training and 
+test section (Default: 75% train, 25% test). The classification 
+algorithm is run and the accuracy is determined. This is done for 
+a specified number of iterations (Default: 1000). The accuracy 
+for each run, the overall accuracy, standard deviation and  confidence
+intervals are outputed to the destination file.
+
+To run the simulation:
+
+  perl classify.pl DESTINATION SOURCE
+
+      where the SOURCE file is the Medical Challenge training data
+
+The challenge submission outputs the test data (supplied on the 
+command line) in the 2007 Medical Challenge xml format with the 
+ICD9CM codes assigned to each instance.
+
+To run the challenge submission:
+
+  perl classify.pl --test TESTFILE --nocodes DESTINATION SOURCE 
+
+=head1  CLASSIFICATION ALGORITHM
+
+Our supervised classification system contains a feature 
+extraction module (xml2arff.pl) that generates a feature 
+set of the training and test data, and  a learning algorithm 
+(WEKA) that learns the ICD9CM code combination from the 
+training data feature set and assigns a ICD9CM code 
+combination to each radiology report in the test data.
+
+Our feature extraction module generates the following feature 
+set: 
+i) the unigrams in the radiology report with a frequency 
+cutoff of zero and two, and 
+ii) the overlap between ICD9CM descriptions and the words in 
+the report. 
+
+A unigram is a content word that frequently occurs in a 
+radiology report labeled with a specific ICD9CM code 
+combination. The unigrams were obtained from the training 
+data. We do not utilize a stoplist.
+
+ICD9CM codes have corresponding English phrases describing 
+their meaning. We obtained these descriptions from the 
+Unified Medical Language Source (UMLS) Metathesaurus 
+MRCONSO table. We used the descriptions as boolean features 
+in our classification system where a '1' indicated that a 
+radiology report contained the description within the text 
+and a '0' indicated that it did not. The descriptors were 
+normalized by removing any text that came after a comma or 
+semi-colon as well as removing the abbreviation NOS.
+
+We use the Naive Bayes algorithm from the WEKA data-mining 
+package \cite{WittenF99} as our learning algorithm.
+
+=head1 PACKAGE ORGANIZATION
+
+After downloading and unpacking this package, you should find following 
+files/directories within the main directory.
+
+=over 4
+
+=item * README.pod
+
+This file.
+
+=item * classify.pl
+
+A wrapper program that acts as a driver to run the our classifier 
+that was used for the Medical Challenge. It runs our testing 
+simulations and the output for the challenge submission.
+
+=item * bin/
+
+A directory of Perl programs implemented and used by classify.pl
+
+=item * GPL.txt
+
+A copy of the GNU General Public License, the terms under which this 
+package is distributed.
+
+=item * FDL.txt
+
+A copy of the GNU Free Documentation License, the terms under which the
+documentation of CuiTools is distributed.
+
+=back
+
+=head1 CONTACT US
+
+This package is developed and maintained by Bridget T. McInnes, 
+Ted Pedersen, John Carlis and Serguei Pakhomov.
+
+=head1 SEE ALSO
+
+
+=head1 AUTHORS
+
+ Bridget T. McInnes
+ University of Minnesota
+ bthomson at cs.umn.edu
+ http://www.cs.umn.edu/~bthomson
+ 
+=head1 COPYRIGHT
+
+Copyright (c) 2007,  Bridget T. McInnes, Ted Pedersen, John Carlis and 
+Serguei Pakhomov
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program; if not, write to
+
+The Free Software Foundation, Inc.,
+59 Temple Place - Suite 330,
+Boston, MA  02111-1307, USA.
+
+=cut

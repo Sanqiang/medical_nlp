@@ -1,0 +1,75 @@
+##################################################################
+#
+#    INSTALLATION for the 2007 Medical Challenge Package
+#
+#    $Id: INSTALL,v 1.2 2007/05/16 14:44:05 btmcinnes Exp $ 
+##################################################################
+
+-----------------------------------------------------------------
+
+This package has been developed and tested on Linux and Solaris, 
+primarily using Perl and the C shell (csh).
+
+-----------------------------------------------------------------
+
+This package REQUIRES that the following software and data set to be 
+download and installed. 
+More details on how to obtain and install appear below. 
+
+--Programming Languages
+Perl (version 5.8.5 or better)
+
+--Additional Packages
+WEKA Data-mining package
+
+-----------------------------------------------------------------
+
+##################################################################
+#                        Programming Languages
+##################################################################
+
+Perl (version 5.8.5 or better)
+------------------------------
+
+Perl is freely available at http://www.perl.org. It is very likely that 
+you will already have Perl installed if you are using a Unix/Linux based 
+system. 
+
+#####################################################################
+#                    WEKA Data Mining Package
+#####################################################################
+
+Weka is a collection of machine learning algorithms for data mining 
+tasks. This package uses Weka's machine learning algorithms to perform 
+supervised word sense disambiguation. Weka is freely available at 
+http://www.cs.waikato.ac.nz/ml/weka/ 
+
+IMPORTANT:
+
+Once Downloaded the remember to set the environment variable WEKAHOME. 
+This is required by Weka as well as our package.
+
+For example:
+
+  # in cshell
+  setenv WEKAHOME /home/btmcinnes/weka/weka-3-5-3
+
+
+  # in bash
+  export WEKAHOME=/home/btmcinnes/weka/weka-3-5-3
+
+====================================================================
+
+CONTACT US
+==========
+
+You may contact us directly at:
+
+Bridget T McInnes: bthomson at cs.umn.edu
+Ted Pedersen     : tpederse at d.umn.edu
+
+
+Last Updated 17 May, 2007 by BTM
+=========================================================================
+
+
