@@ -29,7 +29,7 @@ for doc in docs:
         text_data = " ".join([text_data, text.firstChild.data])
     x.append(text_data)
 
-tv = CountVectorizer(x, strip_accents='ascii', ngram_range=(1, 10), binary=True)
+tv = CountVectorizer(x, strip_accents='ascii', ngram_range=(1, 1), binary=True)
 tfidf_train = tv.fit_transform(x)
 ml = MultiLabelBinarizer()
 y_map = ml.fit_transform(y)
@@ -65,6 +65,6 @@ for idx in range(0, n_record):
         y_predict_new.append(code)
         y_text_new.append(code)
 
-m_cls_report = metrics.classification_report(  y_text_new, y_predict_new)
+m_cls_report = metrics.classification_report( y_text_new, y_predict_new)
 print(m_cls_report)
 
