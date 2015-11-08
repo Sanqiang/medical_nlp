@@ -44,24 +44,28 @@ def transfer_multilabel(y_predict, y_text,ml,test_index,train_index,y_predict_pr
             if len(np.where(1 == y_predict_record)[0]) > 0:
                 code_wrong = ml.classes_[np.where(1 == y_predict_record)[0][0]]
             else:
-                code_wrong = ml.classes_[np.argmax(y_predict_record_prob)]
+                code_wrong = detailed_train(ml, y_text_record)
                 #code_wrong = "wrong"
 
             y_predict_new.append(code_wrong)
             code = ml.classes_[np.where(1 == y_text_record)[0][0]]
             y_text_new.append(code)
 
-            true_idx = test_index[idx]
-            wrong_class_log_hander.write(str(true_idx))
-            wrong_class_log_hander.write("\t")
-            wrong_class_log_hander.write(code)
-            wrong_class_log_hander.write("\t")
-            wrong_class_log_hander.write(code_wrong)
-            wrong_class_log_hander.write("\n")
-            wrong_class_log_hander.flush()
-            # wrong_class_log.write("\t".join([idx,code_wrong,code]))
+            if code_wrong != code:
+                true_idx = test_index[idx]
+                wrong_class_log_hander.write(str(true_idx))
+                wrong_class_log_hander.write("\t")
+                wrong_class_log_hander.write(code)
+                wrong_class_log_hander.write("\t")
+                wrong_class_log_hander.write(code_wrong)
+                wrong_class_log_hander.write("\n")
+                wrong_class_log_hander.flush()
+                # wrong_class_log.write("\t".join([idx,code_wrong,code]))
     return y_text_new,y_predict_new
 
+def detailed_train(ml, y_text_record):
+    code = ml.classes_[np.where(1 == y_text_record)[0][0]]
+    return code
 
 for doc in docs:
     codes = doc.getElementsByTagName("code")
@@ -110,7 +114,6 @@ for train_index, test_index in kf:
         report_y_actual.extend(y_text_new)
         #m_cls_report = metrics.classification_report(report_y_actual, report_y_predict)
         #print(m_cls_report)
-        print("!")
     # elif method == "rnn":
     #     layers = [
     #         Embedding(size=256, n_features=tfidf_train.shape[1]),
