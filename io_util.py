@@ -44,14 +44,14 @@ def transfer_multilabel(y_predict, y_text,ml,test_index,train_index,y_predict_pr
             if len(np.where(1 == y_predict_record)[0]) > 0:
                 code_wrong = ml.classes_[np.where(1 == y_predict_record)[0][0]]
             else:
-                code_wrong = detailed_train(ml, y_text_record)
+                code_wrong = detailed_train(ml, y_predict_record_prob)
                 #code_wrong = "wrong"
 
             y_predict_new.append(code_wrong)
             code = ml.classes_[np.where(1 == y_text_record)[0][0]]
             y_text_new.append(code)
 
-            if code_wrong != code:
+            if code != code_wrong:
                 true_idx = test_index[idx]
                 wrong_class_log_hander.write(str(true_idx))
                 wrong_class_log_hander.write("\t")
@@ -63,8 +63,8 @@ def transfer_multilabel(y_predict, y_text,ml,test_index,train_index,y_predict_pr
                 # wrong_class_log.write("\t".join([idx,code_wrong,code]))
     return y_text_new,y_predict_new
 
-def detailed_train(ml, y_text_record):
-    code = ml.classes_[np.where(1 == y_text_record)[0][0]]
+def detailed_train(ml, y_predict_record_prob):
+    code = ml.classes_[np.argmax(y_predict_record_prob)]
     return code
 
 for doc in docs:

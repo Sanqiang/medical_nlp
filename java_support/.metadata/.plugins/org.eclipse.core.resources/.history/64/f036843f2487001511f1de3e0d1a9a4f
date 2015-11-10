@@ -1,0 +1,29 @@
+package edu.pitt.medical_nlp;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import net.didion.jwnl.JWNL;
+import net.didion.jwnl.JWNLException;
+import net.didion.jwnl.data.IndexWord;
+import net.didion.jwnl.dictionary.Dictionary;
+
+public class WordNetUtility {
+
+	public WordNetUtility() {
+		try {
+			JWNL.initialize(new FileInputStream(Config.PATH_JWNL_CONFIG));
+		} catch (FileNotFoundException | JWNLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public String getStem(String word) {
+		try {
+			IndexWord[] idxWords = Dictionary.getInstance().lookupAllIndexWords(word);
+		} catch (JWNLException e) {
+			e.printStackTrace();
+		}
+		return "";
+	}
+
+}

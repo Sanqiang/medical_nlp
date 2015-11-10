@@ -1,0 +1,10 @@
+package edu.pitt.medical_nlp;
+
+
+public class ProcessTemp extends Process {
+	void process(){
+		for (iterable_type iterable_element : this._docs) {
+			
+		}
+	}
+}

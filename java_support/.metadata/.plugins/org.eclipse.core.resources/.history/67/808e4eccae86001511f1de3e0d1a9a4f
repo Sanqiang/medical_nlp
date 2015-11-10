@@ -1,0 +1,15 @@
+package edu.pitt.medical_nlp;
+
+import java.util.ArrayList;
+
+public class Process {
+	private ArrayList<String> _sentences = null;
+	
+	public Process(){
+		this._sentences = new ArrayList<String>()
+	}
+	
+	
+	void extractAspect() {
+	}
+}

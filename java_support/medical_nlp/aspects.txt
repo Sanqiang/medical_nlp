@@ -1,0 +1,1031 @@
+vague:1:Qualitative Concept
+markedly:2:Qualitative Concept
+associated with:5:Qualitative Concept
+year:86:Temporal Concept
+evidence of:54:Functional Concept
+anterior segment:1:Spatial Concept
+atypical pneumonia:2:Disease or Syndrome
+without:46:Qualitative Concept
+dysplasia:1:Pathologic Function
+ear infection:1:Disease or Syndrome
+ureterostomy:3:Therapeutic or Preventive Procedure
+absent:1:Functional Concept
+near:5:Finding
+persistent:9:Temporal Concept
+ten:1:Quantitative Concept
+left flank pain:2:Sign or Symptom
+overlying:2:Sign or Symptom
+mucosal:2:Tissue
+trauma:1:Pathologic Function
+sudden onset:1:Qualitative Concept
+suppressive:1:Functional Concept
+community:1:Geographic Area
+marrow:2:Food
+1:201:Quantitative Concept
+2:203:Quantitative Concept
+3:59:Quantitative Concept
+percentile:2:Quantitative Concept
+4:24:Quantitative Concept
+size:49:Spatial Concept
+exposure:1:Phenomenon or Process
+left:285:Spatial Concept
+5:15:Quantitative Concept
+6:13:Professional or Occupational Group
+exstrophy:3:Congenital Abnormality
+7:9:Quantitative Concept
+8:11:Quantitative Concept
+9:8:Quantitative Concept
+viral illness:15:Disease or Syndrome
+placement:6:Health Care Activity
+decreased size:1:Qualitative Concept
+=:6:Quantitative Concept
+weeks:42:Temporal Concept
+throat:2:Body Part, Organ, or Organ Component
+immediately:1:Temporal Concept
+edematous:1:Pathologic Function
+measurement:2:Functional Concept
+same:3:Qualitative Concept
+elevated:1:Qualitative Concept
+after:5:Temporal Concept
+stump:2:Acquired Abnormality
+lower respiratory tract:1:Body Location or Region
+a:234:Intellectual Product
+bone marrow transplant:2:Therapeutic or Preventive Procedure
+caliectasis:6:Disease or Syndrome
+chronic cough:4:Sign or Symptom
+density:9:Quantitative Concept
+asymptomatic:3:Finding
+decreased:9:Quantitative Concept
+epispadias repair:1:Therapeutic or Preventive Procedure
+neck:2:Body Part, Organ, or Organ Component
+bacterial infection:1:Disease or Syndrome
+onset:2:Qualitative Concept
+bone marrow:2:Tissue
+horseshoe kidney:2:Congenital Abnormality
+severe:6:Qualitative Concept
+lower respiratory tract infection:1:Disease or Syndrome
+x:21:Intellectual Product
+days:45:Temporal Concept
+fifth:1:Quantitative Concept
+site of:1:Qualitative Concept
+lack of growth:1:Finding
+congestion:7:Pathologic Function
+nasopharyngeal:1:Body Part, Organ, or Organ Component
+adopted:1:Finding
+surgery:5:Health Care Activity
+frontal:5:Spatial Concept
+caused by:1:Functional Concept
+nine:1:Quantitative Concept
+reports:1:Intellectual Product
+screening:2:Functional Concept
+tethered:1:Functional Concept
+bronchopulmonary dysplasia:1:Disease or Syndrome
+institution:2:Idea or Concept
+post:57:Temporal Concept
+at night:2:Temporal Concept
+female:180:Organism Attribute
+lingular pneumonia:1:Disease or Syndrome
+area:18:Spatial Concept
+bladder function:1:Organ or Tissue Function
+skin test:1:Diagnostic Procedure
+shadowing:3:Therapeutic or Preventive Procedure
+volume:6:Quantitative Concept
+voiding:9:Organism Function
+compatible with:6:Qualitative Concept
+bilateral hydronephrosis:5:Disease or Syndrome
+child:4:Age Group
+catheter:2:Medical Device
+bladder dysfunction:4:Pathologic Function
+history of vesicoureteral reflux:6:Finding
+except for:2:Functional Concept
+sleeping:1:Finding
+end:3:Spatial Concept
+projection:1:Spatial Concept
+hilar lymph nodes:1:Body Part, Organ, or Organ Component
+renal cyst:1:Congenital Abnormality
+caliber:1:Quantitative Concept
+hypoventilation:1:Pathologic Function
+multiple:7:Quantitative Concept
+single episode:2:Temporal Concept
+pulmonary:9:Qualitative Concept
+chest wall:1:Body Part, Organ, or Organ Component
+unremarkable:5:Qualitative Concept
+etiology:8:Functional Concept
+better:1:Qualitative Concept
+with:715:Intellectual Product
+distal:11:Spatial Concept
+treated with:1:Therapeutic or Preventive Procedure
+coffee:1:Food
+well:18:Qualitative Concept
+detected:4:Finding
+family:2:Family Group
+age:31:Organism Attribute
+urinary tract infection:58:Disease or Syndrome
+referred:2:Functional Concept
+slightly:11:Qualitative Concept
+smaller:4:Quantitative Concept
+trabeculated bladder:1:Anatomical Abnormality
+dysuria:3:Sign or Symptom
+rib:2:Body Part, Organ, or Organ Component
+years:5:Temporal Concept
+number:1:Quantitative Concept
+right ureter:4:Body Part, Organ, or Organ Component
+antibody titer:1:Laboratory or Test Result
+cloacal exstrophy:1:Congenital Abnormality
+debris:10:Substance
+cystography:1:Diagnostic Procedure
+normal range:2:Quantitative Concept
+per:1:Intellectual Product
+adenoids:2:Body Part, Organ, or Organ Component
+birth:3:Organism Function
+question of:3:Qualitative Concept
+repaired:2:Functional Concept
+system:16:Functional Concept
+atypical:5:Qualitative Concept
+fifth rib:1:Body Part, Organ, or Organ Component
+in the past:6:Temporal Concept
+duplex kidney:3:Congenital Abnormality
+sinusitis:1:Disease or Syndrome
+microscopic:4:Qualitative Concept
+partial:5:Quantitative Concept
+larger:4:Quantitative Concept
+other:14:Qualitative Concept
+rule out:13:Functional Concept
+woman:1:Population Group
+no change:2:Finding
+irregular:2:Qualitative Concept
+air:21:Inorganic Chemical
+cell:2:Cell
+abscess:1:Disease or Syndrome
+dysfunction:6:Qualitative Concept
+radiographic:22:Natural Phenomenon or Process
+well defined:1:Qualitative Concept
+vacuum:1:Natural Phenomenon or Process
+syndrome:10:Disease or Syndrome
+transplant:3:Tissue
+linear:2:Spatial Concept
+2nd:4:Quantitative Concept
+picture:2:Manufactured Object
+sharp:3:Finding
+nasal wash:1:Biomedical or Dental Material
+ovary:2:Body Part, Organ, or Organ Component
+community acquired:1:Qualitative Concept
+to the right:1:Spatial Concept
+viral disease:3:Disease or Syndrome
+with difficulty:1:Qualitative Concept
+ureteroureterostomy:1:Therapeutic or Preventive Procedure
+infiltrate:36:Functional Concept
+ultrasound scan:1:Diagnostic Procedure
+minor:1:Quantitative Concept
+descending thoracic aorta:2:Body Part, Organ, or Organ Component
+lumen:1:Qualitative Concept
+catches:1:Finding
+right posterior:1:Spatial Concept
+kidney:180:Body Part, Organ, or Organ Component
+function:1:Functional Concept
+all:1:Idea or Concept
+new:14:Qualitative Concept
+including:68:Functional Concept
+below:2:Spatial Concept
+right and left:3:Spatial Concept
+retropharyngeal abscess:1:Disease or Syndrome
+clinical:15:Qualitative Concept
+left upper lobe pneumonia:1:Disease or Syndrome
+respiratory tract:1:Body Part, Organ, or Organ Component
+vascular ring:1:Congenital Abnormality
+pelvic kidney:2:Congenital Abnormality
+noisy breathing:1:Finding
+lethargy:1:Sign or Symptom
+lesion:2:Finding
+complication:2:Idea or Concept
+right lateral:1:Spatial Concept
+free fluid:4:Pathologic Function
+abdomen:4:Body Part, Organ, or Organ Component
+technique:2:Functional Concept
+thoracic aorta:2:Body Part, Organ, or Organ Component
+recurrent urinary tract infection:2:Disease or Syndrome
+moderate to severe:1:Qualitative Concept
+pneumothorax:5:Disease or Syndrome
+running:1:Daily or Recreational Activity
+diminished:1:Quantitative Concept
+times:2:Quantitative Concept
+neurogenic bladder:42:Disease or Syndrome
+thoracic inlet:1:Body Location or Region
+shortness of breath:4:Sign or Symptom
+and:452:Intellectual Product
+today:10:Antibiotic
+ureterocele:6:Acquired Abnormality
+augmented bladder:1:Body Part, Organ, or Organ Component
+poles:1:Population Group
+air trapping:3:Sign or Symptom
+after lunch:1:Temporal Concept
+catheterization:2:Therapeutic or Preventive Procedure
+maximal:1:Qualitative Concept
+cough with fever:1:Sign or Symptom
+burning:1:Qualitative Concept
+lengths:2:Quantitative Concept
+enlarged heart:1:Finding
+stable:18:Qualitative Concept
+drainage:1:Therapeutic or Preventive Procedure
+appetite:1:Organism Function
+collapse:3:Finding
+extending:1:Spatial Concept
+right lower lobe pneumonia:6:Disease or Syndrome
+spurious:1:Qualitative Concept
+moderately:1:Qualitative Concept
+nipple:2:Body Part, Organ, or Organ Component
+ring:1:Medical Device
+fullness:2:Spatial Concept
+discussion:2:Therapeutic or Preventive Procedure
+uncertain:1:Finding
+fracture:1:Injury or Poisoning
+thorax:1:Body Part, Organ, or Organ Component
+generalized:1:Spatial Concept
+annual:1:Temporal Concept
+normal limits:14:Quantitative Concept
+shoulder:1:Body Location or Region
+defined:4:Intellectual Product
+margin:1:Finding
+confluent:2:Qualitative Concept
+containing:1:Functional Concept
+probable:4:Qualitative Concept
+does not:8:Finding
+each:2:Quantitative Concept
+thinning:7:Qualitative Concept
+abnormal:2:Qualitative Concept
+grade:53:Classification
+triangular:1:Conceptual Entity
+viral infection:6:Disease or Syndrome
+increased:20:Quantitative Concept
+probably:5:Qualitative Concept
+omphalocele:1:Disease or Syndrome
+collapsed:1:Functional Concept
+scanning:1:Diagnostic Procedure
+dilatation:26:Pathologic Function
+acute disease:5:Disease or Syndrome
+two:41:Quantitative Concept
+routine:10:Qualitative Concept
+left ureter:3:Body Part, Organ, or Organ Component
+tear:1:Injury or Poisoning
+does:8:Finding
+persistent cough:2:Sign or Symptom
+several days:1:Finding
+generalized lymphadenopathy:1:Pathologic Function
+radiograph:38:Diagnostic Procedure
+vesicular:2:Qualitative Concept
+urinary bladder:7:Body Part, Organ, or Organ Component
+bowel:8:Body Part, Organ, or Organ Component
+intraabdominal:1:Functional Concept
+family history of:2:Finding
+epispadias:1:Congenital Abnormality
+call:1:Intellectual Product
+standing:1:Physiologic Function
+medical record:1:Intellectual Product
+back pain:1:Sign or Symptom
+lingula:6:Body Part, Organ, or Organ Component
+renal pelvis:10:Body Part, Organ, or Organ Component
+medical:3:Functional Concept
+administration:1:Therapeutic or Preventive Procedure
+spina bifida:7:Congenital Abnormality
+source:2:Finding
+lymphadenopathy:1:Finding
+not feeling well:1:Sign or Symptom
+left upper quadrant:2:Spatial Concept
+mother:5:Family Group
+view:7:Spatial Concept
+sternotomy:1:Therapeutic or Preventive Procedure
+white:1:Qualitative Concept
+school:2:Organization
+segment:6:Spatial Concept
+flank:7:Body Location or Region
+grade 1:4:Intellectual Product
+height and weight:2:Organism Attribute
+grade 2:18:Intellectual Product
+grade 3:5:Qualitative Concept
+grade 4:3:Qualitative Concept
+grade 5:2:Intellectual Product
+recurrent:18:Temporal Concept
+mycoplasma:4:Bacterium
+acquired:1:Temporal Concept
+chest:180:Body Location or Region
+definite:3:Qualitative Concept
+wash:1:Intellectual Product
+diaphragm:2:Body Part, Organ, or Organ Component
+insufficient:1:Qualitative Concept
+significant:32:Idea or Concept
+girl:7:Age Group
+worse:4:Finding
+imaging:12:Diagnostic Procedure
+decrease:7:Quantitative Concept
+difficulty:3:Finding
+improving:3:Qualitative Concept
+measure:1:Quantitative Concept
+incontinence:9:Disease or Syndrome
+medial:4:Spatial Concept
+name:1:Intellectual Product
+both kidneys:31:Body Part, Organ, or Organ Component
+bedwetting:1:Sign or Symptom
+abdominal:11:Body Location or Region
+full:2:Qualitative Concept
+involving:5:Functional Concept
+right lower quadrant:1:Spatial Concept
+pneumomediastinum:1:Pathologic Function
+double aortic arch:1:Congenital Abnormality
+muscular atrophy:1:Disease or Syndrome
+acute sinusitis:1:Disease or Syndrome
+augmented:1:Quantitative Concept
+linear atelectasis:1:Disease or Syndrome
+house:1:Manufactured Object
+mild to moderate:8:Qualitative Concept
+sequela:1:Finding
+minimal:17:Qualitative Concept
+negative:6:Qualitative Concept
+central:10:Spatial Concept
+urologic:1:Biomedical Occupation or Discipline
+cystic fibrosis:10:Disease or Syndrome
+now:13:Intellectual Product
+episode of:6:Temporal Concept
+urogenital sinus:5:Embryonic Structure
+cystitis:5:Disease or Syndrome
+lobar pneumonia:3:Disease or Syndrome
+early:10:Temporal Concept
+pain:65:Sign or Symptom
+disease:120:Disease or Syndrome
+calcium:1:Element, Ion, or Isotope
+wheeze:2:Sign or Symptom
+substance:1:Substance
+suspicion:1:Mental Process
+rotation:1:Functional Concept
+start:1:Food
+enlarged:4:Qualitative Concept
+bone:3:Body System
+newborn:1:Finding
+chlorine:1:Element, Ion, or Isotope
+borderline:2:Qualitative Concept
+past history of:1:Finding
+bony:16:Functional Concept
+family history:2:Finding
+colon:4:Body Part, Organ, or Organ Component
+initially:2:Temporal Concept
+nephropathy:1:Disease or Syndrome
+short:1:Quantitative Concept
+aorta:2:Body Part, Organ, or Organ Component
+time:15:Temporal Concept
+redness:1:Finding
+aortic arch:2:Body Part, Organ, or Organ Component
+granulomatous:1:Qualitative Concept
+loss of appetite:1:Finding
+upper abdomen:1:Body Part, Organ, or Organ Component
+scarring:33:Pathologic Function
+shadow:2:Functional Concept
+recurrent urinary tract infections:5:Disease or Syndrome
+low grade:3:Qualitative Concept
+barium:1:Element, Ion, or Isotope
+tissue:4:Tissue
+asymmetry:5:Spatial Concept
+infant:2:Age Group
+has patient:1:Functional Concept
+three:11:Quantitative Concept
+when:12:Qualitative Concept
+artifact:1:Human-caused Phenomenon or Process
+pyelonephritis:4:Disease or Syndrome
+measures:3:Functional Concept
+identified:22:Qualitative Concept
+junctional:1:Spatial Concept
+fat:2:Pharmacologic Substance
+greater:11:Quantitative Concept
+case:1:Quantitative Concept
+vomiting:4:Sign or Symptom
+give:1:Functional Concept
+liver:1:Body Part, Organ, or Organ Component
+double:1:Functional Concept
+hyperinflation:17:Anatomical Abnormality
+maxillary antrum:1:Body Space or Junction
+upper chest:1:Body Location or Region
+increased density:3:Finding
+vesicoureteric reflux:1:Disease or Syndrome
+myelomeningocele:8:Congenital Abnormality
+consultation:1:Health Care Activity
+mediastinum:2:Body Part, Organ, or Organ Component
+infection:100:Pathologic Function
+study:53:Manufactured Object
+history of asthma:2:Finding
+grade 1/2:1:Intellectual Product
+pattern:4:Spatial Concept
+localized:2:Spatial Concept
+fever:150:Finding
+full inspiration:1:Physiologic Function
+unilateral:1:Spatial Concept
+febrile urinary tract infection:7:Disease or Syndrome
+medical record number:1:Intellectual Product
+unknown:2:Qualitative Concept
+brain injury:1:Injury or Poisoning
+web:1:Congenital Abnormality
+low:9:Qualitative Concept
+bilateral:65:Spatial Concept
+bladder reconstruction:1:Therapeutic or Preventive Procedure
+physician:3:Professional or Occupational Group
+mildly:5:Qualitative Concept
+peristalsis:1:Organ or Tissue Function
+initial:2:Temporal Concept
+nasopharyngeal airway:1:Medical Device
+more:11:Quantitative Concept
+chair:1:Medical Device
+bronchitis:3:Disease or Syndrome
+performed:10:Functional Concept
+micturition:1:Organism Function
+inaccurate:1:Qualitative Concept
+nasal:1:Functional Concept
+hit by:1:Functional Concept
+whooping cough:2:Disease or Syndrome
+flank pain:6:Sign or Symptom
+ruled out:1:Functional Concept
+proximal:2:Spatial Concept
+small:35:Quantitative Concept
+left renal pelvis:4:Body Part, Organ, or Organ Component
+trachea:4:Body Part, Organ, or Organ Component
+before:1:Intellectual Product
+stomach:3:Body Part, Organ, or Organ Component
+simple:1:Qualitative Concept
+choking:1:Pathologic Function
+left lower lobe pneumonia:4:Disease or Syndrome
+few:2:Quantitative Concept
+urethral:4:Functional Concept
+day:13:Temporal Concept
+episodes:4:Temporal Concept
+marked:3:Qualitative Concept
+rhonchi:1:Finding
+visible:1:Qualitative Concept
+gross:6:Qualitative Concept
+pain management:1:Therapeutic or Preventive Procedure
+history:155:Finding
+compensatory hypertrophy:3:Cell or Molecular Dysfunction
+inner:1:Spatial Concept
+done:3:Qualitative Concept
+both:40:Spatial Concept
+most:19:Quantitative Concept
+opacification:4:Qualitative Concept
+residual urine:1:Clinical Attribute
+outside:2:Spatial Concept
+daily:1:Temporal Concept
+to the left:3:Spatial Concept
+acute:34:Temporal Concept
+history of renal calculus:1:Finding
+hypertrophy:3:Pathologic Function
+sputum:1:Body Substance
+acute abdominal pain:1:Sign or Symptom
+inspiration:2:Organism Function
+thickened:2:Finding
+bifid:2:Spatial Concept
+distended bladder:1:Sign or Symptom
+respiratory symptoms:1:Sign or Symptom
+fourchette:1:Body Part, Organ, or Organ Component
+causing:1:Functional Concept
+patient:150:Patient or Disabled Group
+vesicoureteral reflux:66:Disease or Syndrome
+decompression:1:Functional Concept
+small bowel:1:Body Part, Organ, or Organ Component
+no cough:2:Finding
+respiratory tract infection:1:Disease or Syndrome
+aortic:2:Body Part, Organ, or Organ Component
+cystogram:12:Diagnostic Procedure
+amount:9:Quantitative Concept
+process:3:Phenomenon or Process
+therapy:3:Therapeutic or Preventive Procedure
+clear:33:Qualitative Concept
+discontinued:1:Finding
+increase:5:Functional Concept
+ultrasound:206:Diagnostic Procedure
+duplication:19:Functional Concept
+afternoon:1:Temporal Concept
+hematuria:31:Finding
+vesicostomy:3:Therapeutic or Preventive Procedure
+sinus:6:Anatomical Abnormality
+third:2:Quantitative Concept
+favor:1:Vitamin
+mean:1:Quantitative Concept
+deformity:1:Anatomical Abnormality
+clinic:1:Health Care Related Organization
+thoracic spine:4:Body Part, Organ, or Organ Component
+extent:2:Spatial Concept
+parent:1:Idea or Concept
+within normal limits:14:Finding
+superimposition:1:Finding
+evaluation:12:Health Care Activity
+intraoperative:1:Temporal Concept
+cul-de-sac:2:Body Space or Junction
+voiding cystourethrogram:1:Diagnostic Procedure
+complex:2:Qualitative Concept
+asthmatic:2:Disease or Syndrome
+fluid:12:Substance
+compressing:1:Functional Concept
+soft:4:Qualitative Concept
+clot:2:Body Substance
+right upper lobe pneumonia:3:Disease or Syndrome
+focal pneumonia:55:Disease or Syndrome
+past:13:Temporal Concept
+foreign body:3:Injury or Poisoning
+mild:71:Qualitative Concept
+tuberculosis:1:Disease or Syndrome
+posterior:8:Spatial Concept
+active:2:Functional Concept
+a mass:1:Finding
+increased breath sounds:1:Finding
+as:29:Qualitative Concept
+at:38:Functional Concept
+interpretation:1:Intellectual Product
+transient:1:Temporal Concept
+nephrolithiasis:1:Disease or Syndrome
+right kidney:70:Body Part, Organ, or Organ Component
+relative:2:Qualitative Concept
+postnatal:1:Temporal Concept
+obstruction:14:Pathologic Function
+asthmatic bronchitis:2:Disease or Syndrome
+anterior:8:Functional Concept
+bladder augmentation:6:Therapeutic or Preventive Procedure
+both lungs:1:Body Part, Organ, or Organ Component
+lymph:1:Body Substance
+soft tissues:1:Tissue
+sudden:1:Qualitative Concept
+anterior axillary:1:Spatial Concept
+history of urinary tract infection:9:Finding
+atelectasis:63:Pathologic Function
+high grade:1:Qualitative Concept
+stent:15:Medical Device
+urachus:1:Embryonic Structure
+renal calculus:7:Disease or Syndrome
+cm:13:Quantitative Concept
+right:291:Spatial Concept
+possible:17:Qualitative Concept
+procedure:19:Therapeutic or Preventive Procedure
+pleural effusion:16:Disease or Syndrome
+viral pneumonia:2:Disease or Syndrome
+cystic disease:1:Disease or Syndrome
+hydroureteronephrosis:2:Disease or Syndrome
+spasm:1:Sign or Symptom
+polyp:1:Anatomical Abnormality
+opacity:29:Pathologic Function
+under:1:Spatial Concept
+sudden onset of:1:Intellectual Product
+emergency:1:Temporal Concept
+residual:30:Qualitative Concept
+displaced:2:Spatial Concept
+down:1:Spatial Concept
+respiratory disease:1:Disease or Syndrome
+surgical:1:Health Care Activity
+axillary:1:Body Location or Region
+exclude:4:Functional Concept
+low grade fever:3:Finding
+possibly:7:Qualitative Concept
+image:2:Intellectual Product
+history of:152:Qualitative Concept
+mediastinal:16:Body Location or Region
+month:40:Temporal Concept
+aspiration:2:Pathologic Function
+final:1:Qualitative Concept
+narrowing:2:Anatomical Abnormality
+history of pneumonia:5:Finding
+enuresis:17:Sign or Symptom
+little:1:Quantitative Concept
+some:8:Intellectual Product
+deep:3:Spatial Concept
+physiologic:2:Functional Concept
+origin:1:Temporal Concept
+for:205:Qualitative Concept
+back:2:Body Location or Region
+augmentation:7:Therapeutic or Preventive Procedure
+bronchiectasis:2:Disease or Syndrome
+thickening:64:Finding
+follow up:10:Finding
+suprapubic:1:Spatial Concept
+duration:6:Temporal Concept
+related:11:Finding
+intraluminal:1:Functional Concept
+over:8:Spatial Concept
+six:3:Quantitative Concept
+breathing:10:Physiologic Function
+length:5:Quantitative Concept
+stent placement:3:Therapeutic or Preventive Procedure
+retained:3:Functional Concept
+diarrhea and vomiting:1:Sign or Symptom
+approximately:6:Qualitative Concept
+management:1:Occupational Activity
+regression:1:Mental Process
+wrestling:1:Daily or Recreational Activity
+injection:8:Therapeutic or Preventive Procedure
+muscular:1:Spatial Concept
+very:4:Qualitative Concept
+soft tissue:3:Tissue
+scoliosis:1:Acquired Abnormality
+consistent with:38:Qualitative Concept
+presence of:2:Quantitative Concept
+delayed:1:Temporal Concept
+right side:3:Spatial Concept
+patent urachus:1:Congenital Abnormality
+sickle cell disease:1:Disease or Syndrome
+improved:8:Qualitative Concept
+hilar:4:Spatial Concept
+four:10:Quantitative Concept
+prior to:2:Temporal Concept
+context:2:Finding
+revealed:1:Qualitative Concept
+acute chest pain:1:Sign or Symptom
+if:3:Intellectual Product
+treated by:1:Therapeutic or Preventive Procedure
+constipation:1:Sign or Symptom
+likely:38:Qualitative Concept
+left lung:4:Body Part, Organ, or Organ Component
+duodenal web:1:Disease or Syndrome
+large:6:Quantitative Concept
+in:253:Spatial Concept
+lingual:1:Body Location or Region
+suspected:1:Idea or Concept
+lower:96:Spatial Concept
+pyeloplasty:10:Therapeutic or Preventive Procedure
+change in:20:Quantitative Concept
+is:308:Intellectual Product
+suprapubic catheter:1:Medical Device
+lung:44:Body Part, Organ, or Organ Component
+renal ultrasound:172:Diagnostic Procedure
+hemorrhagic:1:Qualitative Concept
+interval:79:Temporal Concept
+cystourethrogram:1:Diagnostic Procedure
+status:40:Qualitative Concept
+diverticulum:8:Pathologic Function
+barium swallow:1:Diagnostic Procedure
+right lung:5:Body Part, Organ, or Organ Component
+anterior axillary line:1:Body Location or Region
+skin:1:Body System
+plate:2:Medical Device
+visible peristalsis:1:Finding
+grades:1:Classification
+inflation:1:Health Care Activity
+scattered:3:Spatial Concept
+eight:1:Quantitative Concept
+preoperative:1:Temporal Concept
+file:1:Medical Device
+known:16:Qualitative Concept
+inflammation:2:Pathologic Function
+right renal pelvis:3:Body Part, Organ, or Organ Component
+middle mediastinum:1:Body Location or Region
+right middle lobe pneumonia:1:Disease or Syndrome
+table:1:Manufactured Object
+illness:16:Finding
+side:9:Spatial Concept
+due to:10:Functional Concept
+within:41:Spatial Concept
+pulmonary disease:1:Disease or Syndrome
+tracheitis:1:Disease or Syndrome
+secondary to:2:Temporal Concept
+5th:1:Quantitative Concept
+positive:12:Qualitative Concept
+off:4:Qualitative Concept
+every year:1:Temporal Concept
+sickle cell:1:Cell
+report:4:Intellectual Product
+cyst:7:Eukaryote
+night time:1:Temporal Concept
+complete:5:Qualitative Concept
+breathlessness:1:Sign or Symptom
+hemangioma:1:Neoplastic Process
+recurrent pneumonia:2:Disease or Syndrome
+several:11:Quantitative Concept
+intermittent:8:Temporal Concept
+solitary:3:Quantitative Concept
+emesis:1:Sign or Symptom
+traction:1:Therapeutic or Preventive Procedure
+office:2:Manufactured Object
+diffuse:5:Qualitative Concept
+left side:4:Spatial Concept
+cough:202:Sign or Symptom
+second:2:Quantitative Concept
+pulmonary tuberculosis:1:Disease or Syndrome
+high:4:Qualitative Concept
+documented:2:Health Care Activity
+patchy:6:Qualitative Concept
+normal appearance:3:Finding
+ureteropelvic junction:1:Body Space or Junction
+chronic:6:Temporal Concept
+mm:4:Quantitative Concept
+hemidiaphragm:1:Body Part, Organ, or Organ Component
+months:16:Temporal Concept
+vagina:4:Body Part, Organ, or Organ Component
+3rd:1:Quantitative Concept
+level:3:Classification
+upper chest pain:1:Sign or Symptom
+diagnosis:3:Finding
+difficult:1:Qualitative Concept
+includes:1:Functional Concept
+definitive:1:Temporal Concept
+dry:1:Qualitative Concept
+film:4:Biomedical or Dental Material
+feeling:1:Mental Process
+heart:22:Body Part, Organ, or Organ Component
+plus:1:Qualitative Concept
+distention:10:Pathologic Function
+sore:2:Qualitative Concept
+position:3:Spatial Concept
+pleural fluid:1:Body Substance
+present:4:Quantitative Concept
+with grade:1:Classification
+no:96:Idea or Concept
+behind:1:Spatial Concept
+patent:2:Spatial Concept
+voiding dysfunction:1:Finding
+urinary tract:86:Body System
+boy:1:Age Group
+cardiac arrest:1:Disease or Syndrome
+breath:10:Body Substance
+head:1:Body Part, Organ, or Organ Component
+croup:3:Disease or Syndrome
+1/2:3:Intellectual Product
+mycoplasma pneumonia:2:Disease or Syndrome
+positioning:1:Health Care Activity
+of:784:Quantitative Concept
+repeat:1:Functional Concept
+not seen:3:Functional Concept
+smoking:1:Individual Behavior
+meatal stenosis:1:Anatomical Abnormality
+physical:1:Functional Concept
+on:130:Intellectual Product
+hemorrhagic cyst:1:Pathologic Function
+hyperreactive airways disease:1:Disease or Syndrome
+or:146:Functional Concept
+a band:2:Cell Component
+adenopathy:6:Finding
+sports:1:Daily or Recreational Activity
+nature:1:Functional Concept
+medication:1:Pharmacologic Substance
+extent of:1:Spatial Concept
+duodenal:1:Body Part, Organ, or Organ Component
+contralateral:1:Spatial Concept
+reconstruction:1:Therapeutic or Preventive Procedure
+stool:4:Medical Device
+punctate:1:Qualitative Concept
+runny nose:1:Sign or Symptom
+upper:70:Spatial Concept
+bladder emptying:1:Clinical Attribute
+increase in size:1:Finding
+episode:6:Temporal Concept
+calculus:10:Body Substance
+microscopic hematuria:4:Pathologic Function
+patch:1:Manufactured Object
+coughing:2:Sign or Symptom
+respiratory rate:1:Clinical Attribute
+above:14:Spatial Concept
+injury:3:Injury or Poisoning
+band:5:Spatial Concept
+recent:9:Temporal Concept
+10:8:Quantitative Concept
+reactive airway disease:23:Disease or Syndrome
+moderate:34:Qualitative Concept
+11:3:Quantitative Concept
+breath sounds:4:Clinical Attribute
+caudal:1:Functional Concept
+old:405:Temporal Concept
+nephrocalcinosis:2:Disease or Syndrome
+tracheoesophageal fistula:1:Anatomical Abnormality
+outer:1:Spatial Concept
+asthma:10:Disease or Syndrome
+then:4:Intellectual Product
+pyloroplasty:1:Therapeutic or Preventive Procedure
+reimplantation:16:Therapeutic or Preventive Procedure
+secondary:2:Temporal Concept
+wires:1:Medical Device
+requested:2:Functional Concept
+hydroureter:24:Anatomical Abnormality
+pleural:22:Spatial Concept
+difficulty breathing:3:Sign or Symptom
+obtained:2:Functional Concept
+daytime:3:Temporal Concept
+device:2:Manufactured Object
+male:125:Organism Attribute
+functional:1:Functional Concept
+pharyngitis:1:Disease or Syndrome
+prominent:8:Qualitative Concept
+seizure:1:Sign or Symptom
+activity:1:Activity
+tonsils and adenoids:1:Body Part, Organ, or Organ Component
+mid:15:Spatial Concept
+seen:73:Qualitative Concept
+long:1:Functional Concept
+bases:3:Quantitative Concept
+into:2:Functional Concept
+current:5:Temporal Concept
+granulomatous disease:1:Disease or Syndrome
+paratracheal:1:Spatial Concept
+left posterior:1:Spatial Concept
+temperature:1:Quantitative Concept
+chest tightness:2:Sign or Symptom
+febrile:15:Finding
+intermittent fever:2:Sign or Symptom
+differential diagnosis:1:Diagnostic Procedure
+middle:28:Spatial Concept
+reaction:1:Functional Concept
+38:1:Intellectual Product
+one:26:Quantitative Concept
+started:1:Qualitative Concept
+gagging:1:Finding
+single:4:Quantitative Concept
+tachypnea:3:Finding
+epiglottis:2:Body Part, Organ, or Organ Component
+afebrile:6:Finding
+increasing:2:Functional Concept
+atrophy:1:Pathologic Function
+lumbar spine:1:Body Part, Organ, or Organ Component
+right curve:1:Spatial Concept
+to:156:Intellectual Product
+chest x-ray:22:Diagnostic Procedure
+fourth:2:Quantitative Concept
+calyceal diverticulum:2:Disease or Syndrome
+glomerulonephritis:1:Disease or Syndrome
+junction:6:Spatial Concept
+antibiotic:1:Antibiotic
+right sided:1:Spatial Concept
+urine:2:Body Substance
+available:2:Functional Concept
+duplex:8:Spatial Concept
+seven:1:Quantitative Concept
+first episode:1:Temporal Concept
+wheezing:36:Sign or Symptom
+lateral:7:Spatial Concept
+frequency:1:Quantitative Concept
+lower lobe pneumonia:23:Disease or Syndrome
+right anterior:1:Spatial Concept
+diameter:1:Quantitative Concept
+loop:1:Spatial Concept
+variant:3:Qualitative Concept
+up:25:Spatial Concept
+pleural pain:1:Sign or Symptom
+five:2:Quantitative Concept
+us:1:Temporal Concept
+organism:1:Organism
+bronchial:3:Body Part, Organ, or Organ Component
+perineum:1:Body Location or Region
+degree:4:Quantitative Concept
+finding:3:Finding
+bronchiolitis:1:Disease or Syndrome
+increased size:1:Finding
+horseshoe:3:Spatial Concept
+tube:1:Quantitative Concept
+reactive:62:Qualitative Concept
+scar:2:Pathologic Function
+fistula:1:Spatial Concept
+laboratory:1:Organization
+failure:1:Functional Concept
+region:7:Spatial Concept
+support:2:Health Care Activity
+yearly:6:Temporal Concept
+febrile seizure:1:Disease or Syndrome
+pleural thickening:1:Disease or Syndrome
+changed:2:Quantitative Concept
+needed:3:Qualitative Concept
+scheduled:1:Qualitative Concept
+proteinuria:1:Finding
+mass:8:Quantitative Concept
+superimposed infection:1:Disease or Syndrome
+x-rays:1:Diagnostic Procedure
+stenosis:2:Pathologic Function
+calyx:3:Body Part, Organ, or Organ Component
+urgency:1:Temporal Concept
+examination:29:Health Care Activity
+gas:4:Bacterium
+sore throat:2:Sign or Symptom
+is a:67:Functional Concept
+bacterial pneumonia:11:Disease or Syndrome
+sternum:4:Body Part, Organ, or Organ Component
+reflux:132:Pathologic Function
+every:1:Intellectual Product
+normal:206:Qualitative Concept
+slight:8:Qualitative Concept
+previous:22:Temporal Concept
+inferior:5:Spatial Concept
+airway:33:Body Part, Organ, or Organ Component
+recently:4:Temporal Concept
+spine:6:Body Part, Organ, or Organ Component
+resection:3:Therapeutic or Preventive Procedure
+stone:6:Body Substance
+superior:4:Spatial Concept
+artificial:1:Qualitative Concept
+dilation:2:Pathologic Function
+left anterior:1:Spatial Concept
+bladder:210:Body Part, Organ, or Organ Component
+removal:5:Therapeutic or Preventive Procedure
+no evidence of:12:Qualitative Concept
+base:14:Quantitative Concept
+potty trained:1:Finding
+labored breathing:1:Sign or Symptom
+hydronephrosis:141:Disease or Syndrome
+mom:1:Quantitative Concept
+titer:1:Quantitative Concept
+renal stone:1:Body Substance
+presence:2:Qualitative Concept
+dependent:1:Qualitative Concept
+between:1:Spatial Concept
+antibody:1:Immunologic Factor
+renal scarring:5:Finding
+swelling:2:Finding
+vascular:1:Functional Concept
+aspirated foreign body:1:Injury or Poisoning
+evidence for:1:Functional Concept
+intact:1:Qualitative Concept
+discrepancy:9:Finding
+intrathoracic:1:Functional Concept
+ectasia:1:Pathologic Function
+following:9:Temporal Concept
+fibrosis:16:Pathologic Function
+complaining of cough:1:Sign or Symptom
+calcification:2:Organ or Tissue Function
+left ovary:2:Body Part, Organ, or Organ Component
+renal mass:1:Finding
+decubitus:1:Spatial Concept
+extension:1:Medical Device
+left kidney:74:Body Part, Organ, or Organ Component
+pelvis:21:Body Part, Organ, or Organ Component
+range:2:Intellectual Product
+renal disease:3:Disease or Syndrome
+specified:1:Qualitative Concept
+out:32:Spatial Concept
+suggestive of:8:Functional Concept
+frontal projection:1:Spatial Concept
+ear:1:Body Part, Organ, or Organ Component
+course:1:Temporal Concept
+urethral cyst:1:Anatomical Abnormality
+place:2:Functional Concept
+tracheomalacia:1:Disease or Syndrome
+lumbar:1:Body Location or Region
+swallow:1:Functional Concept
+onset of:2:Qualitative Concept
+uncomplicated:1:Qualitative Concept
+status post:39:Temporal Concept
+consolidation:20:Qualitative Concept
+brain:1:Body Part, Organ, or Organ Component
+normal size:2:Quantitative Concept
+meningomyelocele:2:Congenital Abnormality
+site:1:Spatial Concept
+appearance:44:Qualitative Concept
+ureteric stent:1:Medical Device
+tightness:2:Qualitative Concept
+pelvic:9:Body Location or Region
+bladder diverticulum:2:Acquired Abnormality
+first:10:Qualitative Concept
+lunch time:1:Temporal Concept
+cystic:13:Qualitative Concept
+date:1:Temporal Concept
+renal transplant:1:Therapeutic or Preventive Procedure
+threshold:1:Qualitative Concept
+acute pharyngitis:1:Disease or Syndrome
+descending:2:Qualitative Concept
+ureteral stone:1:Disease or Syndrome
+healing:1:Functional Concept
+follow-up:1:Finding
+basketball:2:Manufactured Object
+thinned:1:Qualitative Concept
+enlargement:3:Anatomical Abnormality
+coarse:1:Qualitative Concept
+only:6:Intellectual Product
+megaureter:4:Anatomical Abnormality
+pectus excavatum:1:Anatomical Abnormality
+lower chest:1:Body Location or Region
+decreased breath sounds:1:Finding
+effusion:18:Body Substance
+bladder distention:1:Sign or Symptom
+ureter:11:Body Part, Organ, or Organ Component
+ill:4:Sign or Symptom
+diarrhea:1:Sign or Symptom
+left sided:3:Spatial Concept
+focal:103:Spatial Concept
+intussusception:2:Disease or Syndrome
+repair:4:Therapeutic or Preventive Procedure
+week:16:Temporal Concept
+daytime enuresis:2:Sign or Symptom
+purpose:1:Functional Concept
+line:2:Spatial Concept
+frequent:2:Temporal Concept
+ureteric:1:Body Part, Organ, or Organ Component
+supine position:1:Spatial Concept
+urinary incontinence:2:Pathologic Function
+differential:1:Qualitative Concept
+can:11:Quantitative Concept
+abdominal pain:5:Sign or Symptom
+trace:1:Quantitative Concept
+pneumonia:274:Disease or Syndrome
+car:1:Manufactured Object
+walking:1:Daily or Recreational Activity
+retroperitoneal:1:Body Space or Junction
+talks:1:Finding
+nose:1:Body Part, Organ, or Organ Component
+postoperative:5:Temporal Concept
+x-ray:28:Diagnostic Procedure
+limited:2:Intellectual Product
+will:2:Mental Process
+unchanged:16:Finding
+stent removal:4:Therapeutic or Preventive Procedure
+follow:10:Intellectual Product
+bilateral kidneys:3:Body Part, Organ, or Organ Component
+currently:3:Temporal Concept
+chest pain:25:Sign or Symptom
+variable:1:Qualitative Concept
+thoracic:9:Body Location or Region
+no evidence for:1:Qualitative Concept
+rales:2:Sign or Symptom

@@ -1,0 +1,4 @@
+package edu.pitt.medical_nlp.graph;
+
+public class Edge {
+}

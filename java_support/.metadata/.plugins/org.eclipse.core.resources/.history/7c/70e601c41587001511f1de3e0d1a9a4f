@@ -1,0 +1,37 @@
+package edu.pitt.medical_nlp;
+
+public class Helper {
+	public static PartOfSpeech mapPartOfSpeech(String postag) {
+		PartOfSpeech partOfSpeech = PartOfSpeech.OTHER;
+		switch (postag) {
+		case "NN":
+		case "NNS":
+		case "NNP":
+		case "NNPS":
+			partOfSpeech = PartOfSpeech.NOUN;
+			break;
+		case "VB":
+		case "VBD":
+		case "VBG":
+		case "VBN":
+		case "VBP":
+		case "VBZ":
+			partOfSpeech = PartOfSpeech.VERB;
+			break;
+		case "JJ":
+		case "JJR":
+		case "JJS":
+			partOfSpeech = PartOfSpeech.ADJECTIVE;
+			break;
+		case "RB":
+		case "RBR":
+		case "RBS":
+			partOfSpeech = PartOfSpeech.ADVERB;
+			break;
+		default:
+			partOfSpeech = PartOfSpeech.OTHER;
+			break;
+		}
+		return partOfSpeech;
+	}
+}

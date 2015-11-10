@@ -1,0 +1,14 @@
+package edu.pitt.medical_nlp;
+
+import org.junit.Test;
+
+public class testProcess {
+
+	@Test
+	public void testProcessDocs() {
+		Process process = new Process();
+		String ndoc = process.processDocs(
+				"18-year - old woman with history of reflux and urinary tract infections.");
+		System.out.println(ndoc);
+	}
+}

@@ -1,0 +1,23 @@
+package edu.pitt.medical_nlp;
+
+import org.junit.Test;
+
+public class testProcess {
+
+	 @Test
+	public void testProcessDocs() {
+		Module.getInst();
+		Process process = new Process();
+		System.out.println("start processing!");
+		String ndoc = process.processDocs(
+				"Neurogenic bladder.");
+		System.out.println(ndoc);
+	}
+
+	//@Test
+	public void testWordNetGetStem() {
+		Module.getInst();
+		System.out.println(WordNetUtility.getStem("apples needs"));
+	}
+
+}

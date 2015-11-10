@@ -1,0 +1,8 @@
+package edu.pitt.medical_nlp.graph;
+
+import edu.pitt.medical_nlp.utility.DependencyType;
+
+public class Edge {
+	DependencyType type;
+	Node node1, node2;
+}

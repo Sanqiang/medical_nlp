@@ -1,0 +1,8 @@
+package edu.pitt.medical_nlp;
+
+
+public class PostProcess extends Process {
+	void process(){
+		
+	}
+}

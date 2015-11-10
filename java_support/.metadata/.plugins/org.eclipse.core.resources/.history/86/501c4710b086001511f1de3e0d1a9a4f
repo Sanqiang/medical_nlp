@@ -1,0 +1,5 @@
+package edu.pitt.medical_nlp;
+
+public class Config {
+	public static String PATH_DATA = "C:\\Users\\phd2\\PycharmProjects\\medical_nn\\data\\data.txt";
+}

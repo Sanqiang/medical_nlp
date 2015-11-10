@@ -1,0 +1,14 @@
+package edu.pitt.medical_nlp;
+
+import org.junit.Test;
+
+public class testProcess {
+
+	@Test
+	public void testProcessDocs() {
+		Process process = new Process();
+		String ndoc = process.processDocs(
+				"Eleven year old with ALL, bone marrow transplant on Jan. 2, now with three day history of cough. 1. No focal pneumonia. Likely chronic changes at the left lung base. 2. Mild anterior wedging of the thoracic vertebral bodies.");
+		System.out.println(ndoc);
+	}
+}

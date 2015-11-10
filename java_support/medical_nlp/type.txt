@@ -1,0 +1,68 @@
+Qualitative Concept	0
+Medical Device	0
+Clinical Attribute	0
+Eukaryote	0
+Inorganic Chemical	0
+Activity	0
+Neoplastic Process	0
+Manufactured Object	0
+Classification	0
+Conceptual Entity	0
+Physiologic Function	0
+Injury or Poisoning	0
+Functional Concept	0
+Cell	0
+Idea or Concept	0
+Phenomenon or Process	0
+Organism	0
+Mental Process	0
+Temporal Concept	0
+Organ or Tissue Function	0
+Acquired Abnormality	0
+Body System	0
+Pharmacologic Substance	0
+Population Group	0
+Antibiotic	0
+Body Part, Organ, or Organ Component	0
+Finding	0
+Natural Phenomenon or Process	0
+Body Substance	0
+Biomedical Occupation or Discipline	0
+Organization	0
+Vitamin	0
+Intellectual Product	0
+Patient or Disabled Group	0
+Element, Ion, or Isotope	0
+Anatomical Abnormality	0
+Spatial Concept	0
+Tissue	0
+Organism Attribute	0
+Bacterium	0
+Laboratory or Test Result	0
+Quantitative Concept	0
+Family Group	0
+Age Group	0
+Substance	0
+Health Care Activity	0
+Professional or Occupational Group	0
+Food	0
+Disease or Syndrome	0
+Immunologic Factor	0
+Sign or Symptom	0
+Cell Component	0
+Congenital Abnormality	0
+Occupational Activity	0
+Body Location or Region	0
+Geographic Area	0
+Body Space or Junction	0
+Pathologic Function	0
+Cell or Molecular Dysfunction	0
+Diagnostic Procedure	0
+Embryonic Structure	0
+Human-caused Phenomenon or Process	0
+Health Care Related Organization	0
+Therapeutic or Preventive Procedure	0
+Organism Function	0
+Biomedical or Dental Material	0
+Daily or Recreational Activity	0
+Individual Behavior	0

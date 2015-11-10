@@ -1,0 +1,52 @@
+package edu.pitt.medical_nlp;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import net.didion.jwnl.JWNL;
+import net.didion.jwnl.JWNLException;
+import net.didion.jwnl.data.IndexWord;
+import net.didion.jwnl.data.IndexWordSet;
+import net.didion.jwnl.data.POS;
+import net.didion.jwnl.dictionary.Dictionary;
+import net.didion.jwnl.dictionary.MorphologicalProcessor;
+
+public class WordNetUtility {
+
+	public WordNetUtility() {
+		try {
+			JWNL.initialize(new FileInputStream(Config.PATH_JWNL_CONFIG));
+		} catch (FileNotFoundException | JWNLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public String getStem(String word) {
+		try {
+			MorphologicalProcessor mop = Dictionary.getInstance().getMorphologicalProcessor();
+			IndexWord  w = mop.lookupBaseForm(POS.NOUN, word);
+			if (w != null) {
+				return w.getLemma();
+			}
+			w = mop.lookupBaseForm(POS.VERB, word);
+			if (w != null) {
+				return w.getLemma();
+			}
+			w = mop.lookupBaseForm(POS.ADJECTIVE, word);
+			if (w != null) {
+				return w.getLemma();
+			}
+			w = mop.lookupBaseForm(POS.ADVERB, word);
+			if (w != null) {
+				return w.getLemma();
+			}
+			w = mop.lookupBaseForm(POS.ADVERB, word);
+			if (w != null) {
+				return w.getLemma();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return "";
+	}
+
+}

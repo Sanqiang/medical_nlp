@@ -1,0 +1,6 @@
+package edu.pitt.medical_nlp.graph;
+
+public class Node {
+	public String lemma;
+	
+}

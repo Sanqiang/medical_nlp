@@ -1,0 +1,15 @@
+package edu.pitt.medical_nlp;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+       Process p = new Process();
+       p.extractAspect();
+       p.printAspects(1);
+    }
+}
