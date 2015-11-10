@@ -17,18 +17,21 @@ public class WordNetUtility {
 
 	public static String getStem(String raw_word) {
 		String nword = "";
-		String[] words = raw_word.split(" ");
+		String[] words = raw_word.split("[\\s\\-]");
 		for (String word : words) {
 			nword += getSingleStem(word) + " ";
 		}
-		return nword.substring(0, nword.length() - 1);
+		if (nword.endsWith(" ")) {
+			nword = nword.substring(0, nword.length() - 1);
+		}
+		return nword;
 	}
 
 	public static String getSingleStem(String word) {
 		if (cache.containsKey(word)) {
 			return cache.get(word);
 		}
-		
+
 		try {
 			String nword = null;
 			MorphologicalProcessor mop = Dictionary.getInstance().getMorphologicalProcessor();

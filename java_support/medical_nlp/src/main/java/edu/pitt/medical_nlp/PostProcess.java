@@ -27,7 +27,7 @@ public class PostProcess extends Process {
 
 	public void postProcessDocs() {
 		try {
-			BufferedWriter writer = new BufferedWriter(new FileWriter(new File("ndata.txt")));
+			BufferedWriter writer = new BufferedWriter(new FileWriter(new File("ndata3.txt")));
 			for (String doc : super.processDocs()) {
 				writer.write(postProcessDocs(doc));
 				writer.write("\n");
@@ -42,7 +42,7 @@ public class PostProcess extends Process {
 
 	public String postProcessDocs(String doc) {
 		Graph graph = new Graph();
-		StringBuilder ndoc = new StringBuilder(doc);
+		StringBuilder ndoc = new StringBuilder();
 		DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(doc));
 		MaxentTagger tagger = Module.getInst().getTagger();
 		DependencyParser parser = Module.getInst().getDependencyParser();

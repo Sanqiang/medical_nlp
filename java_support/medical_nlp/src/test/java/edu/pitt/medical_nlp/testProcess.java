@@ -16,19 +16,19 @@ public class testProcess {
 		System.out.println(ndoc);
 	}
 
-	// @Test
+	 @Test
 	public void testWordNetGetStem() {
 		Module.getInst();
-		System.out.println(WordNetUtility.getStem("apples needs"));
+		System.out.println(WordNetUtility.getStem("7-years-old"));
 	}
 
-	//@Test
+	@Test
 	public void testPostProcessDocs() {
 		Module.getInst();
 		PostProcess process = new PostProcess();
 		System.out.println("start processing!");
 		String ndoc = process
-				.postProcessDocs(process.processDocs("Cough, rule out pneumonia. No acute pulmonary disease."));
+				.postProcessDocs(process.processDocs("Chest pain asthma. Mildly hyperinflated lungs without focal opacity."));
 		System.out.println(ndoc);
 	}
 
