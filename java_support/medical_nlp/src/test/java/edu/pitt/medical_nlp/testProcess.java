@@ -16,10 +16,10 @@ public class testProcess {
 		System.out.println(ndoc);
 	}
 
-	 @Test
+	// @Test
 	public void testWordNetGetStem() {
 		Module.getInst();
-		System.out.println(WordNetUtility.getStem("7-years-old"));
+		System.out.println(WordNetUtility.getStem("chest x-ray"));
 	}
 
 	@Test
@@ -27,8 +27,8 @@ public class testProcess {
 		Module.getInst();
 		PostProcess process = new PostProcess();
 		System.out.println("start processing!");
-		String ndoc = process
-				.postProcessDocs(process.processDocs("Chest pain asthma. Mildly hyperinflated lungs without focal opacity."));
+		String ndoc = process.postProcessSingleDocs(process.processDocs(
+				"13-1/2-year - old with recent urinary tract and traction and fever. Horseshoe kidney. No complications from pyelonephritis are seen."));
 		System.out.println(ndoc);
 	}
 

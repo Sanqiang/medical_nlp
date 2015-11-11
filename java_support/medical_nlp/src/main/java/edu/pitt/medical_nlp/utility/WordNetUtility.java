@@ -1,25 +1,25 @@
 package edu.pitt.medical_nlp.utility;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.util.HashMap;
-
-import net.didion.jwnl.JWNL;
-import net.didion.jwnl.JWNLException;
 import net.didion.jwnl.data.IndexWord;
-import net.didion.jwnl.data.IndexWordSet;
 import net.didion.jwnl.data.POS;
 import net.didion.jwnl.dictionary.Dictionary;
 import net.didion.jwnl.dictionary.MorphologicalProcessor;
 
 public class WordNetUtility {
-	static HashMap<String, String> cache = new HashMap<>();
-
 	public static String getStem(String raw_word) {
 		String nword = "";
-		String[] words = raw_word.split("[\\s\\-]");
+		String[] words = raw_word.split("[\\s]");
 		for (String word : words) {
-			nword += getSingleStem(word) + " ";
+			String nsword = getSingleStem(word);
+			if (nsword.contains(" ")) {
+				if (nsword.replace(" ", "-").equals(word)) {
+					nsword = word;
+				}else{
+					System.err.println(nsword);
+					System.err.println(word);
+				}
+			}
+			nword += nsword + " ";
 		}
 		if (nword.endsWith(" ")) {
 			nword = nword.substring(0, nword.length() - 1);
@@ -28,9 +28,6 @@ public class WordNetUtility {
 	}
 
 	public static String getSingleStem(String word) {
-		if (cache.containsKey(word)) {
-			return cache.get(word);
-		}
 
 		try {
 			String nword = null;
@@ -38,25 +35,21 @@ public class WordNetUtility {
 			IndexWord w = mop.lookupBaseForm(POS.NOUN, word);
 			if (w != null) {
 				nword = w.getLemma();
-				cache.put(word, nword);
 				return nword;
 			}
 			w = mop.lookupBaseForm(POS.VERB, word);
 			if (w != null) {
 				nword = w.getLemma();
-				cache.put(word, nword);
 				return nword;
 			}
 			w = mop.lookupBaseForm(POS.ADJECTIVE, word);
 			if (w != null) {
 				nword = w.getLemma();
-				cache.put(word, nword);
 				return nword;
 			}
 			w = mop.lookupBaseForm(POS.ADVERB, word);
 			if (w != null) {
 				nword = w.getLemma();
-				cache.put(word, nword);
 				return nword;
 			}
 		} catch (Exception e) {

@@ -9,6 +9,6 @@ public class App {
 		// p.printAspects(0);
 		Module.getInst();
 		PostProcess postProcess = new PostProcess();
-		postProcess.postProcessDocs();
+		postProcess.postProcessDocs("ndata_add_features_add_phrase_stem_text_v3.txt");
 	}
 }

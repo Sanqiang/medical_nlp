@@ -24,6 +24,8 @@ public class Process {
 	protected HashMap<String, String> _mrconso, _mrsty = null;
 	protected HashMap<String, String> _types = null;
 	protected String[] exclude_words = { "is", "are", "or", ".", ",", "-", "_" };
+	protected HashSet<String> add_features = new HashSet<>();
+	protected HashMap<String, String> _exchange_cases = null;
 
 	public Process() {
 		this._docs = new ArrayList<String>();
@@ -48,6 +50,12 @@ public class Process {
 		this.processTypes();
 		System.out.println("extractAspect");
 		this.extractAspect();
+		this.processExchangeCases();
+	}
+
+	void processExchangeCases() {
+		_exchange_cases = new HashMap<>();
+		_exchange_cases.put("rule out", "no");
 	}
 
 	void processMrsty() {
@@ -95,10 +103,10 @@ public class Process {
 			String line = null;
 			while (null != (line = reader.readLine())) {
 				String[] pair = line.split("\t");
-				if (pair[1] == "1") {
-					_types.put(pair[0], "adj");
+				if (pair[1].equals("1")) {
+					_types.put(pair[0].replace(" ", "").replace(",", ""), "adj");
 				} else {
-					_types.put(pair[0], "n");
+					_types.put(pair[0].replace(" ", "").replace(",", ""), "n");
 				}
 			}
 			reader.close();
@@ -181,6 +189,11 @@ public class Process {
 	}
 
 	public String processDocs(String doc) {
+		for (String base_case : _exchange_cases.keySet()) {
+			String update_case = _exchange_cases.get(base_case);
+			doc = doc.replace(base_case, update_case);
+		}
+		boolean addphrase = true, addtype = true, add_raw_text = false;
 		HashSet<String> types = new HashSet<>();
 		List<String> exclude_words_list = Arrays.asList(exclude_words);
 		doc = doc.toLowerCase();
@@ -188,11 +201,13 @@ public class Process {
 		DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(doc));
 		for (List<HasWord> token_part : tokenizer) {
 			for (int i = 0; i < token_part.size(); i++) {
+
 				if (exclude_words_list.contains(token_part.get(i).word())) {
 					ndoc.append(token_part.get(i).word()).append(" ");
 					continue;
 				}
 
+				boolean is_continue = true;
 				if (i + 4 < token_part.size()
 						&& _aspects.containsKey(WordNetUtility.getStem(WordNetUtility.getStem(token_part.get(i).word()))
 								+ " " + WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
@@ -204,72 +219,115 @@ public class Process {
 							+ WordNetUtility.getStem(token_part.get(i + 2).word()) + " "
 							+ WordNetUtility.getStem(token_part.get(i + 3).word()) + " "
 							+ WordNetUtility.getStem(token_part.get(i + 4).word())));
-					ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append("_")
-							.append(WordNetUtility.getStem(token_part.get(i + 1).word())).append("_")
-							.append(WordNetUtility.getStem(token_part.get(i + 2).word())).append("_")
-							.append(WordNetUtility.getStem(token_part.get(i + 3).word())).append("_")
-							.append(WordNetUtility.getStem(token_part.get(i + 4).word()))
-							/* .append("_").append(type) */.append(" ");
-					i += 4;
-					types.add(type);
-					continue;
-				}
-				if (i + 3 < token_part.size() && _aspects.containsKey(WordNetUtility.getStem(token_part.get(i).word())
-						+ " " + WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
-						+ WordNetUtility.getStem(token_part.get(i + 2).word()) + " "
-						+ WordNetUtility.getStem(token_part.get(i + 3).word()))) {
+					if (addphrase && _types.get(type).equals("n")) {
+						ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append("_")
+								.append(WordNetUtility.getStem(token_part.get(i + 1).word())).append("_")
+								.append(WordNetUtility.getStem(token_part.get(i + 2).word())).append("_")
+								.append(WordNetUtility.getStem(token_part.get(i + 3).word())).append("_")
+								.append(WordNetUtility.getStem(token_part.get(i + 4).word()))
+								/* .append("_").append(type) */.append(" ");
+						is_continue = false;
+						i += 4;
+						types.add(type);
+					}
+					if (add_raw_text) {
+
+						ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append(" ")
+								.append(WordNetUtility.getStem(token_part.get(i + 1).word())).append(" ")
+								.append(WordNetUtility.getStem(token_part.get(i + 2).word())).append(" ")
+								.append(WordNetUtility.getStem(token_part.get(i + 3).word())).append(" ")
+								.append(WordNetUtility.getStem(token_part.get(i + 4).word())).append(" ");
+						is_continue = false;
+						i += 4;
+					}
+
+				} else if (i + 3 < token_part.size()
+						&& _aspects.containsKey(WordNetUtility.getStem(token_part.get(i).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 2).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 3).word()))) {
 					String type = _mrsty.get(_mrconso.get(WordNetUtility.getStem(token_part.get(i).word()) + " "
 							+ WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
 							+ WordNetUtility.getStem(token_part.get(i + 2).word()) + " "
 							+ WordNetUtility.getStem(token_part.get(i + 3).word())));
-					ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append("_")
-							.append(WordNetUtility.getStem(token_part.get(i + 1).word())).append("_")
-							.append(WordNetUtility.getStem(token_part.get(i + 2).word())).append("_")
-							.append(WordNetUtility.getStem(token_part.get(i + 3).word()))
-							/* .append("_").append(type) */.append(" ");
-					i += 3;
-					types.add(type);
-					continue;
-				}
-				if (i + 2 < token_part.size() && _aspects.containsKey(WordNetUtility.getStem(token_part.get(i).word())
-						+ " " + WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
-						+ WordNetUtility.getStem(token_part.get(i + 2).word()))) {
-					String type = _mrsty.get(_mrconso.get(WordNetUtility.getStem(token_part.get(i).word())) + " "
+					if (addphrase && _types.get(type).equals("n")) {
+						ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append("_")
+								.append(WordNetUtility.getStem(token_part.get(i + 1).word())).append("_")
+								.append(WordNetUtility.getStem(token_part.get(i + 2).word())).append("_")
+								.append(WordNetUtility.getStem(token_part.get(i + 3).word()))
+								/* .append("_").append(type) */.append(" ");
+						is_continue = false;
+						i += 3;
+						types.add(type);
+					}
+					if (add_raw_text) {
+						ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append(" ")
+								.append(WordNetUtility.getStem(token_part.get(i + 1).word())).append(" ")
+								.append(WordNetUtility.getStem(token_part.get(i + 2).word())).append(" ")
+								.append(WordNetUtility.getStem(token_part.get(i + 3).word())).append(" ");
+						is_continue = false;
+						i += 3;
+					}
+				} else if (i + 2 < token_part.size()
+						&& _aspects.containsKey(WordNetUtility.getStem(token_part.get(i).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 2).word()))) {
+					String type = _mrsty.get(_mrconso.get(WordNetUtility.getStem(token_part.get(i).word()) + " "
 							+ WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
-							+ WordNetUtility.getStem(token_part.get(i + 2).word()));
-					ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append("_")
-							.append(WordNetUtility.getStem(token_part.get(i + 1).word())).append("_")
-							.append(WordNetUtility.getStem(token_part.get(i + 2).word()))
-							/* .append("_").append(type) */.append(" ");
-					i += 2;
-					types.add(type);
-					continue;
-				}
-				if (i + 1 < token_part.size() && _aspects.containsKey(WordNetUtility.getStem(token_part.get(i).word())
-						+ " " + WordNetUtility.getStem(token_part.get(i + 1).word()))) {
+							+ WordNetUtility.getStem(token_part.get(i + 2).word())));
+					if (addphrase && _types.get(type).equals("n")) {
+						ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append("_")
+								.append(WordNetUtility.getStem(token_part.get(i + 1).word())).append("_")
+								.append(WordNetUtility.getStem(token_part.get(i + 2).word()))
+								/* .append("_").append(type) */.append(" ");
+						is_continue = false;
+						i += 2;
+						types.add(type);
+					}
+					if (add_raw_text) {
+						ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append(" ")
+								.append(WordNetUtility.getStem(token_part.get(i + 1).word())).append(" ")
+								.append(WordNetUtility.getStem(token_part.get(i + 2).word())).append(" ");
+						is_continue = false;
+						i += 2;
+					}
+				} else if (i + 1 < token_part.size()
+						&& _aspects.containsKey(WordNetUtility.getStem(token_part.get(i).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 1).word()))) {
 					String type = _mrsty.get(_mrconso.get(WordNetUtility.getStem(token_part.get(i).word()) + " "
 							+ WordNetUtility.getStem(token_part.get(i + 1).word())));
-					ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append("_")
-							.append(WordNetUtility.getStem(token_part.get(i + 1)
-									.word()))/* .append("_").append(type) */
-							.append(" ");
-					i += 1;
-					types.add(type);
-					continue;
-				}
-				if (_aspects.containsKey(WordNetUtility.getStem(token_part.get(i).word()))) {
+					if (addphrase && _types.get(type).equals("n")) {
+						ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append("_")
+								.append(WordNetUtility.getStem(token_part.get(i + 1)
+										.word()))/* .append("_").append(type) */
+								.append(" ");
+						is_continue = false;
+						i += 1;
+						types.add(type);
+					}
+					if (add_raw_text) {
+						ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append(" ")
+								.append(WordNetUtility.getStem(token_part.get(i + 1).word())).append(" ");
+						is_continue = false;
+						i += 1;
+					}
+				} else if (_aspects.containsKey(WordNetUtility.getStem(token_part.get(i).word()))) {
 					String type = _mrsty.get(_mrconso.get(WordNetUtility.getStem(token_part.get(i).word())));
-					ndoc.append(WordNetUtility.getStem(token_part.get(i).word()))
-							/* .append("_").append(type) */.append(" ");
-					types.add(type);
-					continue;
+					if (_types.get(type) != null && _types.get(type).equals("n")) {
+						ndoc.append(WordNetUtility.getStem(token_part.get(i).word()))
+								/* .append("_").append(type) */.append(" ");
+						is_continue = false;
+						types.add(type);
+					}
+				}
+				if (is_continue) {
+					ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append(" ");
 				}
 
-				ndoc.append(WordNetUtility.getStem(token_part.get(i).word())).append(" ");
 			}
 		}
-		for (String type : types) {
-			ndoc.append(type).append(" ");
+		if (addtype) {
+			add_features.addAll(types);
 		}
 		return ndoc.toString();
 	}

@@ -6,13 +6,14 @@ from sklearn.linear_model import LogisticRegression
 from sklearn import cross_validation
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
+from sklearn.tree import DecisionTreeClassifier
 # from passage.models import RNN
 # from passage.updates import Adadelta
 # from passage.layers import Embedding, GatedRecurrent, Dense
 from sklearn.preprocessing import MultiLabelBinarizer
 import vector_support as vs
 
-wrong_class_log_hander = open("Monitor/wrong_log.txt", 'w+')
+wrong_class_log_hander = open("Monitor/wrong_log_best.txt", 'w+')
 
 fname = "data/2007ChallengeTrainData.xml"
 docu = minidom.parse(fname)
@@ -99,10 +100,10 @@ for doc in docs:
 
 # tv = TfidfVectorizer(x,stop_words='english',  min_df=0.00002)
 tv = CountVectorizer(x, strip_accents='ascii', ngram_range=(1, 2), binary=True)
-tv2 = CountVectorizer(x2, strip_accents='ascii', ngram_range=(1), binary=True)
+tv2 = CountVectorizer(x2, strip_accents='ascii', ngram_range=(1,1), binary=True)
 # tv = HashingVectorizer(x,strip_accents='ascii',ngram_range = (1,1), binary = True)
 tfidf_train = tv.fit_transform(x)
-tfidf_train2 = tv.fit_transform(x2)
+tfidf_train2 = tv2.fit_transform(x2)
 #tfidf_train = np.concatenate((tfidf_train.todense(),np.array(x_vector_support)),axis=1)
 ml = MultiLabelBinarizer()
 y_map = ml.fit_transform(y)
@@ -121,7 +122,7 @@ for train_index, test_index in kf:
     if method == "trad":
         model = OneVsRestClassifier(LogisticRegression(C=100000))
         model.fit(x_train, y_train)
-        model2 = OneVsRestClassifier(RandomForestClassifier(n_estimators=1000,n_jobs=20))
+        model2 = OneVsRestClassifier(DecisionTreeClassifier(random_state=0,criterion="entropy"))
         model2.fit(x_train2, y_train)
         y_predict = model.predict(x_test)
         y_predict2 = model2.predict(x_test2)

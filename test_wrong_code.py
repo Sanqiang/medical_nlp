@@ -6,7 +6,7 @@ from sklearn.multiclass import OneVsRestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn import metrics
 
-wrong_class_log_hander = open("Monitor/wrong_log.txt", 'w+')
+wrong_class_log_hander = open("Monitor/wrong_log_best.txt", 'w+')
 fname = "data/2007ChallengeTrainData.xml"
 docu = minidom.parse(fname)
 docs = docu.getElementsByTagName("doc")

@@ -1,7 +1,7 @@
 from xml.dom import minidom
 
 
-wrong_class_log_hander = open("Monitor/wrong_log.txt", 'w+')
+wrong_class_log_hander = open("Monitor/wrong_log_best.txt", 'w+')
 data_hander = open("data/data.txt", 'w+')
 
 fname = "data/2007ChallengeTrainData.xml"

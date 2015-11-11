@@ -9,16 +9,25 @@ public class Graph {
 	HashMap<Integer, Node> nodes = new HashMap<>();
 	ArrayList<Edge> edges = new ArrayList<>();
 
-	public void createEdge(String lemma_adj, String lemma_n, int idx_adj, int idx_n, DependencyType type) {
-		Node node_adj = new Node(idx_adj, lemma_adj);
-		Node node_n = new Node(idx_n, lemma_n);
-		nodes.put(idx_adj, node_adj);
-		nodes.put(idx_n, node_n);
+	public Node createNode(int idx, String lemma) {
+		if (nodes.containsKey(idx)) {
+			return nodes.get(idx);
+		} else {
+			Node node =  new Node(idx, lemma);
+			nodes.put(idx, node);
+			return node;
+		}
+	}
+
+	public Edge createEdge(String lemma_adj, String lemma_n, int idx_adj, int idx_n, DependencyType type) {
+		Node node_adj = createNode(idx_adj, lemma_adj);
+		Node node_n = createNode(idx_n, lemma_n);
 
 		Edge edge = new Edge(node_adj, node_n, type);
 		edges.add(edge);
 		node_adj.links.add(edge);
 		node_n.links.add(edge);
+		return edge;
 	}
 
 	public ArrayList<String> generateFeatures() {

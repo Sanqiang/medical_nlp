@@ -2221,3 +2221,319 @@ java.lang.ClassCastException: org.eclipse.ui.ide.FileStoreEditorInput cannot be 
 2015-11-10 04:51:08,168 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
 2015-11-10 04:51:08,169 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-11-10 04:51:08,169 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 07:13:00,322 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 07:13:00,323 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 07:13:00,324 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 07:13:00,324 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 08:09:04,312 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 08:09:04,313 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 08:09:04,314 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 08:09:04,314 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 08:10:43,225 [Worker-324] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 08:10:43,225 [Worker-324] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 08:10:43,226 [Worker-324] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 08:10:43,227 [Worker-324] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 08:11:12,367 [Worker-329] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 08:11:12,368 [Worker-329] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 08:11:12,369 [Worker-329] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 08:11:12,369 [Worker-329] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 08:11:56,427 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 08:11:56,427 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 08:11:56,428 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 08:11:56,429 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 09:25:50,738 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:25:50,738 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 09:25:50,739 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:25:50,739 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 09:27:51,826 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:27:51,826 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 09:27:51,826 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:27:51,827 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 09:28:44,274 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:28:44,274 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 09:28:44,275 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:28:44,276 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 09:29:02,090 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:29:02,090 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 09:29:02,091 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:29:02,092 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 09:31:54,695 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:31:54,695 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 09:31:54,696 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:31:54,696 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 09:39:46,646 [Worker-329] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:39:46,647 [Worker-329] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 09:39:46,648 [Worker-329] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:39:46,648 [Worker-329] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 09:41:19,283 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:41:19,284 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 09:41:19,285 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:41:19,285 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 09:41:48,868 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:41:48,868 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 09:41:48,870 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:41:48,871 [Worker-339] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 09:43:54,717 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:43:54,718 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 09:43:54,719 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:43:54,719 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-10 09:43:58,216 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:43:58,216 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-10 09:43:58,217 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-10 09:43:58,217 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 01:32:32,970 [Worker-387] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 01:32:32,970 [Worker-387] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 01:32:32,971 [Worker-387] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 01:32:32,971 [Worker-387] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:19:52,817 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:19:52,817 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:19:52,817 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:19:52,818 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:20:57,245 [Worker-389] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:20:57,245 [Worker-389] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:20:57,246 [Worker-389] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:20:57,246 [Worker-389] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:21:09,511 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:21:09,511 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:21:09,512 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:21:09,512 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:31:25,500 [Worker-422] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:31:25,500 [Worker-422] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:31:25,501 [Worker-422] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:31:25,501 [Worker-422] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:32:27,154 [Worker-420] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:32:27,155 [Worker-420] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:32:27,155 [Worker-420] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:32:27,155 [Worker-420] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:35:05,345 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:35:05,345 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:35:05,346 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:35:05,346 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:35:30,372 [Worker-419] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:35:30,373 [Worker-419] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:35:30,374 [Worker-419] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:35:30,374 [Worker-419] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:37:09,628 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:37:09,628 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:37:09,629 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:37:09,629 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:50:22,864 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:50:22,865 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:50:22,865 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:50:22,865 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:50:29,519 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:50:29,519 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:50:29,520 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:50:29,520 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:51:02,041 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:51:02,041 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:51:02,042 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:51:02,042 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:51:32,916 [Worker-418] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:51:32,917 [Worker-418] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:51:32,917 [Worker-418] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:51:32,917 [Worker-418] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:53:32,950 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:53:32,950 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:53:32,951 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:53:32,951 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:53:36,002 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:53:36,002 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:53:36,002 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:53:36,003 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:53:38,190 [Worker-416] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:53:38,191 [Worker-416] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:53:38,191 [Worker-416] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:53:38,192 [Worker-416] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:55:04,460 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:55:04,460 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:55:04,461 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:55:04,461 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 08:55:07,840 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:55:07,840 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 08:55:07,841 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 08:55:07,841 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:09:56,590 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:09:56,590 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:09:56,591 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:09:56,591 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:10:21,062 [Worker-417] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:10:21,062 [Worker-417] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:10:21,063 [Worker-417] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:10:21,063 [Worker-417] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:10:22,293 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:10:22,293 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:10:22,293 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:10:22,293 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:11:37,355 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:11:37,355 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:11:37,356 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:11:37,356 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:13:36,088 [Worker-423] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:13:36,088 [Worker-423] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:13:36,089 [Worker-423] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:13:36,089 [Worker-423] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:22:04,617 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:22:04,618 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:22:04,618 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:22:04,618 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:23:24,508 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:23:24,508 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:23:24,508 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:23:24,508 [Worker-409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:24:31,150 [Worker-416] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:24:31,150 [Worker-416] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:24:31,151 [Worker-416] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:24:31,151 [Worker-416] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:30:45,817 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:30:45,817 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:30:45,818 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:30:45,818 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:30:47,058 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:30:47,059 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:30:47,059 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:30:47,060 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:38:29,097 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:38:29,097 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:38:29,098 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:38:29,098 [Worker-408] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:38:33,480 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:38:33,481 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:38:33,481 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:38:33,481 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:38:39,137 [Worker-428] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:38:39,137 [Worker-428] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:38:39,137 [Worker-428] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:38:39,137 [Worker-428] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 09:40:07,722 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:40:07,722 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 09:40:07,723 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 09:40:07,723 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 13:27:14,769 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:27:14,769 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 13:27:14,769 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:27:14,769 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 13:28:00,691 [Worker-433] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:28:00,692 [Worker-433] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 13:28:00,692 [Worker-433] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:28:00,693 [Worker-433] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 13:28:18,256 [Worker-443] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:28:18,256 [Worker-443] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 13:28:18,256 [Worker-443] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:28:18,257 [Worker-443] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 13:29:44,215 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:29:44,215 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 13:29:44,216 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:29:44,216 [Worker-437] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 13:31:06,145 [Worker-445] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:31:06,145 [Worker-445] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 13:31:06,145 [Worker-445] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:31:06,145 [Worker-445] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 13:31:26,135 [Worker-444] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:31:26,136 [Worker-444] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 13:31:26,136 [Worker-444] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:31:26,136 [Worker-444] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 13:32:43,476 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:32:43,476 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 13:32:43,477 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:32:43,478 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 13:42:16,751 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:42:16,752 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 13:42:16,753 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:42:16,753 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 13:46:05,786 [Worker-433] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:46:05,786 [Worker-433] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 13:46:05,787 [Worker-433] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:46:05,787 [Worker-433] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 13:46:11,361 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:46:11,361 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 13:46:11,362 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:46:11,362 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 13:50:24,673 [Worker-439] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:50:24,673 [Worker-439] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 13:50:24,674 [Worker-439] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:50:24,674 [Worker-439] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 13:54:16,377 [Worker-449] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:54:16,377 [Worker-449] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 13:54:16,378 [Worker-449] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:54:16,378 [Worker-449] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 13:54:43,118 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:54:43,118 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 13:54:43,118 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 13:54:43,119 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:03:01,153 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:03:01,154 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:03:01,154 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:03:01,155 [Worker-425] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:06:08,040 [Worker-441] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:06:08,040 [Worker-441] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:06:08,041 [Worker-441] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:06:08,041 [Worker-441] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:16:17,285 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:16:17,286 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:16:17,286 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:16:17,286 [Worker-454] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:18:02,040 [Worker-445] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:18:02,040 [Worker-445] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:18:02,041 [Worker-445] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:18:02,042 [Worker-445] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:27:13,846 [Worker-452] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:27:13,847 [Worker-452] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:27:13,848 [Worker-452] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:27:13,848 [Worker-452] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:27:16,699 [Worker-455] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:27:16,699 [Worker-455] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:27:16,700 [Worker-455] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:27:16,700 [Worker-455] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:28:37,527 [Worker-448] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:28:37,528 [Worker-448] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:28:37,528 [Worker-448] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:28:37,528 [Worker-448] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:29:49,598 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:29:49,598 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:29:49,599 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:29:49,599 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:33:11,506 [Worker-455] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:33:11,506 [Worker-455] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:33:11,507 [Worker-455] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:33:11,507 [Worker-455] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:36:40,184 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:36:40,184 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:36:40,185 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:36:40,185 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:39:38,507 [Worker-457] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:39:38,507 [Worker-457] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:39:38,507 [Worker-457] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:39:38,507 [Worker-457] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:40:38,698 [Worker-451] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:40:38,699 [Worker-451] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:40:38,699 [Worker-451] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:40:38,699 [Worker-451] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:41:57,549 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:41:57,549 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:41:57,550 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:41:57,550 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:43:57,009 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:43:57,010 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:43:57,010 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:43:57,010 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:45:39,836 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:45:39,836 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:45:39,837 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:45:39,837 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:46:48,872 [Worker-455] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:46:48,873 [Worker-455] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:46:48,873 [Worker-455] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:46:48,873 [Worker-455] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:48:13,338 [Worker-457] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:48:13,339 [Worker-457] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:48:13,339 [Worker-457] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:48:13,339 [Worker-457] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:50:51,557 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:50:51,558 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:50:51,558 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:50:51,558 [Worker-436] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-11 14:51:20,970 [Worker-453] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:51:20,971 [Worker-453] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-11 14:51:20,972 [Worker-453] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-11 14:51:20,972 [Worker-453] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
