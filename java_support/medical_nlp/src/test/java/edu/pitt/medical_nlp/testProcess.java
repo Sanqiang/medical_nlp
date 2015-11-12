@@ -19,7 +19,7 @@ public class testProcess {
 	// @Test
 	public void testWordNetGetStem() {
 		Module.getInst();
-		System.out.println(WordNetUtility.getStem("chest x-ray"));
+		System.out.println(WordNetUtility.getStem("was"));
 	}
 
 	@Test
@@ -28,7 +28,7 @@ public class testProcess {
 		PostProcess process = new PostProcess();
 		System.out.println("start processing!");
 		String ndoc = process.postProcessSingleDocs(process.processDocs(
-				"13-1/2-year - old with recent urinary tract and traction and fever. Horseshoe kidney. No complications from pyelonephritis are seen."));
+				"This is a 1-year-5-month - old female with a prior history of urinary tract infections. Normal followup ultrasound of the kidneys with interval growth."));
 		System.out.println(ndoc);
 	}
 

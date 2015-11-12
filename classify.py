@@ -16,7 +16,7 @@ import vector_support as vs
 import warnings
 warnings.filterwarnings("ignore")
 
-wrong_class_log_hander = open("Monitor/wrong_log_best.txt", 'w+')
+wrong_class_log_hander = open("Monitor/wrong_log.txt", 'w+')
 
 fname = "data/2007ChallengeTrainData.xml"
 docu = minidom.parse(fname)
@@ -31,7 +31,7 @@ path_ndata = "data/ndata_just_stem.txt"
 f_hander = open(path_ndata,"r")
 ntexts = f_hander.readlines()
 
-path_ndata = "data/ndata_add_features_add_phrase_stem_text_v2.txt"
+path_ndata = "data/ndata_add_features_add_reverse_phrase_stem_text_v4.txt"
 f_hander_full = open(path_ndata,"r")
 ntexts_full = f_hander_full.readlines()
 

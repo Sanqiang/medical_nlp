@@ -1,5 +1,6 @@
 package edu.pitt.medical_nlp.utility;
 
+import edu.pitt.medical_nlp.Process;
 import net.didion.jwnl.data.IndexWord;
 import net.didion.jwnl.data.POS;
 import net.didion.jwnl.dictionary.Dictionary;
@@ -18,6 +19,9 @@ public class WordNetUtility {
 					System.err.println(nsword);
 					System.err.println(word);
 				}
+			}
+			if (Process.exclude_words_list.contains(word)) {
+				nsword = word;
 			}
 			nword += nsword + " ";
 		}
