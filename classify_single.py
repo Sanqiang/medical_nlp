@@ -112,10 +112,8 @@ for train_index, test_index in kf:
     x_train, x_test = tfidf_train[train_index].toarray(), tfidf_train[test_index].toarray()
     y_train, y_test = y_map[train_index], y_map[test_index]
 
-    model = OneVsRestClassifier(LogisticRegression(C=100000))
+    model = OneVsRestClassifier(DecisionTreeClassifier())
     model.fit(x_train, y_train)
-    #model2 = OneVsRestClassifier(RandomForestClassifier(n_estimators = 1000, n_jobs=20))
-    model2 = OneVsRestClassifier(DecisionTreeClassifier(random_state=0,criterion="entropy"))
     y_predict = model.predict(x_test)
     y_predict_prob = model.predict_proba(x_test)
     y_text_new,y_predict_new = transfer_multilabel(y_predict, y_test,ml,test_index,y_predict_prob)

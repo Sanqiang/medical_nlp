@@ -16,7 +16,7 @@ import vector_support as vs
 import warnings
 warnings.filterwarnings("ignore")
 
-wrong_class_log_hander = open("Monitor/wrong_log.txt", 'w+')
+wrong_class_log_hander = open("Monitor/wrong_log_multiple.txt", 'w+')
 
 fname = "data/2007ChallengeTrainData.xml"
 docu = minidom.parse(fname)
