@@ -3046,3 +3046,7 @@ java.lang.ClassCastException: org.eclipse.ui.ide.FileStoreEditorInput cannot be 
 2015-11-16 13:33:30,338 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
 2015-11-16 13:33:30,339 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-11-16 13:33:30,339 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
+2015-11-16 13:39:12,503 [Worker-290] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-16 13:39:12,504 [Worker-290] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\main\resources
+2015-11-16 13:39:12,504 [Worker-290] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-16 13:39:12,505 [Worker-290] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\phd2\PycharmProjects\medical_nn\java_support\medical_nlp\src\test\resources
