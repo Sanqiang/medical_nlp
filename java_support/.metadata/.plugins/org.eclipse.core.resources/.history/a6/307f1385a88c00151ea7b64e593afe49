@@ -1,0 +1,35 @@
+package edu.pitt.medical_nlp;
+
+import org.junit.Test;
+
+import edu.pitt.medical_nlp.utility.Module;
+import edu.pitt.medical_nlp.utility.WordNetUtility;
+
+public class testProcess {
+
+	// @Test
+	public void testProcessDocs() {
+		Module.getInst();
+		Process process = new Process();
+		System.out.println("start processing!");
+		process.processDocs("Cough, rule out pneumonia. No acute pulmonary disease.");
+		System.out.println(process);
+	}
+
+	// @Test
+	public void testWordNetGetStem() {
+		Module.getInst();
+		System.out.println(WordNetUtility.getStem("was"));
+	}
+
+	@Test
+	public void testPostProcessDocs() {
+		Module.getInst();
+		PostProcess process = new PostProcess();
+		System.out.println("start processing!");
+		String ndoc = process.postProcessSingleDocs(process.processDocs(
+				"Six - month-old male with wheezing. 1. No focal consolidation or atelectasis in the lungs. 2. Trachea is not clearly visualized. Since the aortic arch and the descending thoracic aorta are also not clearly identified, further evaluation with a barium swallow examination can be performed to exclude a vascular ring such as a double aortic arch, etc., compressing on the trachea."));
+		System.out.println(ndoc);
+	}
+
+}

@@ -1,0 +1,53 @@
+package cmj45_midterm_Fall2015;
+
+public class Player {
+
+	private String name; 
+	private int gamesCount; 
+	private int gamesWon; 
+
+	public Player(String name) {
+		// TODO Auto-generated constructor stub
+		this.name = name; 
+
+		gamesCount = 0; 
+		gamesWon = 0; 
+	}
+
+
+	public boolean incrementGames(boolean won){ 
+
+		gamesCount++; 
+
+		if(won = true){ 
+
+			gamesWon++; 
+		}else{ 
+			won= false; 
+		}
+		return won; 
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public int getGamesCount() {
+		return gamesCount;
+	}
+
+
+	public int getGamesWon() {
+		return gamesWon;
+	}
+
+
+
+}

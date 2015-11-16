@@ -1,0 +1,111 @@
+package edu.pitt.is17midterm2;
+
+/*
+ * @author: Rebecca Ly
+ */
+public class Hangman {
+	private String secretWord;
+	private String playedLetters;
+	private int failedAttempts;
+	public final int MAX_ATTEMPTS = 5;
+
+	public Hangman(String word){
+		secretWord = word;
+		playedLetters = "";
+		failedAttempts = 0;
+		secretWord.toLowerCase();
+	}
+
+	public void playLetter(char letter){
+		if(this.failedAttempts >= MAX_ATTEMPTS){
+			System.out.println("You have ran out of attempts and hangman has been hung.");
+			finished();
+		}
+		else{
+			boolean hasLetterBeenPlayed = false;
+			if(this.playedLetters.indexOf(letter) != -1){
+				hasLetterBeenPlayed = true;
+			}
+
+			boolean existsInSecretWord = false;
+			if(this.secretWord.indexOf(letter) != -1){
+				existsInSecretWord = true;
+			}
+
+			if(!hasLetterBeenPlayed){
+				if(existsInSecretWord){
+					this.playedLetters += letter;
+					System.out.println("Congrats! "+letter+" is part of the secret word!");
+				}
+				else {
+					failedAttempts++;
+					System.out.println("Sucks to be you! "+letter+" is not part of the secret word!");
+					if(failedAttempts == MAX_ATTEMPTS){
+						finished();
+					}
+				}
+			}
+		}
+	}
+
+
+	// Checks if the word matches the secretWord
+	public boolean matchWord(String word){
+		if(word.equals(secretWord)){
+			playedLetters += word;
+			return true;
+		}else{
+			failedAttempts++;
+			return false;
+		}
+	}
+
+	// Places an underscore for letters that haven't been guessed yet
+	public String getWordStatus(){
+		String res = "";
+		// Loop checks for letters in secretWord and playedLetters
+		for (int i = 0; i<secretWord.length(); i++){
+			char c = secretWord.charAt(i);
+			if(this.playedLetters.indexOf(c) != -1){
+				res += c;
+			}
+			else{
+				res += "_";
+			}
+		} 
+		return res;
+	}
+
+	// Ends the game if the player guesses the word or maxed out attempts
+	public boolean finished(){
+		if(failedAttempts >= MAX_ATTEMPTS || completed()){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
+	// Goes through the played letters to make sure that all characters were guessed
+	public boolean completed(){
+		for(int i = 0; i<secretWord.length(); i++){
+			char c = secretWord.charAt(i);
+			if(playedLetters.indexOf(c) == -1){
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public String getSecretWord(){ // getter for secretWord
+		return secretWord;
+	}
+
+	public String getPlayedLetters(){ // getter for playedLetters
+		return playedLetters;
+	}
+
+	public int getFailedAttempts(){ // getter for failedAttempts
+		return failedAttempts;
+	}
+
+}

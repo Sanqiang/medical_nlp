@@ -1,0 +1,17 @@
+package edu.pitt.is17midterm2;
+/*
+ * @author: Rebecca Ly
+ */
+public class HangmanGameTest {
+
+			public static void main(String[] args){
+				// Pulls individual words and plays them in the hangman game
+				GameManager game = new GameManager("hello wednesday festival electronics");
+				boolean playing = false;
+				do{
+					game.setupANewGame();
+					playing = game.playGame();
+					game.showSummary();
+				}while(playing);
+			}
+	}

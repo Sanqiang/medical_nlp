@@ -1,0 +1,110 @@
+package edu.pitt.is17.midterm;
+
+import javax.swing.JOptionPane;
+
+public class GameManager {
+	private Player player;
+	private Hangman hangman;
+	private String words;
+	private String currentWord;
+
+	/**
+	 * This constructor receives the words, and uses it to initialize the words property
+	 * @param words
+	 */
+	public GameManager(String words){
+		this.words = words.toUpperCase();
+		createPlayer();
+	}
+
+	/**
+	 * This method asks the user for his/her name and using it to initialize the player property
+	 */
+	public void createPlayer(){
+		String userMsg = JOptionPane.showInputDialog("Please enter your name");
+		if (userMsg != null){
+			this.player = new Player(userMsg);
+		}
+		else{
+			this.player = new Player("John Doe");
+		}
+	}//end of createPlayer() method
+
+	/**
+	 * This method pick the next word from the property words
+	 */
+	public void setupANewGame(){
+		String[] seperateTheWords = words.split(" ");
+		//reference: http://stackoverflow.com/questions/23160832/how-to-find-index-of-string-array-in-java-from-a-given-value
+		int index = -1;
+		for (int position = 0; position < seperateTheWords.length; position++) {
+		    if (seperateTheWords[position].equals(currentWord)) {
+		        index = position;
+		        break;
+		    }
+		}
+		if (index == -1 || index == (seperateTheWords.length - 1))currentWord = seperateTheWords[0];
+		else currentWord = seperateTheWords[index+1];		
+		hangman = new Hangman(currentWord);
+	}//end of setupANewGame() method
+	
+	/**
+	 * This method asks the user to input the next letter to try, and at the same time it shows the status of the hangman
+	 */
+	public boolean playTurn(){
+		//complete this
+		boolean playTurn = false;
+		String inputMsg = JOptionPane.showInputDialog("Hi " + player.getName() + "! Please enter a letter" + "\n" + hangman.getWordStatus() + "\n" + "Press cancel or enter \"quit\" to quit");
+		if (inputMsg == null || inputMsg.equalsIgnoreCase("quit")){
+			playTurn = false;
+		}
+		else if (inputMsg.length() != 1){
+			inputMsg = JOptionPane.showInputDialog("Please enter a letter" + "\n" + hangman.getWordStatus() + "\n" + "Press cancel or enter \"quit\" to quit");
+		}
+		else{
+			char inputChar = inputMsg.charAt(0);
+			hangman.playerLetter(inputChar);			
+			playTurn = true;
+		}
+		return playTurn;
+	}//end of playTurn() Method
+
+	/**
+	 * This method has a loop to playTurn until the game ends
+	 * @return
+	 */
+	public boolean playGame(){
+		// This method is completed!!! 
+		boolean stillPlaying = true;
+		while(!hangman.finished() && stillPlaying){
+			stillPlaying = playTurn();
+		}
+		player.incrementGames(hangman.completed());
+		String message = "Game ended";
+		if(hangman.finished()) message += ".";
+		else message += " incompleted!";
+		if(hangman.completed()){
+			message += "\nYou won!!!";
+		}
+		else{
+			message += " \nYou lose :(";
+		}
+		message += "\n"+hangman.getWordStatus()+"\nPlay again? (y/n)";
+		String input = JOptionPane.showInputDialog(message);
+		if(input == null || input.length() == 0){
+			return false;
+		}
+		else if(input.toLowerCase().charAt(0) == 'y'){
+			return true;
+		}else{
+			return false;
+		}
+	}//end of playGame() Method
+
+	/**
+	 * This method displays a summary of the player including the name, and the number of games played and the number of games won
+	 */
+	public void showSummary(){
+		JOptionPane.showMessageDialog(null, "Player: " + player.getName() + "\n" + "The number of games played: "+ player.getGameCount() +  "\n" + "The number of games won: "+ player.getGameWon());
+	}//end of showSummary Method
+}

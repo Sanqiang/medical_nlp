@@ -51,7 +51,19 @@ public class Graph {
 				}
 			}
 		}
-
+		return features;
+	}
+	
+	public ArrayList<String> generateExtraFeatures() {
+		ArrayList<String> features = new ArrayList<>();
+		
+		for (Edge edge : edges) {
+			if (edge.type == DependencyType.NounModifer) {
+				
+			}
+			
+		}
+		
 		return features;
 	}
 }

@@ -1,0 +1,42 @@
+package edu.pitt.is17.midterm;
+
+public class Player {
+	private String name;
+	private int gameCount;
+	private int gameWon;
+	
+	/**
+	 * The constructor receives the name to sets the name property sets the other 2 properties in 0.
+	 * @param name
+	 */
+	public Player (String name){
+		this.name = name;
+		this.gameCount = 0;
+		this.gameWon = 0;
+	}// end of constructor Player
+	
+	/**
+	 * This method just adds 1 to gamesCount, and if won is true, adds 1 to gamesWon
+	 * @param won
+	 */
+	public void incrementGames (boolean won){
+		gameCount++;
+		if (won == true) gameWon++;
+	}// end of incrementGames Method
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getGameCount() {
+		return gameCount;
+	}
+
+	public int getGameWon() {
+		return gameWon;
+	}
+}

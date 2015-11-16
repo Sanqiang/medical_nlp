@@ -1,0 +1,15 @@
+package edu.pitt.is17.midterm;
+
+public class HangmanGameTest {
+	public static void main(String[] args){
+		GameManager game = new GameManager("hello wednesday festival electronics");
+		boolean playing = false;
+		do{
+			game.setupANewGame();
+			playing = game.playGame();
+		}while(playing);
+	}private void aa() {
+		// TODO Auto-generated method stub
+
+	}
+}

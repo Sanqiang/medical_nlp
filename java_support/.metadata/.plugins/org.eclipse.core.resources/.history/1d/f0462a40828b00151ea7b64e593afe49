@@ -1,0 +1,116 @@
+package cmj45_midterm_Fall2015;
+import java.util.*;
+import javax.swing.JOptionPane; 
+
+
+public class GameManager {
+
+	private Player player;  
+	private Hangman hangman; 
+	private String words; 
+	private String currentWord;  
+
+
+	public GameManager(String words){ 
+
+		//constructor 
+		this.words = words.toUpperCase();  
+		String userInput = JOptionPane.showInputDialog("Please Enter Your Name"); 
+		this.player = new Player(userInput); 
+
+
+	} 
+
+
+	public void setupANewGame(){ 
+
+		//this method takes the 
+		for(int i = 0; i<words.length(); i++){  
+
+			String s = words.substring(i);  
+			if(s.equals(" ")){ 
+				currentWord = words.substring(0,i-1);  
+				words = words.substring(i+1,words.length()); 
+				//this is finding a word if its a space  
+				if(i == words.length()){ 
+
+					currentWord = words;   
+					hangman = new Hangman(currentWord); 
+				} 
+
+			}
+
+		} 
+
+	} 
+
+	public boolean playTurn(){ 
+		String userInputLetter = JOptionPane.showInputDialog("Please Enter a letter" + hangman.getWordStatus() + "/nor Press Q for Quit/n"); //complete getWordStatus 
+		char optionLetter = userInputLetter.charAt(0); 
+
+		if(optionLetter == 'Q' || optionLetter == 'q' ){ 
+
+			return false; 
+		}else{ 
+			hangman.playLetter(optionLetter);
+			return true;  
+
+		} 
+		//finish the above 
+	} 
+
+	public boolean playGame(){ 
+
+		//this method is complete!! 
+
+		boolean stillPlaying = true; 
+		while(!hangman.finished() && stillPlaying){ 
+			stillPlaying = playTurn(); 
+		} 
+
+		player.incrementGames(hangman.completed()); 
+
+		String message = "Game ended"; 
+		if(hangman.finished()) message += "."; 
+		else message += "incompleted"; 
+		if(hangman.completed()){ 
+
+			message += "\nYou won!!"; 
+		}else{ 
+			message += "\nYou lose :("; 
+		} 
+		message += "\n" +hangman.getWordStatus()+"\nPlay again? (y/n)";  
+		String input = JOptionPane.showInputDialog(message); 
+		if(input == null || input.length() == 0){ 
+
+			return false; 
+		} 
+
+		else if(input.toLowerCase().charAt(0) == 'y'){ 
+
+			return true; 
+		}else{ 
+			return false; 
+		} 
+
+	} 
+
+	public void showSummary(){ 
+
+		//complete this 
+		//this method is the overall summary of the completed game 
+		//when the program runs, and the player has completed a game (either they choose to quit or they won/lost the game 
+		//this method should display the final results of the player: player name, the number of games played and the number of games won. 
+
+		JOptionPane.showMessageDialog(null, player.getName() + player.getGamesCount() + player.getGamesWon()); 
+
+
+
+
+
+	}
+
+
+}
+
+

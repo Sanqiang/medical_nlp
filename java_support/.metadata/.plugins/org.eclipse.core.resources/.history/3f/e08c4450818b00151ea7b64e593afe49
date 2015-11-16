@@ -1,0 +1,83 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+public class GameManager {
+	private static final int Character = 0;
+	private Player player;
+	private Hangman hangman;
+	private String words;
+	private String currentWord;
+	
+	
+	//game manager
+	public GameManager(String words){
+		this.words = words.toUpperCase();
+		createPlayer();
+	}
+	
+	//create player method
+	public void createPlayer(){
+		String playerName = JOptionPane.showInputDialog("What is your name?"); 
+		Player P1 = new Player(playerName); 
+	}
+	
+	
+	//set a new game method 
+	public void setupANewGame(){
+		hangman = new Hangman(currentWord);
+	}
+	
+	
+	
+	//play turn method
+	public boolean  playTurn(){
+		
+		{
+			Scanner keyboard;
+			String guess = JOptionPane.showInputDialog("Enter your guess.");
+			
+			//if(guess = "quit"){
+				return false;
+			}
+			//guess =keyboard.next().charAt(0);
+		
+		//	return false;
+		}
+	//}
+	
+	//play game method
+	public boolean playGame(){
+		// This method is completed!!!
+		boolean stillPlaying = true;
+		while(!hangman.finished() && stillPlaying){
+	//		stillPlaying = playTurn(null);
+		}
+		player.incrementGames(hangman.completed());
+		String message = "Game ended";
+		if(hangman.finished()) message += ".";
+		else message += " incompleted!";
+		if(hangman.completed()){
+			message += "\nYou won!!!";
+		}
+		else{
+			message += " \nYou lose :(";
+		}
+		message += "\n"+hangman.getWordStatus()+"\nPlay again? (y/n)";
+		String input = JOptionPane.showInputDialog(message);
+		if(input == null || input.length() == 0){
+			return false;
+		}
+		else if(input.toLowerCase().charAt(0) == 'y'){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+	//show summary method 
+	public void showSummary(){
+		//complete this
+		JOptionPane.showMessageDialog(null, "");
+	}
+}

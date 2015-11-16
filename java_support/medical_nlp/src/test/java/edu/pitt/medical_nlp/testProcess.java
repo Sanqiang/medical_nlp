@@ -7,13 +7,13 @@ import edu.pitt.medical_nlp.utility.WordNetUtility;
 
 public class testProcess {
 
-	// @Test
+	 @Test
 	public void testProcessDocs() {
 		Module.getInst();
 		Process process = new Process();
 		System.out.println("start processing!");
-		String ndoc = process.processDocs("Cough, rule out pneumonia. No acute pulmonary disease.");
-		System.out.println(ndoc);
+		process.processDocs("Cough, rule out pneumonia. No acute pulmonary disease.");
+		System.out.println(process);
 	}
 
 	// @Test
@@ -27,9 +27,9 @@ public class testProcess {
 		Module.getInst();
 		PostProcess process = new PostProcess();
 		System.out.println("start processing!");
-		String ndoc = process.postProcessSingleDocs(process.processDocs(
-				"This is a 1-year-5-month - old female with a prior history of urinary tract infections. Normal followup ultrasound of the kidneys with interval growth."));
-		System.out.println(ndoc);
+		process.processDocs("Cough, rule out pneumonia. No acute pulmonary disease.");
+		process.postProcessSingleDocs();
+		System.out.println(process);
 	}
 
 }

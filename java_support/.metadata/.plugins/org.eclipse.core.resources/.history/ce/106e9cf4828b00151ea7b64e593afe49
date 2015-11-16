@@ -1,0 +1,87 @@
+package edu.pitt.is17midterm2;
+
+import javax.swing.JOptionPane;
+
+public class GameManager {
+
+	private Player player;
+	private Hangman hangman;
+	private String words;
+	private String currentWord;
+	
+	
+	public GameManager(String words){
+		this.words = words.toLowerCase();
+		this.words = words;
+		createPlayer();
+		
+	}
+	public void createPlayer(){
+		String player1 = JOptionPane.showInputDialog("Enter name of Player 1");
+		JOptionPane.showMessageDialog(null, "Welcome to Hangman, "+player1+".");
+		player = new Player(player1);
+	}
+	public void setupANewGame(){
+		if (currentWord == null || this.words.indexOf(currentWord)+currentWord.length() == words.length()){
+			currentWord = words.substring(0, words.indexOf(" "));
+		}else{
+			String leftoverWords = words.substring(words.indexOf(currentWord)+currentWord.length()+1);
+			if(leftoverWords.indexOf(" ") == -1){
+				currentWord = leftoverWords;
+			}else{
+				currentWord = leftoverWords.substring(0,leftoverWords.indexOf(" "));
+			}
+		}
+		hangman = new Hangman(currentWord);
+	}
+		
+	public boolean playTurn(){
+		String nextLetter = "";
+		nextLetter = JOptionPane.showInputDialog("Please input your guess or type \"quit\" to quit.");
+		//hangman.getWordStatus();
+		if(nextLetter == null || nextLetter.equals("quit") ){
+			return false;
+		}else{
+			
+			char c = nextLetter.charAt(0);
+			hangman.playLetter(c);
+			System.out.println(hangman.getWordStatus());
+			return true;
+		}
+		
+	}
+	public boolean playGame(){
+		// This method is completed!!!
+		boolean stillPlaying = true;
+		while(!hangman.finished() && stillPlaying){
+			stillPlaying = playTurn();
+		}
+		boolean completed = hangman.completed();
+		player.incrementGames(completed);
+		if(completed) System.out.println("Congrats, "+currentWord+" is correct!");
+		
+		String message = "Game ended";
+		if(hangman.finished()) message += ".";
+		else message += " incompleted!";
+		if(hangman.completed()){
+			message += "\nYou won!!!";
+		}
+		else{
+			message += " \nYou lose :(";
+		}
+		message += "\n"+hangman.getWordStatus()+"\nPlay again? (y/n)";
+		String input = JOptionPane.showInputDialog(message);
+		if(input == null || input.length() == 0){
+			return false;
+		}
+		else if(input.toLowerCase().charAt(0) == 'y'){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	public void showSummary(){
+		JOptionPane.showMessageDialog(null, "Thank you "+ player.getName() +". You have played "+player.getGamesCount()+" and won"+player.getGamesWon()+".");
+	}
+}
+

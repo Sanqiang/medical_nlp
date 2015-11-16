@@ -1,0 +1,123 @@
+package cmj45_midterm_Fall2015;
+
+public class Hangman {
+
+	private String secretWord; 
+	private String playedLetters; 
+	private int failedAttempts; 
+	public static final int MAX_ATTEMPTS = 5; //static is in it 
+
+
+	public Hangman(String word){ 
+		//hangman constructor 
+		//initializes variables 
+		this.secretWord = word.toUpperCase(); 
+		this.playedLetters = " "; 
+		this.failedAttempts = 0; 
+
+	}
+
+	public char  playLetter(char letter){ 
+
+		//the if statement checks to see if the char letter that is passed in is the same as the character in the secretWord  
+		//and also checks to make sure that same letter is not the same as the letter in playedLetters 
+
+		int i = 0; 
+		if(letter == secretWord.charAt(i) && letter != playedLetters.charAt(i)){ 
+			for(i = letter; i<secretWord.length() && i<playedLetters.length(); i++){ 
+
+				String conCatWord1 = secretWord + playedLetters; //concatinates secretWord to playedLetters  
+
+			} 
+
+		}else{ 
+
+			failedAttempts++; 
+		}
+
+		if(failedAttempts == MAX_ATTEMPTS || letter == playedLetters.charAt(i)){ 
+
+
+		}
+
+		return letter; 
+
+	} 
+
+	public boolean matchWord(String word){ 
+
+			//this method checks to see if the word paramter is equal to the property secretWord 
+		if(word.equals(secretWord)){ 
+
+			String conCatWord2 = word + playedLetters; //concatinates string word to string played letters  
+
+			return true; 
+		}else{ 
+
+			failedAttempts++;  
+
+			return false; 
+		}
+	}
+
+	public String getWordStatus(){ 
+
+		String visible =" ";  
+		for(int i =0; i<secretWord.length(); i++){ 
+
+			char c = secretWord.charAt(i);  
+
+			if(c== ' '){ 
+
+				visible +=c; 
+
+			}else{ 
+
+				visible +='_'; 
+			} 
+
+			//borrowed from HANGMAN PROGRAM EXAMPLE on google 
+
+		}
+		return visible; 
+	} 
+
+	public boolean finished(){ 
+
+		//this method checks to see if the game is finished, either the player has completed the game by 
+		//exceeding his/her tries are the player was able to get the correct secret word. 
+		//this method is the method that causes the compiler to crash :-( 
+		if(failedAttempts >= MAX_ATTEMPTS){  
+		} 
+		
+		return true; 
+	
+	}  
+
+	public boolean completed(){ 
+
+			//this method sees if the player has fully completed the game 
+		if(playedLetters.equals(secretWord)){  
+
+			return true; 
+		}else{ 
+
+		}
+		return false; 
+	}
+
+	//getters and setters for the variables 
+	public String getSecretWord() {
+		return secretWord;
+	}
+
+	public String getPlayedLetters() {
+		return playedLetters;
+	}
+
+	public int getFailedAttempts() {
+		return failedAttempts;
+	}
+
+
+}

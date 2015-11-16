@@ -1,0 +1,49 @@
+package edu.pitt.is17midterm2;
+/*
+ * @author: Rebecca Ly
+ */
+
+public class Player {
+
+	// Declares private variables
+	private String name;
+	private int gamesCount;
+	private int gamesWon;
+
+	// Initializes the Player constructor
+	public Player (String name){
+		this.name = name;
+		this.gamesCount = 0;
+		this.gamesWon = 0;
+	}
+
+	// Increments the number of games played and games won
+	public void incrementGames(boolean won){
+		this.gamesCount++;
+		if(won){
+			this.gamesWon++;
+		}
+	}
+
+	// Sets player's name as name variable
+	public void setName(String name){
+		this.name = name;
+	}
+
+	// Getter for name
+	public String getName(){
+		return name;
+
+	}
+
+	// Getter for incrementing number of games played
+	public int getGamesCount(){
+		return gamesCount;
+	}
+
+	// Getter for incrementing number of games won
+	public int getGamesWon(){
+		return gamesWon;
+	}
+
+}

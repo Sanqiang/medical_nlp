@@ -1,0 +1,110 @@
+
+
+public class Hangman {
+	private String secretWord;
+	private String playedLetters;
+	private int failedAttempts;
+	final int MAX_ATTEMPTS = 6; //set this constant to 5 or 6, depending on how many failed attempts the game will allow before hanging the man.
+
+	/**
+	 * The constructor receives the word to initialize the property secretWord
+	 * @param word
+	 */
+	public Hangman (String word){
+		this.secretWord = word; 
+		this.playedLetters = ""; //sets playedLetters to an empty string
+		this.failedAttempts = 0; //sets failedAttempts to 0
+		this.secretWord.toUpperCase(); //making the word to upper case
+	}// end of constructor Hangman
+
+	/**
+	 * The method receives a char and checks if it exists in the secretWord
+	 * @param letter
+	 */
+	public void playerLetter (char letter){		
+		//It receives a char and checks if it exists in the secretWord and not in the already played letters		
+		if (this.failedAttempts < MAX_ATTEMPTS && !matchWord(Character.toString(letter))){
+			failedAttempts++;
+		}//end of it does nothing if failedAttemts is already MAX_ATTEMPTS or if the letter has been played before
+	}//end of playerLetter method
+
+	/**
+	 * This method checks whether parameter word is equal to the property secretWord
+	 * @param word
+	 * @return
+	 */
+	public boolean matchWord (String word){
+		boolean matchWord = true;
+		if (this.secretWord.indexOf(word.toUpperCase()) != -1){
+			this.playedLetters += word;
+			matchWord = true;
+		}
+		else{
+			matchWord = false;
+		}
+		return matchWord;
+	}//end of matchWord Method
+
+	/**
+	 * returns a representation of the word that has underspace (_) for each letter that has not been guess and the corresponding letter if it exist in the playedLetters
+	 * @return
+	 */
+	public String getWordStatus(){
+		String wordStatus = this.secretWord;
+		//default wordStatus
+		if (completed() || finished())wordStatus = this.secretWord;
+		else{
+			for (int wordLength = 0; wordLength < this.secretWord.length(); wordLength++){
+				if (getPlayedLetters().toUpperCase().indexOf(this.secretWord.toUpperCase().charAt(wordLength)) == -1){
+					wordStatus = wordStatus.replace(this.secretWord.charAt(wordLength), '¡Ä');
+				}
+				else if (completed() || finished()) wordStatus = this.secretWord;
+			}
+		}
+		return wordStatus;
+	}// end of getWordStatus Method
+
+	/**
+	 * This method returns true if there is no more attemps to do
+	 * @return
+	 */
+	public boolean finished(){
+		boolean finished = false;
+		if(failedAttempts >= MAX_ATTEMPTS){
+			finished = true;
+		}
+		else if (completed()){
+			finished = true;
+		}
+		else finished = false;
+		return finished;
+	}// end of finished Method
+
+	/**
+	 * This method returns true if playedLetters contains all letters for the property secretWord
+	 * @return
+	 */
+	public boolean completed(){
+		boolean completed = false;
+		for (int secretWordCheck = 0; secretWordCheck < this.secretWord.length(); secretWordCheck++){
+			if (this.playedLetters.toUpperCase().indexOf(this.secretWord.toUpperCase().charAt(secretWordCheck)) == -1) {
+				completed = false;
+			}
+			else completed = true;
+		}
+		return completed;
+	}// end of completed Method
+
+	public String getSecretWord() {
+		return secretWord;
+	}
+
+	public String getPlayedLetters() {
+		return playedLetters;
+	}
+
+	public int getFailedAttempts() {
+		return failedAttempts;
+	}
+
+}

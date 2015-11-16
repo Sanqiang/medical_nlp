@@ -1,0 +1,90 @@
+package edu.pitt.is17.midterm;
+import javax.swing.JOptionPane;
+import java.util.Arrays;
+
+public class GameManager { //class that manages the whole game
+
+	private Player player;
+	private Hangman hangman;
+	private String words;
+	private String currentWord;
+
+public GameManager(String words){
+	this.words = words.toLowerCase(); //sets the words to lowercase
+	createPlayer();
+	
+}
+public void createPlayer(){ //creates the player
+	String whatIsName = JOptionPane.showInputDialog("What is your name player?"); //gets the player's name
+	Player player = new Player(whatIsName); 
+	System.out.println("Thank you for playing today "+ player.getName());
+}
+public void setUpANewGame(){ //sets up the game
+	boolean stillPlaying = false;
+	 String[] array1 = words.split(" "); //splits the string into seperate parts every time there is a space
+	 int gameToPlay = player.getGameCount(); //sets the number of games to the number of times the person has played
+	 if(gameToPlay > array1.length){
+		 System.out.println("There are no more new words to play"); //i couldn't figure out how to make it go back to the first word  again
+	 }
+	do
+	{
+		this.currentWord = array1[gameToPlay]; //pulls the current word from the array
+		this.hangman = new Hangman(this.currentWord);  //creates the new hangman
+	} while (!this.hangman.finished() && stillPlaying); //keeps going while both of these are true
+}
+
+public boolean playTurn(){ //simulates the player's turn
+	if (!hangman.finished()){
+	System.out.println("The current word status is "+ hangman.getWordStatus());
+	String nextLetter = JOptionPane.showInputDialog("what letter would you like to enter next? \n If you'd like to quit, just enter 'quit' ");
+	//the string is just called next letter because it's the next letter to be used
+	nextLetter.toLowerCase(); //sets the letter to lower case
+	if(nextLetter.equalsIgnoreCase("quit") || nextLetter == null || nextLetter.length() == 0 ){ //quits the game if the player enters quit or uses the cancel button
+		System.out.println("Thank you for playing!");
+		return false;
+	} else{
+	char a = nextLetter.charAt(0); //turns the string into a char
+	hangman.playLetter(a); //puts the char through the playLetter method
+	 return true; 
+	 }
+	} return true;
+	}
+	
+
+
+public boolean playGame(){ //plays the game
+	boolean stillPlaying = true;
+	while (!hangman.finished() && stillPlaying){
+		stillPlaying = playTurn(); //while these two conditions are true, it keeps giving the player a turn
+	}
+	player.incrementGames(hangman.completed()); //gives the player messages at the end of the game
+	String message = "Game ended";
+	if(hangman.finished()) message += ".";
+	else message += " incompleted!";
+	if(hangman.completed()){
+		showSummary(); //shows a summary of the game
+		message += "\nYou won!!!";
+	}
+	else{
+		showSummary();
+		message += " \nYou lose :( ";
+	}
+	message += "\n"+hangman.getWordStatus()+"\nPlay again? (y/n)"; //sees if the player will play again
+	String input = JOptionPane.showInputDialog(message);
+	if(input == null || input.length() == 0){ //if the player doesn't enter anything then the game quits
+		showSummary();
+		return false;
+	}
+	else if(input.toLowerCase().charAt(0) == 'y'){ //if the player enters 'y' then the fame restarts
+		return true;
+	} else{
+		showSummary();
+		return false;
+	}
+}
+
+public void showSummary(){ //prints the summary of the game
+	JOptionPane.showMessageDialog(null, "Hello "+ player.getName() +"! And thank you for playing!");
+	JOptionPane.showMessageDialog(null, "You have won "+ player.getGamesWon() +" games out of "+ player.getGameCount() +" games played.");
+}
+}

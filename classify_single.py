@@ -102,28 +102,33 @@ ml = MultiLabelBinarizer()
 y_map = ml.fit_transform(y)
 y_map = np.array(y_map)
 
-scores = []
-report_y_actual = []
-report_y_predict = []
 
-kf = cross_validation.KFold(tfidf_train.shape[0], n_folds=tfidf_train.shape[0], shuffle=True)
-loop = 0
-for train_index, test_index in kf:
-    x_train, x_test = tfidf_train[train_index].toarray(), tfidf_train[test_index].toarray()
-    y_train, y_test = y_map[train_index], y_map[test_index]
+f_scores = []
+for loop in range(0,100):
+    scores = []
+    report_y_actual = []
+    report_y_predict = []
+    kf = cross_validation.KFold(tfidf_train.shape[0], n_folds=10, shuffle=True)
+    loop = 0
+    for train_index, test_index in kf:
+        x_train, x_test = tfidf_train[train_index].toarray(), tfidf_train[test_index].toarray()
+        y_train, y_test = y_map[train_index], y_map[test_index]
 
-    model = OneVsRestClassifier(DecisionTreeClassifier())
-    model.fit(x_train, y_train)
-    y_predict = model.predict(x_test)
-    y_predict_prob = model.predict_proba(x_test)
-    y_text_new,y_predict_new = transfer_multilabel(y_predict, y_test,ml,test_index,y_predict_prob)
-    report_y_predict.extend(y_predict_new)
-    report_y_actual.extend(y_text_new)
-    loop = loop + 1
-    if loop % 10 == 0:
-        print(metrics.f1_score(report_y_actual, report_y_predict))
-        #m_cls_report = metrics.classification_report(report_y_actual, report_y_predict)
-        #print(m_cls_report)
-m_cls_report = metrics.classification_report(report_y_actual, report_y_predict)
-print(metrics.f1_score(report_y_actual, report_y_predict))
-print(m_cls_report)
+        model = OneVsRestClassifier(DecisionTreeClassifier())
+        model.fit(x_train, y_train)
+        y_predict = model.predict(x_test)
+        y_predict_prob = model.predict_proba(x_test)
+        y_text_new,y_predict_new = transfer_multilabel(y_predict, y_test,ml,test_index,y_predict_prob)
+        report_y_predict.extend(y_predict_new)
+        report_y_actual.extend(y_text_new)
+        loop = loop + 1
+        # if loop % 10 == 0:
+        #     print(metrics.f1_score(report_y_actual, report_y_predict))
+
+    #m_cls_report = metrics.classification_report(report_y_actual, report_y_predict)
+    f_score = metrics.f1_score(report_y_actual, report_y_predict)
+    #print(f_score)
+    f_scores.append(f_score)
+    #print(m_cls_report)
+
+print(f_scores)

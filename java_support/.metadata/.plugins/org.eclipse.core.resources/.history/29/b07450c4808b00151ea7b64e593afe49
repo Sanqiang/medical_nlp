@@ -1,0 +1,92 @@
+package edu.pitt.is17.midterm;
+
+import javax.swing.JOptionPane;
+
+public class GameManager {
+
+	private Player player; 
+	private Hangman hangman;
+	private String words;
+	private String currentWord;
+
+	public GameManager (String words){
+		this.words = words;
+		words = words.toUpperCase();
+		createPlayer();
+	}
+
+	public void createPlayer(){
+		String name = JOptionPane.showInputDialog("Please enter your name.");
+		Player user = new Player(name);
+		user.setName(name);
+		System.out.println(name);
+	}//end of createPlayer
+
+
+	public void setupANewGame(){
+		words.split("");
+		currentWord = "hello"
+		hangman = new Hangman(currentWord);	
+	}//end of setupANewGame
+
+	public boolean playTurn(){
+
+		String choice = JOptionPane.showInputDialog("Please guess the next letter, or enter quit to exit.");
+		String accepted = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_";
+		JOptionPane.showMessageDialog(null, hangman.getWordStatus());
+		char valid = choice.charAt(0);
+		char value = accepted.charAt(0);
+
+		if(valid == value){
+			hangman.playLetter(value); 
+			return true;
+
+		}else if (valid != value){
+			hangman.playLetter(value);
+			return false;
+
+		}else if(choice.equalsIgnoreCase("quit") || choice == ""){
+			this.showSummary();
+			return false;
+
+		}else if(hangman.finished()){
+			this.showSummary();
+			return false;
+		}
+		return false;
+	}//end of playTurn method
+
+	public boolean playGame(){
+
+		boolean stillPlaying = true; 
+		while(!hangman.finished() && stillPlaying){
+			stillPlaying = playTurn();
+		}
+		player.incrementGames(hangman.completed());
+		String message = "Game ended";
+		if(hangman.finished()) message += ".";
+		else message += " incompleted!";
+		if(hangman.completed()){
+			message += "\nYou won!!";
+		}
+		else{
+			message += " \nYou lose:(";
+		}
+		message += "\n"+hangman.getWordStatus()+"\nPlay again? (y/n)"; 
+		String input = JOptionPane.showInputDialog(message); 
+		if(input == null || input.length() == 0){
+			return false;
+		}
+		else if(input.toLowerCase().charAt(0)== 'y'){
+			return true;
+		}else{
+			return false;
+		}
+	}//end of playGame method
+	//This method is completed!!
+
+	public void showSummary(){
+		JOptionPane.showMessageDialog(null, 
+				"The player, " + player.getName() + ", has won " + player.getGamesWon() + "games, and has played " + player.getGamesCount() + "games.");
+	}//end of Summary method
+}

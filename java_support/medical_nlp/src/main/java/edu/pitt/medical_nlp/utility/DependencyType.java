@@ -1,5 +1,5 @@
 package edu.pitt.medical_nlp.utility;
 
 public enum DependencyType {
-	AdjectiveModifer,OtherLocalType,Negative,NominalSubject,Compound
+	AdjectiveModifer,OtherLocalType,Negative,NominalSubject,Compound,NounModifer
 }

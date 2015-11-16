@@ -1,0 +1,43 @@
+import java.util.*;
+import java.io.*;
+
+public class Player {
+	private String name;
+	private int gamesCount;
+	private int gamesWon;
+	
+	//player constructor
+	public Player (String name){
+		this.name = name;
+		gamesCount = 0;
+		gamesWon = 0;
+	}
+	
+	//games method
+	
+	public void incrementGames(boolean won){
+		gamesCount++;
+		if(won == true){
+			gamesWon++;
+		}
+	}
+	
+	//getter
+	public String getName() {
+		return name;
+	}
+	
+	public int getGamesCount() {
+		return gamesCount;
+	}
+
+	public int getGamesWon() {
+		return gamesWon;
+	}
+
+	//setter
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+}
