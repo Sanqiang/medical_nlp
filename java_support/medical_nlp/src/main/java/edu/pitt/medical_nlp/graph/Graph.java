@@ -6,22 +6,38 @@ import java.util.HashMap;
 import edu.pitt.medical_nlp.utility.DependencyType;
 
 public class Graph {
-	HashMap<Integer, Node> nodes = new HashMap<>();
+	HashMap<Integer, WordNode> nodes = new HashMap<>();
 	ArrayList<Edge> edges = new ArrayList<>();
 
-	public Node createNode(int idx, String lemma) {
+	public Edge createEdge(WordNode node_adj, WordNode node_n, DependencyType type) {
+		Edge edge = new Edge(node_adj, node_n, type);
+		if (!nodes.containsKey(node_adj)) {
+			nodes.put(node_adj.idx, node_adj);
+		}
+		if (!nodes.containsKey(node_n)) {
+			nodes.put(node_n.idx, node_n);
+		}
+		edges.add(edge);
+		node_adj.links.add(edge);
+		node_n.links.add(edge);
+		return edge;
+	}
+
+	@Deprecated
+	public WordNode createNode(int idx, String lemma) {
 		if (nodes.containsKey(idx)) {
 			return nodes.get(idx);
 		} else {
-			Node node =  new Node(idx, lemma);
+			WordNode node = new WordNode(idx, lemma);
 			nodes.put(idx, node);
 			return node;
 		}
 	}
 
+	@Deprecated
 	public Edge createEdge(String lemma_adj, String lemma_n, int idx_adj, int idx_n, DependencyType type) {
-		Node node_adj = createNode(idx_adj, lemma_adj);
-		Node node_n = createNode(idx_n, lemma_n);
+		WordNode node_adj = createNode(idx_adj, lemma_adj);
+		WordNode node_n = createNode(idx_n, lemma_n);
 
 		Edge edge = new Edge(node_adj, node_n, type);
 		edges.add(edge);
@@ -53,17 +69,17 @@ public class Graph {
 		}
 		return features;
 	}
-	
+
 	public ArrayList<String> generateExtraFeatures() {
 		ArrayList<String> features = new ArrayList<>();
-		
+
 		for (Edge edge : edges) {
 			if (edge.type == DependencyType.NounModifer) {
-				
+
 			}
-			
+
 		}
-		
+
 		return features;
 	}
 }

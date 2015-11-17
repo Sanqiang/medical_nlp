@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testProcess" project="medical_nlp" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="edu.pitt.medical_nlp.testProcess" time="64.332">
+    <testcase name="testProcessDocs" classname="edu.pitt.medical_nlp.testProcess" time="35.761"/>
+    <testcase name="testPostProcessDocs" classname="edu.pitt.medical_nlp.testProcess" time="28.571"/>
+  </testsuite>
+</testrun>
