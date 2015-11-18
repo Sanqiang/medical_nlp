@@ -1,0 +1,9 @@
+package edu.pitt.medical_nlp.utility;
+
+import gov.nih.nlm.nls.skr.GenericObject;
+
+public class MetaType {
+	public static void main(String[] args) {
+		GenericObject myGenericObj = new GenericObject();
+	}
+}

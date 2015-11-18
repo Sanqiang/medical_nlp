@@ -20,26 +20,27 @@ import edu.stanford.nlp.trees.GrammaticalStructure.Extras;
 import edu.stanford.nlp.trees.TypedDependency;
 
 public class PostProcess extends Process {
-	
+
 	public PostProcess() {
 		super();
 	}
 
 	public void postProcessDocs(String filename) {
-		boolean add_feature = true;
 		try {
+			super.processDocs();
 			postProcessSingleDocs();
 			BufferedWriter writer = new BufferedWriter(new FileWriter(new File(filename)));
 
-			for (List<List<WordNode>> record : _docs_processed) {
+			for (int i = 0; i < _docs_processed.size(); i++) {
+				List<List<WordNode>> record = _docs_processed.get(i);
 				for (List<WordNode> sentence : record) {
 					for (HasWord word : sentence) {
 						writer.write(word.word());
 						writer.write(" ");
 					}
 				}
-				if (add_feature) {
-					for (String feature : add_features) {
+				if (Config.ADD_RELATION) {
+					for (String feature : added_record_features.get(i)) {
 						writer.write(feature);
 						writer.write(" ");
 					}
@@ -57,7 +58,8 @@ public class PostProcess extends Process {
 	public void postProcessSingleDocs() {
 		MaxentTagger tagger = Module.getInst().getTagger();
 		DependencyParser parser = Module.getInst().getDependencyParser();
-		for (List<List<WordNode>> record : _docs_processed) {
+		for (int i = 0; i < _docs_processed.size(); i++) {
+			List<List<WordNode>> record = _docs_processed.get(i);
 			Graph graph = new Graph();
 			for (List<WordNode> sentence : record) {
 				List<TaggedWord> tagged = tagger.tagSentence(sentence);
@@ -70,7 +72,7 @@ public class PostProcess extends Process {
 						WordNode node_dep = sentence.get(idx_dep);
 						String lemma_gov = typed_dependence.gov().word(), lemma_dep = typed_dependence.dep().word();
 						if (!node_gov.word().equals(lemma_gov) || !node_dep.word().equals(lemma_dep)) {
-							//intermediate checking !
+							// intermediate checking !
 							System.err.println(sentence);
 						}
 						DependencyType dependency_type = Helper
@@ -102,7 +104,7 @@ public class PostProcess extends Process {
 					}
 				}
 			}
-			add_features.addAll(graph.generateFeatures());
+			added_record_features.get(i).addAll(graph.generateFeatures());
 		}
 	}
 

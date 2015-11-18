@@ -27,7 +27,7 @@ x2 = []
 y = []
 x_vector_support = []
 
-path_ndata = "data/ndata_add_features_add_phrase_stem_text_v3.txt"
+path_ndata = "data/ndata_add_features_add_phrase_stem_text_add_synonym_v5.txt"
 f_hander = open(path_ndata,"r")
 ntexts = f_hander.readlines()
 
@@ -127,7 +127,7 @@ for loop in range(0,100):
 
     #m_cls_report = metrics.classification_report(report_y_actual, report_y_predict)
     f_score = metrics.f1_score(report_y_actual, report_y_predict)
-    #print(f_score)
+    print(f_score)
     f_scores.append(f_score)
     #print(m_cls_report)
 

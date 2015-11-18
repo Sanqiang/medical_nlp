@@ -8,6 +8,7 @@ import net.didion.jwnl.dictionary.MorphologicalProcessor;
 
 public class WordNetUtility {
 	public static String getStem(String raw_word) {
+		raw_word = raw_word.toLowerCase();
 		String nword = "";
 		String[] words = raw_word.split("[\\s]");
 		for (String word : words) {
