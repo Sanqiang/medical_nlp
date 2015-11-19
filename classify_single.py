@@ -27,7 +27,8 @@ x2 = []
 y = []
 x_vector_support = []
 
-path_ndata = "data/ndata_add_features_add_phrase_stem_text_add_synonym_v5.txt"
+path_ndata = "data/ndata_add_features_add_phrase_stem_text_v3.txt"
+print(path_ndata)
 f_hander = open(path_ndata,"r")
 ntexts = f_hander.readlines()
 
@@ -104,7 +105,7 @@ y_map = np.array(y_map)
 
 
 f_scores = []
-for loop in range(0,100):
+for loop_stat in range(0,100):
     scores = []
     report_y_actual = []
     report_y_predict = []

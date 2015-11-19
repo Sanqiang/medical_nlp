@@ -31,7 +31,9 @@ path_ndata = "data/ndata_just_stem.txt"
 f_hander = open(path_ndata,"r")
 ntexts = f_hander.readlines()
 
-path_ndata = "data/ndata_add_features_add_reverse_phrase_stem_text_v4.txt"
+path_ndata = "data/ndata_add_features_add_phrase_stem_text_v3.txt"
+print("multiple")
+print(path_ndata)
 f_hander_full = open(path_ndata,"r")
 ntexts_full = f_hander_full.readlines()
 
@@ -118,30 +120,37 @@ scores = []
 report_y_actual = []
 report_y_predict = []
 
-kf = cross_validation.KFold(tfidf_train.shape[0], n_folds=tfidf_train.shape[0], shuffle=True)
-loop = 0
-for train_index, test_index in kf:
-    x_train, x_test = tfidf_train[train_index].toarray(), tfidf_train[test_index].toarray()
-    x_train2, x_test2 = tfidf_train2[train_index].toarray(), tfidf_train2[test_index].toarray()
-    y_train, y_test = y_map[train_index], y_map[test_index]
+f_scores = []
+for loop_stat in range(0,100):
+    kf = cross_validation.KFold(tfidf_train.shape[0], n_folds=10, shuffle=True)
+    loop = 0
+    for train_index, test_index in kf:
+        x_train, x_test = tfidf_train[train_index].toarray(), tfidf_train[test_index].toarray()
+        x_train2, x_test2 = tfidf_train2[train_index].toarray(), tfidf_train2[test_index].toarray()
+        y_train, y_test = y_map[train_index], y_map[test_index]
 
-    model = OneVsRestClassifier(LogisticRegression(C=100000))
-    model.fit(x_train, y_train)
-    #model2 = OneVsRestClassifier(RandomForestClassifier(n_estimators = 1000, n_jobs=20))
-    model2 = OneVsRestClassifier(DecisionTreeClassifier(random_state=0,criterion="entropy"))
-    model2.fit(x_train2, y_train)
-    y_predict = model.predict(x_test)
-    y_predict2 = model2.predict(x_test2)
-    y_predict_prob = model.predict_proba(x_test)
-    y_predict_prob2 = model2.predict_proba(x_test2)
-    y_text_new,y_predict_new = transfer_multilabel(y_predict, y_test,ml,test_index,y_predict_prob,y_predict2,y_predict_prob2)
-    report_y_predict.extend(y_predict_new)
-    report_y_actual.extend(y_text_new)
-    loop = loop + 1
-    if loop % 10 == 0:
-        print(metrics.f1_score(report_y_actual, report_y_predict))
-        #m_cls_report = metrics.classification_report(report_y_actual, report_y_predict)
-        #print(m_cls_report)
-m_cls_report = metrics.classification_report(report_y_actual, report_y_predict)
-print(metrics.f1_score(report_y_actual, report_y_predict))
-print(m_cls_report)
+        model = OneVsRestClassifier(LogisticRegression(C=100000))
+        model.fit(x_train, y_train)
+        #model2 = OneVsRestClassifier(RandomForestClassifier(n_estimators = 1000, n_jobs=20))
+        model2 = OneVsRestClassifier(DecisionTreeClassifier(random_state=0,criterion="entropy"))
+        model2.fit(x_train2, y_train)
+        y_predict = model.predict(x_test)
+        y_predict2 = model2.predict(x_test2)
+        y_predict_prob = model.predict_proba(x_test)
+        y_predict_prob2 = model2.predict_proba(x_test2)
+        y_text_new,y_predict_new = transfer_multilabel(y_predict, y_test,ml,test_index,y_predict_prob,y_predict2,y_predict_prob2)
+        report_y_predict.extend(y_predict_new)
+        report_y_actual.extend(y_text_new)
+        loop = loop + 1
+        if loop % 10 == 0:
+            print(metrics.f1_score(report_y_actual, report_y_predict))
+            #m_cls_report = metrics.classification_report(report_y_actual, report_y_predict)
+            #print(m_cls_report)
+    m_cls_report = metrics.classification_report(report_y_actual, report_y_predict)
+    #print(metrics.f1_score(report_y_actual, report_y_predict))
+    #print(m_cls_report)
+    f_score = metrics.f1_score(report_y_actual, report_y_predict)
+    print(f_score)
+    f_scores.append(f_score)
+
+print(f_scores)

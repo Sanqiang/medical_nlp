@@ -199,7 +199,7 @@ public class Process {
 
 	public void processDocs(String doc) {
 		HashSet<String> record_features = new HashSet<>();
-
+		
 		for (String base_case : _exchange_cases.keySet()) {
 			String update_case = _exchange_cases.get(base_case);
 			doc = doc.replace(base_case, update_case);
@@ -237,7 +237,7 @@ public class Process {
 								+ WordNetUtility.getStem(token_part.get(i + 3).word()) + " "
 								+ WordNetUtility.getStem(token_part.get(i + 4).word()));
 						if (entry.length() > 0) {
-							sentence.add(new WordNode(type, "", accumulate_idx++, entry.replace(" ", "_")));
+							sentence.add(new WordNode(type, "", accumulate_idx++, WordNetUtility.getStem(entry)));
 						} else {
 							sentence.add(new WordNode(type, "", accumulate_idx++,
 									WordNetUtility.getStem(token_part.get(i).word()) + "_"
@@ -281,7 +281,7 @@ public class Process {
 								+ WordNetUtility.getStem(token_part.get(i + 2).word()) + " "
 								+ WordNetUtility.getStem(token_part.get(i + 3).word()));
 						if (entry.length() > 0) {
-							sentence.add(new WordNode(type, "", accumulate_idx++, entry.replace(" ", "_")));
+							sentence.add(new WordNode(type, "", accumulate_idx++, WordNetUtility.getStem(entry)));
 						} else {
 							sentence.add(new WordNode(type, "", accumulate_idx++,
 									WordNetUtility.getStem(token_part.get(i).word()) + "_"
@@ -318,7 +318,7 @@ public class Process {
 								+ WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
 								+ WordNetUtility.getStem(token_part.get(i + 2).word()));
 						if (entry.length() > 0) {
-							sentence.add(new WordNode(type, "", accumulate_idx++, entry.replace(" ", "_")));
+							sentence.add(new WordNode(type, "", accumulate_idx++, WordNetUtility.getStem(entry)));
 						} else {
 							sentence.add(new WordNode(type, "", accumulate_idx++,
 									WordNetUtility.getStem(token_part.get(i).word()) + "_"
@@ -348,7 +348,7 @@ public class Process {
 						String entry = MetaType.requestWeb(WordNetUtility.getStem(token_part.get(i).word()) + " "
 								+ WordNetUtility.getStem(token_part.get(i + 1).word()));
 						if (entry.length() > 0) {
-							sentence.add(new WordNode(type, "", accumulate_idx++, entry.replace(" ", "_")));
+							sentence.add(new WordNode(type, "", accumulate_idx++, WordNetUtility.getStem(entry)));
 						} else {
 							sentence.add(new WordNode(type, "", accumulate_idx++,
 									WordNetUtility.getStem(token_part.get(i).word()) + "_"
@@ -371,7 +371,7 @@ public class Process {
 					if (_types.get(type) != null && _types.get(type).equals("n")) {
 						String entry = MetaType.requestWeb(WordNetUtility.getStem(token_part.get(i).word()));
 						if (entry.length() > 0) {
-							sentence.add(new WordNode(type, "", accumulate_idx++, entry.replace(" ", "_")));
+							sentence.add(new WordNode(type, "", accumulate_idx++, WordNetUtility.getStem(entry)));
 						} else {
 							sentence.add(new WordNode(type, "", accumulate_idx++,
 									WordNetUtility.getStem(token_part.get(i).word())));
