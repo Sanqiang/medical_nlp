@@ -9,6 +9,8 @@ public class App {
 		// p.printAspects(0);
 		Module.getInst();
 		PostProcess postProcess = new PostProcess();
-		postProcess.postProcessDocs("ndata_add_features_add_reverse_phrase_stem_text_v4.txt");
+		String filename = "ADD_SYNONYM" + Config.ADD_SYNONYM + "_ADD_PHRASE" + Config.ADD_PHRASE + "_ADD_TYPE"
+				+ Config.ADD_TYPE + "_ADD_RELATION" + Config.ADD_RELATION + ".txt";
+		postProcess.postProcessDocs(filename);
 	}
 }

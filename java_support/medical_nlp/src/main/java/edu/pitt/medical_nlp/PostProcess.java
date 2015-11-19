@@ -41,7 +41,6 @@ public class PostProcess extends Process {
 	}
 
 	public String postProcessSingleDocs(String doc) {
-		boolean add_feature = true;
 		Graph graph = new Graph();
 		StringBuilder ndoc = new StringBuilder();
 		DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(doc));
@@ -89,7 +88,7 @@ public class PostProcess extends Process {
 		}
 		add_features.addAll( graph.generateFeatures());
 		ndoc.append(doc).append(" ");
-		if (add_feature) {
+		if (Config.ADD_RELATION) {
 			for (String feature : add_features) {
 				ndoc.append(feature).append(" ");
 			}
