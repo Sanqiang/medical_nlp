@@ -1,0 +1,45 @@
+package edu.pitt.medical_nlp.text;
+
+public class Solution {
+	public int myAtoi(String str) {
+		str = str.trim();
+		if (str.length() == 0) {
+			return 0;
+		}
+		boolean sign = true;
+		short digit;
+		boolean flagsign = false;
+		int total = 0;
+
+		for (int i = 0; i < str.length(); i++) {
+			if (str.charAt(i) == '+' || str.charAt(i) == '-') {
+				if (flagsign) {
+					return 0;
+				}
+				sign = str.charAt(i) == '+' ? true : false;
+				flagsign = true;
+
+			}
+			if ('0' <= str.charAt(i) && str.charAt(i) <= '9') {
+				digit = str.charAt(i) - '0';
+			}
+			if (str.charAt(i) != '+' && str.charAt(i) != '-') {
+				if (str.charAt(i) < '0' || str.charAt(i) > '9') {
+					break;
+				}
+
+			}
+
+			total = total * 10 + digit;
+
+		}
+		total = total * sign;
+
+		return result;
+	}
+
+	public static void main(String[] args) {
+		new Solution().myAtoi("18446744073709551617");
+	}
+
+}

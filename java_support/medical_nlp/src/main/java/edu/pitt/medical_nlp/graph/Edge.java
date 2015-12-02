@@ -3,13 +3,20 @@ package edu.pitt.medical_nlp.graph;
 import edu.pitt.medical_nlp.utility.DependencyType;
 
 public class Edge {
-	DependencyType type;
-	WordNode node_adj, node_n;
+	public DependencyType type;
+	public String type_str ;
+	public WordNode node_adj, node_n;
 
 	public Edge(WordNode node_adj, WordNode node_n, DependencyType type) {
 		this.node_adj = node_adj;
 		this.node_n = node_n;
 		this.type = type;
+	}
+	
+	public Edge(WordNode node_adj, WordNode node_n, String type_str) {
+		this.node_adj = node_adj;
+		this.node_n = node_n;
+		this.type_str = type_str;
 	}
 
 	public WordNode getOtherNode(WordNode node) {

@@ -1,2 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="edu.pitt.medical_nlp.utility.DependencyType"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.trees.GrammaticalStructure.Extras"/>
+<fullyQualifiedTypeName name="com.sun.accessibility.internal.resources.accessibility"/>
+<fullyQualifiedTypeName name="edu.pitt.is17.midterm.Player"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.ling.Word"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.patterns.ScorePatternsFreqBased"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.ling.HasWord"/>
+<fullyQualifiedTypeName name="java.lang.Deprecated"/>
+<fullyQualifiedTypeName name="edu.stanford.nlp.trees.WordNetConnection"/>
+<fullyQualifiedTypeName name="edu.pitt.medical_nlp.graph.WordNode"/>
+<fullyQualifiedTypeName name="edu.pitt.medical_nlp.utility.Helper"/>
+<fullyQualifiedTypeName name="gov.nih.nlm.nls.skr.GenericObject"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilderFactory"/>
+<fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilder"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.txw2.Document"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Document"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Node"/>
+<fullyQualifiedTypeName name="org.w3c.dom.NodeList"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Element"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="sun.reflect.generics.reflectiveObjects.NotImplementedException"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="javax.net.ssl.HttpsURLConnection"/>
+<fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+<fullyQualifiedTypeName name="edu.pitt.medical_nlp.utility.MetaType"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="edu.pitt.medical_nlp.Config"/>
+</qualifiedTypeNameHistroy>

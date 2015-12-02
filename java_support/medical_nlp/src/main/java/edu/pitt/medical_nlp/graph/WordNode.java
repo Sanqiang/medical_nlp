@@ -8,9 +8,10 @@ public class WordNode implements HasWord {
 
 	public int idx;
 	public String lemma;
+	public String core ;
 	public String type;
 	public String snomed_id;
-	ArrayList<Edge> links = new ArrayList<>();
+	public ArrayList<Edge> links = new ArrayList<>();
 	
 	//features 
 	//pos 0 : ignore
@@ -21,11 +22,12 @@ public class WordNode implements HasWord {
 		this.lemma = lemma;
 	}
 
-	public WordNode(String type, String snomed_id,int idx, String lemma) {
+	public WordNode(String type, String snomed_id,int idx, String lemma,String core) {
 		this.lemma = lemma;
 		this.snomed_id = snomed_id;
 		this.type = type;
 		this.idx = idx;
+		this.core = core;
 	}
 
 	@Override

@@ -11,7 +11,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import javax.net.ssl.HttpsURLConnection;
-import edu.pitt.medical_nlp.Config;
 
 public class MetaType {
 

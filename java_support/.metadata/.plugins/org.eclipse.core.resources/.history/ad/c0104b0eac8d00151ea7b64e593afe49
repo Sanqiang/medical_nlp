@@ -1,7 +1,0 @@
-package edu.pitt.medical_nlp.utility;
-
-public class MetaType {
-	public static void main(String[] args) {
-		
-	}
-}

@@ -1,0 +1,17 @@
+{
+    "contents" : "library('randomForest')\n\nbase_path <- \"C:\\\\Users\\\\phd2\\\\PycharmProjects\\\\medical_nn\\\\\"\n\nx <- data.frame(read.table(paste(base_path,\"m.txt\",sep=\"\")))\nys <- read.table(paste(base_path,\"l.txt\",sep=\"\"))\n\nfor(label_i in 1:dim(y)[2]){\n  y = ys[,label_i]\n  train = cbind(x,y)\n  Grid <-  expand.grid(\n    n.trees = c(250),\n    interaction.depth = c(22) ,\n    shrinkage = 0.2)\n  \n  # Define the parameters for cross validation\n  fitControl <- trainControl(method = \"none\", classProbs = TRUE)\n  GBMmodel <- train(y ~ .,\n                    x = train,\n                    method = \"gbm\",\n                    trControl = fitControl,\n                    verbose = TRUE,\n                    tuneGrid = Grid,\n                    ## Specify which metric to optimize\n                    ## We will optimize AUC of ROC curve as it best encapsulates the predictive power of a model                 \n                    metric = \"ROC\")\n} \n\n\nprint(\"Done\")",
+    "created" : 1448425495846.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2804967356",
+    "id" : "151FE92E",
+    "lastKnownWriteTime" : 1448435168,
+    "path" : "C:/Users/phd2/PycharmProjects/medical_nn/r_support/ehr_classify/classify.R",
+    "project_path" : "classify.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

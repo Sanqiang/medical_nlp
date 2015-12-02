@@ -31,7 +31,7 @@ path_ndata = "data/ndata_just_stem.txt"
 f_hander = open(path_ndata,"r")
 ntexts = f_hander.readlines()
 
-path_ndata = "data/ndata_add_features_add_phrase_stem_text_v3.txt"
+path_ndata = "java_support\medical_nlp\ADD_SYNONYMfalse_ADD_PHRASEtrue_ADD_TYPEfalse_ADD_RELATIONtrue.txt"
 print("multiple")
 print(path_ndata)
 f_hander_full = open(path_ndata,"r")
@@ -121,7 +121,7 @@ report_y_actual = []
 report_y_predict = []
 
 f_scores = []
-for loop_stat in range(0,100):
+for loop_stat in range(0,1):
     kf = cross_validation.KFold(tfidf_train.shape[0], n_folds=10, shuffle=True)
     loop = 0
     for train_index, test_index in kf:

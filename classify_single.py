@@ -12,6 +12,9 @@ import numpy as np
 # from passage.layers import Embedding, GatedRecurrent, Dense
 from sklearn.preprocessing import MultiLabelBinarizer
 import vector_support as vs
+from sklearn.feature_selection import SelectFromModel
+from sklearn.kernel_ridge import KernelRidge
+from sklearn.neighbors import KDTree
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -27,7 +30,7 @@ x2 = []
 y = []
 x_vector_support = []
 
-path_ndata = "data/ndata_add_features_add_phrase_stem_text_v3.txt"
+path_ndata = "java_support\medical_nlp\ADD_SYNONYMfalse_ADD_PHRASEtrue_ADD_TYPEfalse_ADD_RELATIONtrue.txt"
 print(path_ndata)
 f_hander = open(path_ndata,"r")
 ntexts = f_hander.readlines()
@@ -91,11 +94,12 @@ for doc in docs:
     for text in texts:
         text_data = " ".join([text_data, text.firstChild.data])
     x.append(ntexts[idx].decode('utf-8'))
+    # x.append(text_data)
     idx = idx + 1
 
 
 # tv = TfidfVectorizer(x,stop_words='english',  min_df=0.00002)
-tv = CountVectorizer(x, strip_accents='ascii', ngram_range=(1, 2), binary=True)
+tv = CountVectorizer(x, strip_accents='ascii', ngram_range=(1, 1), binary=True)
 # tv = HashingVectorizer(x,strip_accents='ascii',ngram_range = (1,1), binary = True)
 tfidf_train = tv.fit_transform(x)
 #tfidf_train = np.concatenate((tfidf_train.todense(),np.array(x_vector_support)),axis=1)
@@ -105,20 +109,20 @@ y_map = np.array(y_map)
 
 
 f_scores = []
-for loop_stat in range(0,100):
+for loop_stat in range(0,1):
     scores = []
     report_y_actual = []
     report_y_predict = []
-    kf = cross_validation.KFold(tfidf_train.shape[0], n_folds=10, shuffle=True)
+    kf = cross_validation.KFold(tfidf_train.shape[0], n_folds=tfidf_train.shape[0], shuffle=True)
     loop = 0
     for train_index, test_index in kf:
         x_train, x_test = tfidf_train[train_index].toarray(), tfidf_train[test_index].toarray()
         y_train, y_test = y_map[train_index], y_map[test_index]
 
-        model = OneVsRestClassifier(DecisionTreeClassifier())
+        model = OneVsRestClassifier(LogisticRegression())
         model.fit(x_train, y_train)
-        y_predict = model.predict(x_test)
-        y_predict_prob = model.predict_proba(x_test)
+        y_predict = model.predict_proba(x_test)
+        y_predict_prob = model.predict(x_test)
         y_text_new,y_predict_new = transfer_multilabel(y_predict, y_test,ml,test_index,y_predict_prob)
         report_y_predict.extend(y_predict_new)
         report_y_actual.extend(y_text_new)
@@ -130,6 +134,7 @@ for loop_stat in range(0,100):
     f_score = metrics.f1_score(report_y_actual, report_y_predict)
     print(f_score)
     f_scores.append(f_score)
+    break
     #print(m_cls_report)
 
 print(f_scores)

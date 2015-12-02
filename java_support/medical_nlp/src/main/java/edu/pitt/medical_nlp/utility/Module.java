@@ -3,7 +3,6 @@ package edu.pitt.medical_nlp.utility;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-import edu.pitt.medical_nlp.Config;
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser;
 import edu.stanford.nlp.parser.nndep.DependencyParser;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;

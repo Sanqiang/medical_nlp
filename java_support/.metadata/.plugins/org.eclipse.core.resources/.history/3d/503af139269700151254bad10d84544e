@@ -1,0 +1,53 @@
+package edu.pitt.medical_nlp.text;
+
+public class Solution {
+	public int myAtoi(String str) {
+		str = str.trim();
+		if (str.length() == 0) {
+			return 0;
+		}
+		boolean sign = true, flagsign = false, ridzero = false;
+		int digit = 0;
+		int total = 0, temp = 0;
+		short ndigits = 0;
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			if ('0' <= ch && ch <= '9') {
+				digit = ch - '0';
+				if (digit > 0) {
+					ridzero = true;
+				}
+				if (ridzero) {
+					++ndigits;
+					if (ndigits > 10) {
+						return sign ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+					}
+				}
+				temp = total * 10 + digit;
+				if ((temp - digit) / 10d != total || (temp < 0 && total > 0)) {
+					return sign ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+				} else {
+					total = temp;
+
+				}
+				
+			} else if (ch == '+' || ch == '-') {
+				if (flagsign) {
+					return 0;
+				}
+				sign = ch == '+' ? true : false;
+				flagsign = true;
+			} else {
+				break;
+			}
+		}
+		total = total * (sign ? 1 : -1);
+		return total;
+	}
+
+	public static void main(String[] args) {
+		int total = new Solution().myAtoi("+00131204");
+		System.out.println(total);
+	}
+
+}

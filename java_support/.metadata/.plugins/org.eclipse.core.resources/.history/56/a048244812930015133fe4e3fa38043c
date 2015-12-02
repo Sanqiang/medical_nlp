@@ -1,0 +1,442 @@
+package edu.pitt.medical_nlp;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.StringReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+
+import edu.pitt.medical_nlp.graph.WordNode;
+import edu.pitt.medical_nlp.utility.MetaType;
+import edu.pitt.medical_nlp.utility.WordNetUtility;
+import edu.stanford.nlp.ling.HasWord;
+import edu.stanford.nlp.process.DocumentPreprocessor;
+
+public class Process {
+	protected ArrayList<String> _docs = null;
+	// _aspects aspect to count
+	protected HashMap<String, Integer> _aspects = null;
+	// _mrconso keyword to id
+	// _mrsty id to type
+	protected HashMap<String, String> _mrconso, _mrsty = null;
+	// _types to adj/n
+	protected HashMap<String, String> _types = null;
+	protected ArrayList<HashSet<String>> added_record_features = null;
+	protected HashMap<String, String> _exchange_cases = null;
+	protected static String[] exclude_words = { "is", "are", "or", ".", ",", "-", "_", "was", "were" };
+	public static List<String> exclude_words_list = Arrays.asList(exclude_words);
+	// docs - record - sentence
+	protected List<List<List<WordNode>>> _docs_processed = null;
+
+	public Process() {
+		this.added_record_features = new ArrayList<>();
+		this._docs = new ArrayList<String>();
+		this._docs_processed = new ArrayList<>();
+		try {
+			BufferedReader reader = new BufferedReader(new FileReader(new File(Config.PATH_DATA)));
+			String line = null;
+			while (null != (line = reader.readLine())) {
+				String[] items = line.split("\t");
+				this._docs.add(items[2]);
+			}
+			reader.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		System.out.println("processMrconso");
+		this.processMrconso();
+		System.out.println("processMrsty");
+		this.processMrsty();
+		System.out.println("processTypes");
+		this.processTypes();
+		System.out.println("extractAspect");
+		this.extractAspect();
+		this.processExchangeCases();
+	}
+
+	void processExchangeCases() {
+		_exchange_cases = new HashMap<>();
+		_exchange_cases.put("rule out", "no");
+	}
+
+	void processMrsty() {
+		try {
+			this._mrsty = new HashMap<>();
+			BufferedReader reader = new BufferedReader(new FileReader(new File(Config.PATH_MRSTY)));
+			String line = null;
+			while (null != (line = reader.readLine())) {
+				String[] items = line.split("\\|");
+				String type = items[3].replace(" ", "").replace(",", "");
+				String id = items[0];
+				_mrsty.put(id, type);
+			}
+			reader.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	void processMrconso() {
+		try {
+			this._mrconso = new HashMap<>();
+			BufferedReader reader = new BufferedReader(new FileReader(new File(Config.PATH_MRCONSO)));
+			String line = null;
+			while (null != (line = reader.readLine())) {
+				String[] items = line.split("\\|");
+				String keyword = items[14].toLowerCase();
+				String id = items[0];
+				_mrconso.put(keyword, id);
+			}
+			reader.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	void processTypes() {
+		try {
+			this._types = new HashMap<>();
+			BufferedReader reader = new BufferedReader(new FileReader(new File(Config.PATH_TYPE_LABELED)));
+			String line = null;
+			while (null != (line = reader.readLine())) {
+				String[] pair = line.split("\t");
+				if (pair[1].equals("1")) {
+					_types.put(pair[0].replace(" ", "").replace(",", ""), "adj");
+				} else {
+					_types.put(pair[0].replace(" ", "").replace(",", ""), "n");
+				}
+			}
+			reader.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void extractAspect() {
+		this._aspects = new HashMap<>();
+		for (String doc : this._docs) {
+			extractAspect(doc);
+		}
+	}
+
+	void extractAspect(String doc) {
+		DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(doc));
+		for (List<HasWord> token_part : tokenizer) {
+			for (int i = 0; i < token_part.size(); i++) {
+				String cur_word = WordNetUtility.getStem(token_part.get(i).word());
+				String pattern = cur_word;
+				if (_mrconso.containsKey(pattern)) {
+					if (!_aspects.containsKey(pattern)) {
+						_aspects.put(pattern, 0);
+					}
+					_aspects.put(pattern, 1 + _aspects.get(pattern));
+				}
+
+				if (i + 1 < token_part.size()) {
+					pattern += " " + WordNetUtility.getStem(token_part.get(1 + i).word());
+					if (_mrconso.containsKey(pattern)) {
+						if (!_aspects.containsKey(pattern)) {
+							_aspects.put(pattern, 0);
+						}
+						_aspects.put(pattern, 1 + _aspects.get(pattern));
+					}
+				}
+
+				if (i + 2 < token_part.size()) {
+					pattern += " " + WordNetUtility.getStem(token_part.get(2 + i).word());
+					if (_mrconso.containsKey(pattern)) {
+						if (!_aspects.containsKey(pattern)) {
+							_aspects.put(pattern, 0);
+						}
+						_aspects.put(pattern, 1 + _aspects.get(pattern));
+					}
+				}
+
+				if (i + 3 < token_part.size()) {
+					pattern += " " + WordNetUtility.getStem(token_part.get(3 + i).word());
+					if (_mrconso.containsKey(pattern)) {
+						if (!_aspects.containsKey(pattern)) {
+							_aspects.put(pattern, 0);
+						}
+						_aspects.put(pattern, 1 + _aspects.get(pattern));
+					}
+				}
+
+				if (i + 4 < token_part.size()) {
+					pattern += " " + WordNetUtility.getStem(token_part.get(4 + i).word());
+					if (_mrconso.containsKey(pattern)) {
+						if (!_aspects.containsKey(pattern)) {
+							_aspects.put(pattern, 0);
+						}
+						_aspects.put(pattern, 1 + _aspects.get(pattern));
+					}
+				}
+			}
+		}
+	}
+
+	public void processDocs() {
+		for (String doc : this._docs) {
+			processDocs(doc);
+		}
+	}
+
+	public void processDocs(String doc) {
+		HashSet<String> record_features = new HashSet<>();
+
+		for (String base_case : _exchange_cases.keySet()) {
+			String update_case = _exchange_cases.get(base_case);
+			doc = doc.replace(base_case, update_case);
+		}
+		HashSet<String> types = new HashSet<>();
+
+		doc = doc.toLowerCase();
+		DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(doc));
+		ArrayList<List<WordNode>> record = new ArrayList<>();
+		int accumulate_idx = 0;
+		for (List<HasWord> token_part : tokenizer) {
+			List<WordNode> sentence = new ArrayList<>();
+			for (int i = 0; i < token_part.size(); i++) {
+				if (exclude_words_list.contains(token_part.get(i).word())) {
+					sentence.add(new WordNode("", "", accumulate_idx++, token_part.get(i).word(),token_part.get(i).word()));
+					continue;
+				}
+
+				boolean is_continue = true;
+				if (i + 4 < token_part.size()
+						&& _aspects.containsKey(WordNetUtility.getStem(WordNetUtility.getStem(token_part.get(i).word()))
+								+ " " + WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 2).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 3).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 4).word()))) {
+					String type = _mrsty.get(_mrconso.get(WordNetUtility.getStem(token_part.get(i).word()) + " "
+							+ WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
+							+ WordNetUtility.getStem(token_part.get(i + 2).word()) + " "
+							+ WordNetUtility.getStem(token_part.get(i + 3).word()) + " "
+							+ WordNetUtility.getStem(token_part.get(i + 4).word())));
+					if (Config.ADD_PHRASE && _types.get(type).equals("n")) {
+						String entry = MetaType.requestWeb(WordNetUtility.getStem(token_part.get(i).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 2).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 3).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 4).word()));
+						if (entry.length() > 0) {
+							sentence.add(new WordNode(type, "", accumulate_idx++, entry.replace(" ", "_")));
+						} else {
+							sentence.add(new WordNode(type, "", accumulate_idx++,
+									WordNetUtility.getStem(token_part.get(i).word()) + "_"
+											+ WordNetUtility.getStem(token_part.get(i + 1).word()) + "_"
+											+ WordNetUtility.getStem(token_part.get(i + 2).word()) + "_"
+											+ WordNetUtility.getStem(token_part.get(i + 3).word()) + "_"
+											+ WordNetUtility.getStem(token_part.get(i + 4).word())));
+						}
+
+						is_continue = false;
+						i += 4;
+						types.add(type);
+					}
+					if (Config.ADD_RAW_TEXT) {
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i).word())));
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i + 1).word())));
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i + 2).word())));
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i + 3).word())));
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i + 4).word())));
+						is_continue = false;
+						i += 4;
+					}
+
+				} else if (i + 3 < token_part.size()
+						&& _aspects.containsKey(WordNetUtility.getStem(token_part.get(i).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 2).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 3).word()))) {
+					String type = _mrsty.get(_mrconso.get(WordNetUtility.getStem(token_part.get(i).word()) + " "
+							+ WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
+							+ WordNetUtility.getStem(token_part.get(i + 2).word()) + " "
+							+ WordNetUtility.getStem(token_part.get(i + 3).word())));
+					if (Config.ADD_PHRASE && _types.get(type).equals("n")) {
+						String entry = MetaType.requestWeb(WordNetUtility.getStem(token_part.get(i).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 2).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 3).word()));
+						if (entry.length() > 0) {
+							sentence.add(new WordNode(type, "", accumulate_idx++, entry.replace(" ", "_")));
+						} else {
+							sentence.add(new WordNode(type, "", accumulate_idx++,
+									WordNetUtility.getStem(token_part.get(i).word()) + "_"
+											+ WordNetUtility.getStem(token_part.get(i + 1).word()) + "_"
+											+ WordNetUtility.getStem(token_part.get(i + 2).word()) + "_"
+											+ WordNetUtility.getStem(token_part.get(i + 3).word())));
+						}
+
+						is_continue = false;
+						i += 3;
+						types.add(type);
+					}
+					if (Config.ADD_RAW_TEXT) {
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i).word())));
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i + 1).word())));
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i + 2).word())));
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i + 3).word())));
+						is_continue = false;
+						i += 3;
+					}
+				} else if (i + 2 < token_part.size()
+						&& _aspects.containsKey(WordNetUtility.getStem(token_part.get(i).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 2).word()))) {
+					String type = _mrsty.get(_mrconso.get(WordNetUtility.getStem(token_part.get(i).word()) + " "
+							+ WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
+							+ WordNetUtility.getStem(token_part.get(i + 2).word())));
+					if (Config.ADD_PHRASE && _types.get(type).equals("n")) {
+						String entry = MetaType.requestWeb(WordNetUtility.getStem(token_part.get(i).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 1).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 2).word()));
+						if (entry.length() > 0) {
+							sentence.add(new WordNode(type, "", accumulate_idx++, entry.replace(" ", "_")));
+						} else {
+							sentence.add(new WordNode(type, "", accumulate_idx++,
+									WordNetUtility.getStem(token_part.get(i).word()) + "_"
+											+ WordNetUtility.getStem(token_part.get(i + 1).word()) + "_"
+											+ WordNetUtility.getStem(token_part.get(i + 2).word())));
+						}
+						is_continue = false;
+						i += 2;
+						types.add(type);
+					}
+					if (Config.ADD_RAW_TEXT) {
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i).word())));
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i + 1).word())));
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i + 2).word())));
+						is_continue = false;
+						i += 2;
+					}
+				} else if (i + 1 < token_part.size()
+						&& _aspects.containsKey(WordNetUtility.getStem(token_part.get(i).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 1).word()))) {
+					String type = _mrsty.get(_mrconso.get(WordNetUtility.getStem(token_part.get(i).word()) + " "
+							+ WordNetUtility.getStem(token_part.get(i + 1).word())));
+					if (Config.ADD_PHRASE && _types.get(type).equals("n")) {
+						String entry = MetaType.requestWeb(WordNetUtility.getStem(token_part.get(i).word()) + " "
+								+ WordNetUtility.getStem(token_part.get(i + 1).word()));
+						if (entry.length() > 0) {
+							sentence.add(new WordNode(type, "", accumulate_idx++, entry.replace(" ", "_")));
+						} else {
+							sentence.add(new WordNode(type, "", accumulate_idx++,
+									WordNetUtility.getStem(token_part.get(i).word()) + "_"
+											+ WordNetUtility.getStem(token_part.get(i + 1).word())));
+						}
+						is_continue = false;
+						i += 1;
+						types.add(type);
+					}
+					if (Config.ADD_RAW_TEXT) {
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i).word())));
+						sentence.add(new WordNode("", "", accumulate_idx++,
+								WordNetUtility.getStem(token_part.get(i + 1).word())));
+						is_continue = false;
+						i += 1;
+					}
+				} else if (_aspects.containsKey(WordNetUtility.getStem(token_part.get(i).word()))) {
+					String type = _mrsty.get(_mrconso.get(WordNetUtility.getStem(token_part.get(i).word())));
+					if (_types.get(type) != null && _types.get(type).equals("n")) {
+						String entry = MetaType.requestWeb(WordNetUtility.getStem(token_part.get(i).word()));
+						if (entry.length() > 0) {
+							sentence.add(new WordNode(type, "", accumulate_idx++, entry.replace(" ", "_")));
+						} else {
+							sentence.add(new WordNode(type, "", accumulate_idx++,
+									WordNetUtility.getStem(token_part.get(i).word())));
+						}
+						is_continue = false;
+						types.add(type);
+					}
+				}
+				if (is_continue) {
+					sentence.add(
+							new WordNode("", "", accumulate_idx++, WordNetUtility.getStem(token_part.get(i).word())));
+				}
+			}
+			record.add(sentence);
+		}
+		if (Config.ADD_TYPE) {
+			record_features.addAll(types);
+		}
+		added_record_features.add(record_features);
+		_docs_processed.add(record);
+	}
+
+	public void printAspects(int threshold) {
+		try {
+			HashSet<String> types = new HashSet<>();
+			BufferedWriter writer = new BufferedWriter(new FileWriter(new File("aspects.txt")));
+			for (String aspect : _aspects.keySet()) {
+				if (_aspects.get(aspect) > threshold) {
+					String type = _mrsty.get(_mrconso.get(aspect));
+					String output = aspect + ":" + _aspects.get(aspect) + ":" + type;
+					types.add(type);
+					writer.write(output + "\n");
+					writer.flush();
+					System.out.println(output);
+				}
+			}
+			writer = new BufferedWriter(new FileWriter(new File("type.txt")));
+			for (String type : types) {
+				writer.write(type);
+				writer.write("\t");
+				writer.write("0");
+				writer.write("\n");
+			}
+			writer.close();
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < _docs_processed.size(); i++) {
+			List<List<WordNode>> record = _docs_processed.get(i);
+			for (List<WordNode> sentence : record) {
+				for (WordNode word : sentence) {
+					//sb.append(word.word()).append(":").append(word.idx).append(":").append(word.type).append(" ");
+					sb.append(word.word()).append(" ");
+				}
+			}
+			for (String feature : added_record_features.get(i)) {
+				sb.append(feature).append(" ");
+			}
+		}
+		return sb.toString();
+	}
+}

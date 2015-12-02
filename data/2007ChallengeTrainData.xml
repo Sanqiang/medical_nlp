@@ -8771,7 +8771,6 @@
       <code origin="CMC_MAJORITY" type="ICD-9-CM">786.07</code>
       <code origin="COMPANY3" type="ICD-9-CM">786.07</code>
       <code origin="COMPANY1" type="ICD-9-CM">786.07</code>
-      <code origin="COMPANY2" type="ICD-9-CM">079.99</code>
       <code origin="COMPANY2" type="ICD-9-CM">493.90</code>
     </codes>
     <texts>
@@ -12210,14 +12209,11 @@
   </doc>
   <doc id="97641226" type="RADIOLOGY_REPORT">
     <codes>
-      <code origin="CMC_MAJORITY" type="ICD-9-CM">079.99</code>
       <code origin="CMC_MAJORITY" type="ICD-9-CM">493.90</code>
       <code origin="CMC_MAJORITY" type="ICD-9-CM">780.6</code>
       <code origin="COMPANY3" type="ICD-9-CM">780.6</code>
-      <code origin="COMPANY1" type="ICD-9-CM">079.99</code>
       <code origin="COMPANY1" type="ICD-9-CM">493.90</code>
       <code origin="COMPANY1" type="ICD-9-CM">780.6</code>
-      <code origin="COMPANY2" type="ICD-9-CM">079.99</code>
       <code origin="COMPANY2" type="ICD-9-CM">493.90</code>
     </codes>
     <texts>
@@ -12227,14 +12223,11 @@
   </doc>
   <doc id="97684838" type="RADIOLOGY_REPORT">
     <codes>
-      <code origin="CMC_MAJORITY" type="ICD-9-CM">079.99</code>
       <code origin="CMC_MAJORITY" type="ICD-9-CM">493.90</code>
       <code origin="CMC_MAJORITY" type="ICD-9-CM">780.6</code>
       <code origin="COMPANY3" type="ICD-9-CM">780.6</code>
-      <code origin="COMPANY1" type="ICD-9-CM">079.99</code>
       <code origin="COMPANY1" type="ICD-9-CM">493.90</code>
       <code origin="COMPANY1" type="ICD-9-CM">780.6</code>
-      <code origin="COMPANY2" type="ICD-9-CM">079.99</code>
       <code origin="COMPANY2" type="ICD-9-CM">493.90</code>
     </codes>
     <texts>

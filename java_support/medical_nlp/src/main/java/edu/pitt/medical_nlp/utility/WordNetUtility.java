@@ -1,6 +1,6 @@
 package edu.pitt.medical_nlp.utility;
 
-import edu.pitt.medical_nlp.Process;
+import edu.pitt.medical_nlp.text.Process;
 import net.didion.jwnl.data.IndexWord;
 import net.didion.jwnl.data.POS;
 import net.didion.jwnl.dictionary.Dictionary;

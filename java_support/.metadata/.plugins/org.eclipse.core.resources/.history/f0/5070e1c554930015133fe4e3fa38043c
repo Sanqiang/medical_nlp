@@ -1,0 +1,42 @@
+package edu.pitt.medical_nlp;
+
+import org.junit.Test;
+
+import edu.pitt.medical_nlp.utility.MetaType;
+import edu.pitt.medical_nlp.utility.Module;
+import edu.pitt.medical_nlp.utility.WordNetUtility;
+
+public class testProcess {
+
+	// @Test
+	public void testProcessDocs() {
+		Module.getInst();
+		Process process = new Process();
+		System.out.println("start processing!");
+		process.processDocs("Cough, rule out pneumonia. No acute pulmonary disease.");
+		System.out.println(process);
+	}
+
+	// @Test
+	public void testWordNetGetStem() {
+		Module.getInst();
+		System.out.println(WordNetUtility.getStem("was"));
+	}
+
+	@Test
+	public void testPostProcessDocs() {
+		Module.getInst();
+		PostProcess process = new PostProcess();
+		System.out.println("start processing!");
+		process.processDocs("No obvious pleural effusion or definite adenopathy is seen.");
+		process.postProcessSingleDocs();
+		System.out.println(process);
+	}
+
+	// @Test
+	public void testInitMetaType() {
+		String entry = MetaType.requestWeb("nocturnal enuresis");
+		System.out.println(entry);
+	}
+
+}
