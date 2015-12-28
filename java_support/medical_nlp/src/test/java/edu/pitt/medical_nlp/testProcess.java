@@ -28,7 +28,7 @@ public class testProcess {
 		PostProcess process = new PostProcess();
 		System.out.println("start processing!");
 		String ndoc = process.postProcessSingleDocs(process.processDocs(
-				"This is a 1-year-5-month - old female with a prior history of urinary tract infections. Normal followup ultrasound of the kidneys with interval growth."));
+				"fever and cough is possible."));
 		System.out.println(ndoc);
 	}
 
