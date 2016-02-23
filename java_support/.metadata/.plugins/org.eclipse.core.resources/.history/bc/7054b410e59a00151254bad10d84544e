@@ -1,0 +1,66 @@
+package edu.pitt.is17.assignment7;
+
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+/**
+ * Assignment 7
+ * 
+ * 
+ * @author Sang Lee
+ * 
+ *This Game class creates a new madlib object, 
+ *and allows the user to fill in the blank words in the story.
+ */
+
+public class Game {
+
+	public static void main(String[] args) {
+		
+		// Create a new object of the Madlib class.
+		MadLib game = new MadLib();
+		
+		// Create a new String arraylist, result, that will hold the final madlib String of words.
+		ArrayList<String> result = new ArrayList<String>();
+		// Declare a new arraylist, holder, and assign the words (objects)
+		// by using the getWordlist method of the MadLib class.
+		ArrayList<Word> holder = game.getWordList();
+		
+		// Create a new array, madLib, and assign String elements (the madlib string) from the game object,
+		// by using the getMadLib method of the MadLib class.
+		String[] madLib = game.getMadLib();
+		
+		// Set the index counter to zero.
+		int index = 0;
+		
+		// Use the enhanced for loop to loop through each element of the madLib array.
+		for (String currentWord : madLib){
+			
+			// Check if the currentWord (current String element of madLib) is an underscore.
+			if(currentWord.equals("_")){
+				
+				// Get the word object (get method) from holder arraylist using the index, and assign it to madWord.
+				Word madWord = holder.get(index);
+				
+				// Set the word instance variable of the word object of madWord using setWord method.
+				// Display the wordtype of the word object while setting the word to get the correct corresponding word.
+				madWord.setWord(JOptionPane.showInputDialog(null, "Enter " + madWord.getWordType() +":"));	
+				
+				// Add the word set above to the result arraylist. 
+				result.add(madWord.getWord());
+				
+				// Increment the index counter. 
+				index++;
+			
+			// If it isn't an underscore then execute the statement below.
+			} else {
+				// Add the currentWord, String, to the result arraylist using the add method.
+				result.add(currentWord);
+			}
+		}
+		
+		// Use the enhanced for loop to loop through the result arraylist and print each element. 
+		for(String words : result){
+			System.out.print(words + " ");
+		}
+	}
+}

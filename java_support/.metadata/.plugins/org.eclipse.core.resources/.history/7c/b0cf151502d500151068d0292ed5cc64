@@ -1,0 +1,18 @@
+package test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import medical_classify.negex.GenNegEx;
+
+public class Negex {
+
+	@Test
+	public void test() {
+		GenNegEx g = new GenNegEx();
+		
+		// fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,66 @@
+package test;
+
+import static org.junit.Assert.*;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.regex.Pattern;
+
+import org.junit.Test;
+
+import medical_classify.negex.GenNegEx;
+
+public class Negex {
+
+	@Test
+	public void test() throws Exception {
+
+		GenNegEx g = new GenNegEx();
+		String fillerString = "_";
+		boolean negatePossible = false;
+
+		String triggersFile = "data/test_trigger.txt";
+		String sentencesFile = "data/test_data.txt";
+
+		File ruleFile = new File(triggersFile);
+		File testKitFile = new File(sentencesFile);
+		File phraseFile = new File("data/aspects.txt");
+
+		Scanner sc = new Scanner(ruleFile);
+		Scanner scKit = new Scanner(testKitFile);
+		Scanner scPhrase = new Scanner(phraseFile);
+
+		ArrayList rules = new ArrayList();
+		String afterNegCheck = "";
+
+		while (sc.hasNextLine()) {
+			rules.add(sc.nextLine());
+		}
+
+		ArrayList<String> phrases = new ArrayList<>();
+		while (scPhrase.hasNextLine()) {
+			String phrase = scPhrase.nextLine().split(":")[0];
+			phrases.add(phrase);
+		}
+
+		ArrayList<String> docs = new ArrayList<>();
+		while (scKit.hasNextLine()) {
+			String doc = scKit.nextLine().trim().split("\\t")[2];
+			docs.add(doc);
+		}
+		for (String phrase : phrases) {
+			for (int i = 0; i < docs.size(); i++) {
+
+				try {
+
+					afterNegCheck = g.negCheck(docs.get(i), phrase, rules, negatePossible);
+					docs.set(i, afterNegCheck);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+}

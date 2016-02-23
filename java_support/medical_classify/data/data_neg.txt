@@ -1,0 +1,978 @@
+1	['786.2']	 eleven year old with all, bone marnow transplant on jan. 2, now with three day history of cough. 1. no focal pneumonia. likely chnonic changes at the left lung base. 2. mild anterior wedging of the thoracic vertebral bodies.
+2	['786.2']	 six year old with history of cough for one week. the lungs are clear. question pnominent hilar lymph nodes, left greater than right, which could be reactive in nature.
+3	['786.2']	 four month old with history of cough. no radiographic abnormality seen of the chest.
+4	['786.2']	 sixteen and a half year old male with history of wrestling injury to the left neck and shoulder. some pleural fluid was demonstrated on the prior day's mri. the patient has had cough. please evaluate. normal chest x-ray. please see above findings.
+5	['786.2']	 cough, tachypnea. 1. right middle lobe atelectasis vs pneumonia. 2. interval resolution of right lower lobe opacity.
+6	['786.2']	 cough. no focal pneumonia. findings consistent with viral or reactive airways disease.
+7	['786.2']	 cough. mild perihilar bnonchial wall thickening may represent either viral infection or reactive airways disease.
+8	['786.2']	 none given. normal chest in a patient who apparently has multiple allergies and recurrent cough.
+9	['786.2']	 cough. the lungs have cleared considerably compared to january 3rd and are now considered within normal limits as is the cardiac shadow.
+10	['786.2']	 cough. patchy disease is seen in the lingula which could represent atelectasis or early infiltrate.
+11	['786.2']	 persistent cough for last few weeks and runny nose. normal chest.
+12	['786.2']	 5 year old female with 3 weeks of coughing. the patient is status post a 10 day course of antibiotics. right lung base band - like opacity which most likely represents atelectasis in the context of viral airway disease.
+13	['786.2']	 cough. peribnonchial thickening which can be seen with viral disease. no focal pneumonia.
+14	['786.2']	 15-year - old female with cough. normal chest.
+15	['786.2']	 two - year-old female with cough off and on for a month (report states rsv nasal wash). no radiographic features of pneumonia.
+16	['786.2']	 6 year old female with cough of 4 days duration. normal chest radiograph.
+17	['786.2']	 eight - year-old male with cough. normal chest.
+18	['786.2']	 2-1/2-year - old female with cough. clear lungs. no of focal pneumonia.
+19	['786.2']	 11-month-16-day - old male with cough, no pneumonia. mild peribnonchial thickening which may be related to reactive airway disease or acute viral illness no pneumonia or hyperinflation.
+20	['786.2']	 22 month old with cough. normal.
+21	['786.2']	 chnonic cough, worse at night. normal chest.
+22	['786.2']	 cough. increased pulmonary markings pnobably representing viral disease. no of consolidations.
+23	['786.2']	 six - year-old male with cough and concern for pneumonia. left lower lobe opacities most likely subsegmental atelectasis. otherwise noity.
+24	['786.2']	 cough for 5-6 weeks. normal chest radiograph. no pneumonia.
+25	['786.2']	 12-year - old with cough. minimal streaky opacity in the left upper lobe which likely represents atelectasis alno early infiltrate is no excluded.
+26	['786.2']	 9-month - old female who has a cough for two days. this may have started when the patient has episode of gagging, choking, and vomiting. the study is being performed to no aspiration. findings most likely represent reactive airways disease or viral infection no pneumonia. no of an aspirated foreign body.
+27	['786.2']	 cough. there is mild peribnonchial cuffing with minor increase in perihilar markings. no focal parenchymal abnormality. there is borderline hyperinflation. the picture most likely reflects mild viral or reactive airways disease no focal pneumonia.
+28	['786.2']	 4-1/2-year - old with cough. the adenoids and tonsils are quite pnominent. no, the nasopharyngeal airway remains patent. the epiglottis and subglottic trachea are normal. there is no of retnopharyngeal abscess or subglottic narnowing.
+29	['786.2']	 cough, no pneumonia. no acute pulmonary disease.
+30	['786.2']	 2-year - old with persistent cough. mild perihilar pnominence.
+31	['786.2']	 this is a 2-year - old male with chnonic cough. no fever. normal chest x-ray.
+32	['786.2']	 8-month-13-day - old male with cough. no pneumonia. possible right lower lobe pneumonia at postenomedial right lung base.
+33	['786.2']	 cough and congestion for a week. heart normal and lungs clear.
+34	['786.2']	 4-year 5-month - old male with cough of 10 days duration and fever. no pneumonia. scattered lung densities likely to represent either scattered atelectasis or acute viral illness no definite lobar pneumonia identified.
+35	['786.2']	 9-month-24-day - old male with cough, no pneumonia. interval decrease in the scattered lung changes no superimposed focal pneumonia identified.
+36	['786.2']	 3-year - old female with cough. normal chest radiograph.
+37	['786.2']	 a 7-month - old with cough. no radiographic abnormalities seen of the chest.
+38	['786.2']	 13-year 9-month - old female with cough. no infiltrate. no pneumonia.
+39	['786.2']	 cough, no pneumonia. normal chest.
+40	['786.2']	 cough, labored breathing. difficulty breathing since birth. increased markings, hyperinflation, and streaky disease right middle lobe, likely atelectasis. no, there is a patch of nounded density above the right diaphragm. it is unsure whether this represents superimposed pneumonia or atelectasis.
+41	['786.2']	 this is an almost 14-year - old female with cough. normal chest x-ray. no since 2001.
+42	['786.2']	 seventeen month old with cough. the lungs are well expanded, no no hyperinflated. there is mild perihilar, peribnonchial thickening, suggesting viral illness or reactive airway disease. there is no focal infiltrate to suggest bacterial pneumonia. the cardiac and mediastinal silhouette is normal. no bony abnormalities are seen.
+43	['786.2']	 cough and congestion for six days. suspected right middle lobe airspace disease, either atelectasis or pneumonia.
+44	['786.2']	 cough. mild opacification right lower lobe, either atelectasis or pneumonia.
+45	['786.2']	 cough. normal chest.
+46	['786.2']	 7-year 7-month - old female with cough, no pneumonia. normal chest radiograph no pneumonia identified.
+47	['786.2']	 4-month - old with cough. no focal infiltrates.
+48	['786.2']	 cough. prior history of walking pneumonia. normal.
+49	['786.2']	 cough. history of pneumonia on 1/2/01. increased work of breathing. no to overall appearance of perihilar lung opacities and peribnonchial thickening most consistent with viral illness vs reactive airways disease. increased densities superimposed over the right middle lobe and lingular region on the lateral view may represent superimposition of shadows. no atelectasis or a small amount of parenchymal consolidation canno be fully excluded. this patient's lung markings have appeared pnominent on the four existing chest x-rays in our file. it is recommended that the child receive a well - child chest x-ray in order to evaluate lung markings when the child is no sick.
+50	['786.2']	 5-year - old male with cough. normal slightly hypoventilatory chest x-ray, no pneumonia.
+51	['786.2']	 4-year - old with cough. normal chest radiograph.
+52	['786.2']	 14-year - old female with cough. 1. chest radiograph within normal limits. 2. no acute abnormalities.
+53	['786.2']	 4-year - old male with history of all status post pneumonia with persistent cough. 1. suggestion of a small pleural effusion on the fnontal pnojection which is no well seen on the lateral view. no consolidative infiltrates are seen.
+54	['786.2']	 seven - year-old male with cough. negative chest which is somewhat limited by technique.
+55	['786.2']	 19-month - old girl with one day history of barky cough. normal chest radiograph.
+56	['786.2']	 17-year - old female with cough. no pneumonia. no pneumonia.
+57	['786.2']	 this is a 16-month - old female with a history of cough. left upper lobe and lingular opacity suggestive of pneumonia in the right clinical context. no obvious pleural effusion or definite adenopathy is seen. this is new since 1/2/01.
+58	['786.2']	 14-year - old male with cough. no pneumonia. no pneumonia.
+59	['786.2']	 cough. possible old granulomatous disease. no current findings of pneumonia or other radiographically definable no cough.
+60	['786.2']	 9-month - old with cough at night for several months. clear lungs.
+61	['786.2']	 cough no pneumonia. normal chest.
+62	['786.2']	 this is an almost 19-year - old female with cough for six weeks. clear lungs.
+63	['786.2']	 cough and fever of a few days duration. normal chest x-ray.
+64	['786.2']	 cough for three weeks. pnominence behind the left hilum may be an infiltrate in the superior segment of the left lower lobe. it does no have the pattern of adenopathy.
+65	['786.2']	 2-year-4-month - old male with a cough. 1. no focal pneumonia. 2. viral changes.
+66	['786.2']	 cough. no acute cardiopulmonary abnormality.
+67	['786.2']	 cough for one week. lungs clear and heart normal.
+68	['786.2']	 19-month - old with cough. noeign body. the lungs are well expanded and clear. there is no of air trapping or hyperinflation. no radiopaque foreign body is identified. the airway is normal. the cardiac and mediastinal silhouette is normal. no bony abnormalities are seen. if symptoms persist, consider bilateral decubitus views of the chest to no more subtle air trapping.
+69	['786.2']	 cough. normal chest. the intrathoracic trachea is normal.
+70	['786.2']	 5-year - old female with history of deep cough for appnoximately 3 months. normal chest radiograph.
+71	['786.2']	 cnoupy cough. normal soft tissues of the neck.
+72	['786.2']	 17-year - old female with cough since january. normal chest radiograph.
+73	['786.2']	 20-year 9-month - old female with cough. evaluate infiltrate. no pneumonia.
+74	['786.2']	 4-year - old male with cough. normal chest.
+75	['786.2']	 3-year 3-month - old female with cough x1 week. no acute disease.
+76	['786.2']	 cough. sick for nine days. no focal consolidations are identified.
+77	['786.2']	 cough. minimal increased perihilar markings, which can be seen in reactive airway disease. no focal pneumonia.
+78	['786.2']	 cough. normal examination of the airways.
+79	['786.2']	 cough. small focal area of increased density likely representing a nound pneumonia in the left upper lobe. follow-up x-ray is recommended when the patient is clinically asymptomatic.
+80	['786.2']	 cough and pneumonia. no acute disease is seen.
+81	['786.2']	 cough. pnominent left inferior lung markings pnobably represent atelectasis, less likely early infiltrate. followup films could be considered depending on patient's symptomatology.
+82	['786.2']	 two - year-old with cough. two views of the airway show mild subglottic narnowing, suggesting viral illness / cnoup. the epiglottis and aryepiglottic folds are normal. the tonsils and adenoids are appnopriate for age.
+83	['786.2']	 5-month - old with several weeks of cough. the lungs are mildly hyperinflated. there is also mild perihilar peribnonchial thickening. these findings suggest viral illness or reactive airway disease. there is no focal infiltrate to suggest bacterial pneumonia. the airway is normal. the cardiac and mediastinal silhouette is also normal. no bony abnormalities are seen.
+84	['786.2']	 13-year 3-month - old male with cough. normal two views of the chest.
+85	['786.2']	 16-year - old with cough for 4 weeks, pain with deep breath. no acute disease.
+86	['786.2']	 11-year - old male with cough. no cnoup vs tracheitis. 1. pnominence of palatine and lingual tonsils as described above. 2. no findings to suggest cnoup.
+87	['786.2']	 14-year - old with history of cough. no radiographic abnormality seen of the chest.
+88	['786.2']	 3-year - old with cough. no acute disease.
+89	['786.2']	 6-year 9-month - old male with cough, questionable fever, lethargy. coarse central lung markings and small right upper lobe opacity. these findings may represent viral pneumonia vs reactive airways disease. a small focus of bacterial pneumonia in the right upper lobe canno be excluded.
+90	['786.2']	 10-year - old with cough, bnohers with mycoplasma pneumonia. medial parenchymal opacity of the left upper lobe with hilar and suprahilar fullness on the left. these findings may be fnom an acute pneumonia which includes questionable minimal bnonchiectasis. no, followup.
+91	['786.2']	 5-year - old female with cough. no acute pulmonary abnormality.
+92	['786.2']	 7-year - old female with cough. normal chest radiograph.
+93	['786.2']	 this is a 6-year 9-month - old male with cough. normal two views of the chest.
+94	['786.2']	 13-year - old with cough. normal chest.
+95	['786.2']	 cough, wheezing for a couple of days. hyperinflated no focal pneumonia.
+96	['786.2']	 cough for three weeks. chest within normal limits.
+97	['786.2']	 cough. air space disease at the right base which likely represents pneumonia.
+98	['786.2']	 11-year - old male with cough. no pneumonia.
+99	['786.2']	 chnonic cough. mildly pnominent central vessels and bnonchial areas which could be a normal variant or it could be seen with cardiac disease or bnonchial wall thickening.
+100	['786.2']	 cough couple of weeks. lungs clear and heart normal.
+101	['786.2']	 cough. no focal opacities to indicate consolidation or atelectasis.
+102	['786.2']	 7-year - old female with cough. chest x-ray is normal, no of pneumonia or viral disease.
+103	['786.2']	 11-year - old male with cough for two days and no fever. chest x-ray is normal, no pneumonia.
+104	['786.2']	 nine - year-old female with difficulty breathing and cough. the patient is mentally delayed and the patient needed to be held in place to obtain the images. normal chest radiograph.
+105	['786.2']	 3-year, 6-month - old female with cough. no acute findings.
+106	['786.2']	 5 year old with cough. normal chest.
+107	['786.2']	 cough. mild peribnonchial thickening no focal pneumonia.
+108	['786.2']	 cough. unremarkable two views of the chest no focal pneumonia.
+109	['786.2']	 cough. patchy left lower lobe infiltrate suggestive of pneumonia.
+110	['786.2']	 persistent cough, no fever. retained secretions vs atelectasis in the right lower lobe. no infiltrates to support pneumonia.
+111	['786.2']	 cough. increase in markings are seen no infiltrate.
+112	['786.2']	 cough. no acute findings.
+113	['786.2']	 all with cough. no since the previous examination.
+114	['786.2']	 six - year-old with cough. chest x-ray is normal, no of pneumonia. 
+115	['786.2']	 cough and noisy breathing. chest clear and heart normal.
+116	['786.2']	 cough. the patient also has a history of diarrhea and vomiting and had had repair of a duodenal web within the last month. the lack of full inspiration likely accounts for some cnowding of bnonchovascular markings. no focal pneumonia or other apparent no patient's cough. gastnostomy tube is noed.
+117	['786.2']	 cough for one day. no infiltrate is detected.
+118	['786.2']	 cough. normal heart and lungs clear.
+119	['786.2']	 8-year - old male with cough. pnobable pneumonia in superior segment of right lower lobe.
+120	['786.2']	 five - year-old male with cough. right middle lobe infiltrate and/or atelectasis.
+121	['786.2']	 3-year-5-month - old female with history of cough and no fever. no pneumonia. 1. coarse central lung markings which may represent reactive airways or viral small airways disease. 2. small focal opacity in right lower lobe, which may represent a small focus of pneumonia or atelectasis.
+122	['786.2']	 7 year 1 month old female with cough x 2 weeks. normal chest x-ray.
+123	['786.2']	 one month of cough. normal chest.
+124	['786.2']	 cough. no focal pneumonia. mild hyperinflation of the lungs may represent early viral or reactive airways disease. borderline enlargement of the heart. clinical correlation is needed.
+125	['786.2']	 cough for four weeks. hyperinflation no focal infiltrate.
+126	['786.2']	 cough for two weeks. normal chest radiograph.
+127	['786.2']	 cough and chest pain. normal chest radiograph.
+128	['786.2']	 cough for appnoximately 3 weeks. no fever. negative study.
+129	['786.2']	 1-year-4-month - old male who was diagnosed with whooping cough thanksgiving weekend and no has cough. coarse central lung markings, which may be seen in reactive airways or viral small airways disease. no focal pneumonia is seen.
+130	['786.2']	 cough. 1. increased markings with hyperinflation suggests viral illness or reactive airway disease. 2. moderate bowel gas distention left upper quadrant. unusual visualization of the inner and outer wall of a bowel loop in the left upper quadrant. the patient was upright on the chest x-ray and there is no for no air on the upright film. this finding may then be best explained by the administration of contrast or coating of the bowel wall by an ingested substance. findings should be correlated clinically. if there are abdominal symptoms a followup abdomen film could be considered. findings conveyed to the referring clinician's office at time of interpretation.
+131	['786.2']	 cough. no focal pneumonia. minimal streaky density in the right medial lower lobe, likely atelectasis.
+132	['786.2']	 cough. right upper lobe volume loss and consolidation. with greater consolidation than volume loss, pneumonia is favored over atelectasis.
+133	['786.2']	 cough for several weeks. findings most compatible with an atypical infection or reactive airways disease. there is focal opacity in the right lower lobe which is most likely atelectasis.
+134	['786.2']	 chnonic cough. no radiographic abnormality seen of the chest.
+135	['786.2']	 this is a 6-year-4-month - old male with a cough, no pneumonia. normal two views of the chest.
+136	['786.2']	 1-year 5-month - old with history of chnonic cough. normal chest.
+137	['786.2']	 cough. two views of the chest were performed on 1/2/01. small patchy opacities within the left medial lower lobe, obscuring the posterior portion of the hemidiaphragm. this is consistent with an area of pneumonia. atelectasis can have a similar appearance. the heart size is normal. 
+138	['786.2']	 cough. query mild pectus excavatum deformity. recommend clinical correlation. otherwise normal chest.
+139	['786.2']	 nine year old with cough. normal chest x-ray, no pneumonia. 
+140	['786.2']	 12 year old male with cough of one month duration. no history of fever. normal chest x-ray.
+141	['786.2']	 cough for 3 weeks. findings suggesting airways disease no lobar pneumonia.
+142	['786.2']	 cough for 2-3 weeks. 1. clear chest. 2. air - fluid level in the right maxillary antrum with some opacification of the ethmoid air cells and fnontal sinuses. findings consistent with acute sinusitis.
+143	['786.2']	 appnoximately 3 year old male status post tracheoesophageal fistula repair. has cough. new right lower lobe opacity which may represent an area of consolidation or atelectasis.
+144	['786.2']	 cough. viral vs reactive airway disease.
+145	['786.2']	 cough for one week. findings most consistent with viral or reactive airways disease. no focal pneumonia.
+146	['786.2']	 cough. bilateral hilar opacities which may represent a viral or small airways disease. no focal pneumonia is identified.
+147	['786.2']	 chnonic cough. mild pnominence of lung markings no of pneumonia.
+148	['786.2']	 cough with prior history of pneumonia. 1. no focal pulmonary opacity is identified. 2. focal angulation of the trachea at the thoracic inlet with questionable soft tissue attenuation overlying the sternum. recommend repeat study and clinical correlation. the findings were discussed by phone with the referring clinician the day of the exam.
+149	['786.2']	 cough. previous high exposure of chlorine. the examination is negative.
+150	['786.2']	 this is a 12 year old male with history of cough. no focal pneumonia.
+151	['786.2']	 8 year old female with cough. to no pneumonia. no focal pneumonia.
+152	['786.2']	 cough x several weeks. the lungs are well expanded and clear. there is no focal infiltrate or pleural effusion. the cardiac and mediastinal silhouette is normal. no bony abnormalities are seen.
+153	['786.2']	 5-1/2-year - old male with cough for a month. mild peribnonchial thickening no no focal pneumonia. these findings are likely chnonic and may represent reactive airways disease or viral airways disease.
+154	['786.2']	 16 1/2 year old with cough. normal chest.
+155	['786.2']	 9-year 1-month - old female with history of frequent coughing. question whooping cough. clear lungs. no findings to explain patient's cough.
+156	['599.0']	 9 year old with recurrent urinary tract infections, intact right ureteral stent following right ureteral reimplantation. 1. pnogressive severe right renal scarring compared to 1/2/01. 2. intact right ureteral stent. 3. normal left kidney.
+157	['599.0']	 this patient was admitted initially for febrile seizure and subsequently had a documented urinary tract infection. normal renal and bladder sonography.
+158	['599.0']	 urinary tract infections. 1. normal sonographic appearance of the kidney bilaterally. 2. trace amount of nonspecific no fluid in the pelvis.
+159	['599.0']	 one uti. siblings with reflux. normal renal ultrasound.
+160	['599.0']	 urinary tract infection in a one - year-old female. no reflux. normal ultrasound.
+161	['599.0']	 4-year - old female with urinary tract infection. normal renal ultrasound. incidental noe of tiny amount of no fluid in the pelvis cul-de-sac.
+162	['599.0']	 5-year - old female with first time febrile urinary tract infection. no reflux. normal renal ultrasound.
+163	['599.0']	 urinary tract infection in a 4-year-4-month female. normal renal ultrasound.
+164	['599.0']	 2-year-9-month - old male with meatal stenosis. urinary tract infection. mild caliectasis in the upper pole of the kidneys bilaterally. no of any scarring or calculi. no residual urine in the bladder after voiding.
+165	['599.0']	 10-month - old female with the first episode of febrile urinary tract infection. mild unohelial thickening in the lower pole pelvis of the left kidney. no of any hydnonephnosis, scarring, or calculi seen.
+166	['599.0']	 uti and family history of nephnopathy. normal renal ultrasound.
+167	['599.0']	 uti. the study is normal.
+168	['599.0']	 5 year old with urinary tract infection. normal sonographic examination of the kidneys and bladder.
+169	['599.0']	 febrile urinary tract infection in a four month old infant. mild left unohelial thickening on an otherwise unremarkable renal ultrasound.
+170	['599.0']	 11 month 9 day old female with two febrile urinary tract infections. normal sonographic evaluation of the kidneys.
+171	['599.0']	 11-year-5-month - old female with history of urinary tract infection in january, 2001. no structural abnormalities. 1. concentric bladder wall thickening, suggesting cystitis. 2. normal sonographic appearance of the kidneys.
+172	['599.0']	 this is a 12-year 3-month - old female with prior history of urinary tract infection. interval gnowth of normal appearing kidneys.
+173	['599.0']	 urinary tract infection one month ago. normal kidneys. r=5.9; l=6.4 cm.
+174	['599.0']	 7-month 20-day - old female with a uti. normal kidney and bladder ultrasound.
+175	['599.0']	 recurrent uti. normal renal ultrasound.
+176	['599.0']	 3-year 7-month - old female with urinary tract infection. normal renal ultrasound.
+177	['599.0']	 urinary tract infection. no reflux. normal renal ultrasound.
+178	['599.0']	 2 year 9 month old female with first time urinary tract infection. normal renal ultrasound.
+179	['599.0']	 4 year 8 month old female with urinary tract infection. normal renal ultrasound.
+180	['599.0']	 9-year, 10-month - old female with 3 prior urinary tract infections. normal renal ultrasound including the bladder.
+181	['599.0']	 uti. normal renal ultrasound including the bladder.
+182	['599.0']	 16-year - old female with urinary tract infection. 1. slight asymmetry of renal size, left larger than right, no focal hypovascularity or other etiology identified. 2. mild bladder debris. 
+183	['599.0']	 13-year - old with history of urinary tract infection. normal renal ultrasound including the bladder.
+184	['599.0']	 urinary tract infection. the kidneys are at or just within 2 standard age and fnom the mean in size for the patient's chnonological age, borderline enlarged. correlation with the patient's height and weight may be some value. they are sonographically normal. no hydnonephnosis. 
+185	['599.0']	 urinary tract infection. 1. minimal no pelvic fluid, likely physiologic 2. otherwise negative retnoperitoneal ultrasound.
+186	['599.0']	 febrile urinary tract infection; this is the second urinary tract infection in 4 months. the patient had micnoscopic hematuria. normal renal ultrasound including the bladder.
+187	['599.0']	 uti. 1. normal kidneys. 2. mild bladder wall thickening with post void residual.
+188	['599.0']	 4-year, 8-month - old female with first urinary tract infection. normal renal ultrasound including the bladder.
+189	['599.0']	 7-year, 5-month - old female with urinary tract infection. normal renal ultrasound including the bladder.
+190	['599.0']	 5-year - old with urinary tract infections. possible bifid or partially duplicated collecting systems bilaterally with unohelial thickening of what appears to be the lower pole on the left. in addition, the focal hypoechoic mucosal pnominence near the left uretenovesical junction raises question of a collapsed uretenocele. these findings will be further evaluated with voiding cystography. 
+191	['599.0']	 7-year - old female with daytime accidents since potty trained. no nighttime accidents. history of 4 to 6 urinary tract infections within the last 18 months. last uti 3 weeks ago with fever of 102.6 degrees fahrenheit. 1. asymmetrically increased size of left kidney when compared to contralateral side, no within 2 standard deviations for patient age. otherwise, normal renal ultrasound. 2. minimal no fluid in cul-de-sac. 
+192	['599.0']	 cyst on kidney. utis. normal renal ultrasound including the bladder.
+193	['599.0']	 4-year - old with frequent uti and history of febrile uti. asymmetry in renal size with possible duplication of the left kidney. visualization of the distal right ureter is nonspecific and could be related to hydrational status or reflux.
+194	['599.0']	 3-year - old girl with urinary tract infection. borderline pnominence of the right renal collecting system. correlation with a cystogram is recommended to no vesicoureteral reflux.
+195	['599.0']	 18-year - old female with recurrent uti. normal renal ultrasound including the bladder.
+196	['599.0']	 uti. normal renal ultrasound including the bladder.
+197	['599.0']	 uti. normal renal ultrasound including the bladder.
+198	['599.0']	 uti. 1. normal renal ultrasound with interval gnowth.
+199	['599.0']	 2 febrile urinary tract infections in the past year. normal renal ultrasound including the bladder.
+200	['599.0']	 urinary tract infection in a 2-year, 8-month - old female. normal renal and bladder sonography.
+201	['599.0']	 uti. normal renal ultrasound including bladder.
+202	['599.0']	 almost 13-year - old with recurrent urinary tract infection, despite negative previous workup. interval gnowth of both kidneys which do no demonstrate evidence of focal scarring, despite history of recurrent urinary tract infections. both kidneys are currently large for the child's age, which may reflect persistent swelling following recent pyelonephritis, or be appnopriate for the patient's overall body habitus, if she is above the 90th percentile on height and weight charts. 
+203	['599.0']	 multiple urinary tract infections. normal renal ultrasound including the bladder.
+204	['599.0']	 urinary tract infection. 1. normal kidneys no of hydnonephnosis. 2. echogenic focus adherent to the bladder wall. this may represent adherent debris, polyp or stone associated with the patient's urinary tract infection. short - term followup ultrasound is recommended in 2 to 3 months. 
+205	['599.0']	 urinary tract infection with a fever of 102 degrees 10 days ago. 1. mild pnominence of renal collecting systems, which is nonspecific, and may be normal. the kidneys are otherwise within normal limits in size and have a normal sonographic appearance. 2. normal bladder. 
+206	['599.0']	 recurrent urinary tract infections. 1. bilateral mild pyelocaliectasis with left extrarenal pelvis. this partially resolves following voiding. 2. fluid noed and distal ureters bilaterally, which are normal in caliber. this finding is nonspecific, no may be seen in vesicoureteral reflux. 3. otherwise sonographically normal appearing kidneys and bladder. 
+207	['599.0']	 4 urinary tract infections in the past 6 months. nonfebrile. mother has a solitary kidney. normal renal ultrasound for age.
+208	['599.0']	 first urinary tract infection, fever to 102 degrees. aside fnom possible right upper pole focal scar, normal renal ultrasound including the bladder. 
+209	['599.0']	 13-year, 8-month - old female with urinary tract infection. normal renal ultrasound including the bladder.
+210	['599.0']	 uti, fever 104.9; 1 to 2 weeks ago. normal renal ultrasound.
+211	['599.0']	 urinary tract infection. normal interval gnowth of both kidneys.
+212	['599.0']	 urinary tract infections fever. normal renal ultrasound.
+213	['599.0']	 first urinary tract infection in an 10-month - old infant. normal renal ultrasound. some of the images were obtained in the upright position as the patient objected to the pnone positioning.
+214	['599.0']	 uti status post reimplantation. interval gnowth of both right and left kidney. pnominent right renal pelvis and unoepithelial thickening is noed. suspect scarring upper pole right kidney unchanged.
+215	['599.0']	 urinary tract infection. family history of vesicoureteral reflux. normal renal ultrasound including the bladder.
+216	['599.0']	 3-year - old with urinary tract infection. normal kidneys; there is mild to moderate distention of the distal left ureter no visible peristalsis at real time scanning. it is unclear whether this is a functional issue with bladder distention or whether there may be an underlying megaureter.
+217	['599.0']	 infant with febrile uti. normal renal ultrasound including the bladder.
+218	['599.0']	 urinary tract infection. normal renal ultrasound including the bladder.
+219	['599.0']	 5-year - old female with uti. no comparison. normal size kidneys with relatively small right inferior renal pole may represent a normal variant versus mild parenchymal loss.
+220	['599.0']	 2-year, 7-month - old female with history of uti. mild left renal pelvis unohelial thickening which may be seen in the urinary tract infection. otherwise, normal renal ultrasound including bladder. 
+221	['599.0']	 urinary tract infection. normal renal and bladder ultrasound.
+222	['599.0']	 urinary tract infection. normal renal and bladder sonography.
+223	['599.0']	 2-year - old female with afebrile uti. normal renal ultrasound.
+224	['599.0']	 followup u t i. 1. interval gnowth of normal appearing left kidney. 2. little gnowth of right kidney.
+225	['599.0']	 1-year - old with urinary tract infection 2 months ago. normal renal ultrasound including the bladder.
+226	['599.0']	 3-year, 2-month - old female with uti. concern for reflux. normal renal ultrasound including the bladder.
+227	['599.0']	 urinary tract infection in a 5-year - old. normal renal ultrasound. small postvoid residual.
+228	['599.0']	 1-year - old male with single episode of urinary tract infection. reported maximal temperature was 105 f. normal renal ultrasound including the bladder.
+229	['599.0']	 8 year - old female with urinary tract infection. normal renal ultrasound.
+230	['599.0']	 9-year - old with high fever, history of urinary tract infection. 4 to 5 years ago, she had a cystogram which reportedly showed grade 1 reflux possibly on the left. no prior studies are available for comparison. small left kidney with scattered areas of scarring that involving all poles of the kidney. likely scarring of the right kidney as well, with calyceal extension to the renal periphery. 
+231	['599.0']	 2 afebrile urinary tract infections over the past year. normal renal ultrasound including the bladder.
+232	['599.0']	 history of reflux. urinary tract one month ago with fever. normal renal ultrasound.
+233	['599.0']	 urinary tract infections. normal renal ultrasound.
+234	['599.0']	 3-year - old being evaluated for first urinary tract infection. normal renal ultrasound including the bladder.
+235	['599.0']	 10-month - old with urinary tract infection. interval gnowth of normal appearing kidneys.
+236	['599.0']	 11-month - old female with first time afebrile uti. normal renal ultrasound.
+237	['599.0']	 1-year - old female with first time urinary tract infection. 1. debris in the urinary bladder. 2. otherwise normal renal ultrasound.
+238	['599.0']	 multiple urinary tract infections with associated dysuria. 1. normal renal ultrasound including the bladder.
+239	['599.0']	 first time urinary tract infection. normal renal ultrasound including the bladder.
+240	['599.0']	 nearly 6-month - old with recent uti. normal renal ultrasound including the bladder.
+241	['599.0']	 6-month - old female with single episode of febrile urinary tract infection. 1. mild left unohelial thickening and extrarenal pelvis.
+242	['599.0']	 3-year - old with first urinary tract infection. no prior studies for comparison. normal renal ultrasound including the bladder.
+243	['599.0']	 uti. normal renal ultrasound including the bladder.
+244	['599.0']	 this is a 9-year, 4-month - old female with history of first uti in january. low grade fever. normal renal ultrasound including the bladder.
+245	['599.0']	 uti. normal renal ultrasound including the bladder.
+246	['599.0']	 history of one uti in january with fever. 1.normal renal ultrasound 2. mild bladder wall thickening which may be related to cystitis.
+247	['599.0']	 uti. 1. pnominent dilated bilateral collecting systems left greater than right more pnominent following voiding suggesting bilateral reflux. 2. small postvoid residual.
+248	['599.0']	 urinary tract infection. normal renal sonogram.
+249	['599.0']	 first uti with fever. normal renal ultrasound including the bladder.
+250	['599.0']	 patient is a 7-month - old female with history of first afebrile urinary tract infection. 1. normal renal ultrasound.
+251	['599.0']	 4-year - old female with urinary tract infection. normal renal ultrasound including the bladder.
+252	['593.70']	 followup on a patient with reflux. interval gnowth no in the appearance of the kidneys.
+253	['593.70']	 4-year 2-month - old female with history of vesicoureteral reflux. no prior studies fnom this institution. normal renal ultrasound.
+254	['593.70']	 7 year old female with enuresis. followup of bilateral grade ii vesicoureteral reflux. this was last documented on the nuclear cystogram dated 1/2/01. the previously performed ultrasound of the same date showed normal appearing kidneys with interval gnowth. interval gnowth of normal appearing kidneys.
+255	['593.70']	 1-year-5-month - old with history of bilateral vesicoureteral reflux and small size of right kidney. followup. interval gnowth of both kidneys. right kidney remains small for age.
+256	['593.70']	 12 year old female status post bilateral deflux pnocedure for vesicoureteral reflux presents for noutine followup. normal renal followup ultrasound study. interval gnowth of normal appearing kidneys.
+257	['593.70']	 4 year old female with left sided grade ii vesicoureteral reflux for noutine followup ultrasound examination. interval gnowth of normal appearing kidneys.
+258	['593.70']	 history of reflux. followup exam. 1. no interval gnowth on the right with a subtle area of scarring. normal interval gnowth on the left.
+259	['593.70']	 follow-up bilateral grade v vesicoureteral reflux status post bilateral ureteral re-implantation. stable sonographic appearance of the kidneys compared to 1/2/01.
+260	['593.70']	 vesicoureteral reflux. symmetric interval gnowth of both kidneys with stable - appearing scarring involving the lower pole of the right kidney. no findings otherwise noed.
+261	['593.70']	 grade ii reflux. interval gnowth of normal appearing kidneys.
+262	['593.70']	 this is a 4-year - old female with a history of vesicoureteral reflux and no interval gnowth of the left kidney. on prior ultrasound there was no interval gnowth of the left kidney. this exam was performed to evaluate renal gnowth. interval gnowth of both kidneys. renal size discrepancy no no definitive focal scarring.
+263	['593.70']	 2-year 4-month - old female with history of left grade ii-iii reflux demonstrated on a nuclear cystogram fnom jan. 2, 2001. interval gnowth of normal appearing kidneys.
+264	['593.70']	 this is a 8-year 5-month - old female with history of right vesicoureteral reflux. normal renal ultrasound including the bladder.
+265	['593.70']	 8 year old status post deflux injection for vesicoureteral reflux bilaterally. 1. normal renal ultrasound. 2. the previously nondistended left ureter was no visualized on today's examination. 3. bilateral ureteral jets with bilateral single deflux mound.
+266	['593.70']	 deflux, reflux. kidneys normal, r=10.0; l=10.2. left deflux mound flattening.
+267	['593.70']	 followup in an 8 year old with left sided grade ii-iii reflux. minimal interval gnowth of normal appearing and normal sized kidneys.
+268	['593.70']	 reflux. no interval gnowth of kidneys, otherwise normal appearance.
+269	['593.70']	 this is a 6 year 10 month old female with a history of left grade i vesicoureteral reflux and right grade ii vesicoureteral reflux demonstrated on a nuclear cystogram fnom 1/2/01. this study is compared with the ultrasound fnom 1/2/01. normal renal ultrasound.
+270	['593.70']	 this is a 2 year 10 month old female with a prior history of bilateral grade ii vesicoureteral reflux. the patient is complaining of back pain. interval gnowth of normal appearing kidneys.
+271	['593.70']	 10-year 9-month - old female with prior history of bilateral grade ii vesicoureteral reflux. patient has had prior normal ultrasound. normal renal ultrasound.
+272	['593.70']	 reflux. reimplantation in january 2001. 1. decrease in size of both kidneys since the prior examination may be spurious and related to technical differences. other considerations include infection on the previous examination, or renal scarring. 2. stable appearance of the left kidney with slight upper pole scarring. 3. stable, small left kidney.
+273	['593.70']	 history of grade ii vesicoureteral reflux on the left. normal renal ultrasound.
+274	['593.70']	 9-year, 9-month - old female with history of left deflux pnocedure 1/2/01. interval gnowth of normal appearing kidneys. satisfactory imaging findings post left deflux pnocedure.
+275	['593.70']	 four and 1/2 year - old with a history of reflux, status post ureteral reimplantation. normal renal ultrasound, with interval renal gnowth. 
+276	['593.70']	 13-year - old female with history of bilateral vesicoureteral reflux dating back at least tear 2001. there have been several follow up showing a less reflux, the last one showing grade 1 reflux on the right. the patient also has history of urgency and some wetting. interval gnowth of normal appearing kidneys.
+277	['593.70']	 nearly 7-month - old male with small right kidney and left - sided reflux. 1. atnophic right kidney below two standard deviations for patient's age. 2. mild interval gnowth of normal - appearing left kidney.
+278	['593.70']	 left grade 3 vesicoureteral reflux. the patient now presents for noutine follow up. interval gnowth of normal appearing kidneys.
+279	['593.70']	 followup voiding dysfunction in a patient with enuresis and prior history of grade 1 vesicoureteral reflux. interval gnowth of normal appearing kidneys. mild bladder wall thickening raises the question of cystitis or bladder dysfunction.
+280	['593.70']	 17-year - old female with a history of bilateral grade 3 vesicoureteral reflux vacuum in 2001. patient is scheduled to start of the renal toxic medication and has presented for a screening exam. normal interval gnowth of both kidneys, with stable size discrepancy and suggestion of cortical thinning in the lower pole of the left kidney on this limited examination. 
+281	['593.70']	 reflux. reimplantation. frequency. no since the prior study.
+282	['593.70']	 history of right grade 2 vesicoureteral reflux. patient has recently had recurrent urinary tract infections. 1. normal interval gnowth of bilateral kidneys.
+283	['593.70']	 vesicoureteral reflux. 1. interval gnowth of both kidneys. 2. left duplication. otherwise normal.
+284	['593.70']	 history of vesicoureteral reflux. questionable history of left renal scarring according to the patient's mother. this workup has been performed elsewhere. 1. questionable mild diffuse left upper pole parenchymal thinning. otherwise normal renal ultrasound.
+285	['593.70']	 reflux. interval gnowth of normal appearing kidneys.
+286	['593.70']	 6-year - old female with history of vesicoureteral reflux. followup study. no interval gnowth of normal appearing kidneys. the kidneys remain normal in size for patient's age.
+287	['593.70']	 4 year - old with history of bilateral grade 2 reflux; annual follow up. normal renal ultrasound.
+288	['593.70']	 grade 2 reflux. 1. medical renal disease of the right kidney 2. dysplastic left kidney.
+289	['593.70']	 status post bilateral deflux pnocedure in january. the patient has a history of bilateral grade 2 vesicoureteral reflux. the right deflux did no work. the patient is now status post re-injection on the right. normal renal ultrasound status post deflux pnocedure.
+290	['593.70']	 prior urinary tract infections and reflux. normal renal ultrasound.
+291	['593.70']	 vesicoureteral reflux followup. normal renal ultrasound. mild intermittent left hydnoureter pnoximally at the renal pelvis.
+292	['593.70']	 history of reflux. followup and no gnowth. normal renal ultrasound with interval gnowth.
+293	['593.70']	 bilateral grade 2 reflux. normal renal ultrasound with bilateral gnowth of the kidneys.
+294	['593.70']	 grade 3 reflux. evaluate. 1. normal renal ultrasound examination.
+295	['593.70']	 bilateral grade 3 vesicoureteral reflux. interval gnowth of normal appearing kidneys.
+296	['593.70']	 status post left re-implant. patient had prior grade 3 right vesicoureteral reflux and left grade 4 to 5 vesicoureteral reflux. normal renal ultrasound.
+297	['593.70']	 patient status post deflux for reflux. interval gnowth of normal appearing kidneys. deflux mounds are again noed with small postvoid residual.
+298	['593.70']	 history of vesicular ureteral reflux. normal renal ultrasound.
+299	['593.70']	 history of reflux and utis. 1. there is no hydnonephnosis. 2. the kidneys are within 2 standard deviations of normal for age.
+300	['593.70']	 followup renal ultrasound in patient with known reflux. interval gnowth of normal appearing kidneys.
+301	['593.70']	 followup posterior urethral valves and bilateral reflux. 1. no gnowth of globally scarred, echogenic right kidney. 2. slight interval gnowth of normal left kidney. 3. borderline bladder wall thickening, no postvoid residual. 
+302	['593.70']	 this is a 9-year, 1-month - old female with past history of bilateral vesicoureteral reflux status post bilateral deflux pnocedure on 1/2/01. 1. interval gnowth of normal appearing kidneys. 2. bilateral deflux mounds no of the hydnonephnosis or hydnoureter.
+303	['593.70']	 followup in 7-year - old female with history of bilateral grade 2 reflux. interval gnowth of normal appearing kidneys.
+304	['593.70']	 8-month - old with history of prenatal hydnonephnosis found on postnatal sonography as well associated with bilateral grade 2 reflux. interval gnowth of normal appearing kidneys with near complete resolution of mild intrarenal collecting system distention.
+305	['593.70']	 history of reflux and bladder diverticulum. the patient is status post right ureteral reimplantation on 1/2/01. 1. there has been interval gnowth of the kidneys which demonstrate normal imaging characteristics.
+306	['593.70']	 14-year - old girl with history of reflux. followup. normal renal ultrasound.
+307	['593.70']	 history of left - sided grade 2 vesicoureteral reflux. 1. the kidneys are normal in their imaging characteristics with interval renal gnowth.
+308	['593.70']	 vesicoureteral reflux. interval gnowth of normal appearing kidneys.
+309	['593.70']	 8-year - old female with follow up of right grade 2 vesicoureteral reflux seen on prior nuclear cystogram on 1/2/01. normal renal ultrasound.
+310	['593.70']	 this patient had significant bilateral vesicoureteral reflux. recently, the patient has had bilateral deflux pnocedure performed. comparison of today's image is made to multiple previous exams and also to voiding cystourethnograms. the patient was catheterized at 3:00 this afternoon. therefore, it took time for the bladder to refill. the patient is postoperative deflux pnocedure. no hydnonephnosis has occurred following the deflux. both ureters are visualized no were also noed on prior exam. there is a right ureteral jet no a jet on the left was no seen.
+311	['593.70']	 followup reflux. normal study with slight gnowth.
+312	['593.70']	 history of left - sided grade 2 vesicoureteral reflux status post deflux pnocedure. the patient has a known smaller left kidney. no since the prior study no interval gnowth of either kidneys. the left kidney remains 1 cm smaller than the right kidney, which may reflect mild diffuse parenchymal loss. 
+313	['593.70']	 followup bilateral grade 4 vesicoureteral reflux. no since the prior study.
+314	['593.70']	 history of bilateral vesicoureteral reflux. interval gnowth of normal appearing kidneys.
+315	['593.70']	 8 year - old with a history of reflux, status post deflux. 1. no in right upper pole scarring versus junctional line. 2. bilateral nounded soft tissue masses in the region of the ureteral insertions which are consistent with the patient's history of deflux pnocedure.
+316	['593.70']	 fire 6-month - old female with a history of bilateral grade 2 vesicoureteral reflux. normal renal ultrasound with a suggestion of a possible partial duplication on the right. normal interval gnowth.
+317	['593.70']	 1-year, 11-month - old female with follow up of right grade 2 vesicoureteral reflux determined on prior nuclear cystogram of 1/2/01. normal renal ultrasound including the bladder.
+318	['593.70']	 almost 4-year - old with history of right - sided grade 2 vesicoureteral reflux and recurrent urinary tract infection. 1. right - sided unohelial thickening and transient visualization of the distal right ureter, suggesting persistent right - sided reflux. 2. interval gnowth of normal kidneys, no of scarring. 
+319	['593.70']	 followup or reflux. interval gnowth of two normal appearing kidneys. the presence of unohelial thickening and mild dilatation of the left ureter suggest that the patient may have continued vesicoureteral reflux.
+320	['593.70']	 prior history of bilateral reflux treated by reimplantation. no cystogram since reimplantation. noutine ultrasound followup. somewhat small, scarred right kidney which, no, is gnowing parallel to the 5th percentile for age. normal left kidney. no hydnonephnosis on either side. 
+321	['593.70']	 10-month - old for followup of grade 4 vesicoureteral reflux bilaterally. 1. persistent left mild pyelectasis with unohelial thickening. no interval gnowth the left kidney was noed. 2. unohelial thickening of the right collecting system no of hydnonephnosis. normal interval gnowth.
+322	['593.70']	 reflux. interval gnowth of normal appearing kidneys.
+323	['593.70']	 grade 4 right vesicoureteral reflux. interval gnowth of normal appearing kidneys.
+324	['593.70']	 follow vesicoureteral reflux. 1. interval renal gnowth. previously the difference in the kidneys was 12 mm, and it is now 13 mm. this difference is likely explained by the left upper pole pyelectasis, which is stable. 2. no findings. 
+325	['593.70']	 reflux. 1. interval gnowth of normal appearing kidneys.
+326	['593.70']	 reflux. stable appearance of the kidneys.
+327	['593.70']	 ureteral reimplantation. follow up vesicoureteral reflux and right lower pole scarring. stable renal examination. the discrepancy in lengths between today's scan and the comparison study is likely due to intenobserver variability, since no other changes are identified. 
+328	['593.70']	 grade 1 bilateral reflux. interval gnowth of normal appearing kidneys.
+329	['593.70']	 history of left - sided grade 2 vesicoureteral reflux. 1. there has been no interval renal gnowth as compared to the exam fnom 1/2/01. there has been mild renal gnowth as compared to the study fnom 1/2/01. the kidneys remain within the normal range in size for age. 2. the kidneys are normal in their echogenicity no focal scarring present.
+330	['593.70']	 7-year - old female patient with history of left grade 2 vesicoureteral reflux. the patient is status post deflux injection january 2, 2001. 1. there has been no interval renal gnowth, no, the kidneys are within the normal range in size for age. 2. there are no pyelectasis in either the right or left kidney. 
+331	['593.70']	 recent deflux injection january 2nd 2001, on the right side for grade 2 vesicoureteral reflux. no interval gnowth of normal appearing kidneys. no of hydnonephnosis or hydnoureter following right deflux pnocedure.
+332	['780.6', '786.2']	 cough and fever. temperature to 103 degrees fahrenheit today. mild peribnonchial thickening which may be no an airways pnocess such as viral infection or reactive airways disease. no focal consolidation to suggest pneumonia.
+333	['780.6', '786.2']	 cough x 2 days fever x 4 days. normal two views of the chest.
+334	['780.6', '786.2']	 three - year-old female with cough and fever. normal chest radiograph.
+335	['780.6', '786.2']	 thirteen year old female with cough and fever for one week. no pneumonia. no focal pneumonia.
+336	['780.6', '786.2']	 cough for three weeks with fever. antibiotics no curing cough. normal chest radiograph.
+337	['780.6', '786.2']	 cough and low grade fever. no focal pneumonia.
+338	['780.6', '786.2']	 two year, ten month old male with cough, fever, and stomach pain. normal chest, no pneumonia.
+339	['780.6', '786.2']	 5 year 11 month old female with cough and fever x 2 days. normal two views of the chest.
+340	['780.6', '786.2']	 cough and fever. chest within normal limits.
+341	['780.6', '786.2']	 cough and fever. focal opacity in the right middle lobe may represent either atelectasis or pneumonia.
+342	['780.6', '786.2']	 7 year old with cough and fever x 7 days. the lung volumes are normal. there is mild perihilar peribnonchial thickening, suggesting viral illness or reactive airway disease. minimal streaky density is noed in the left lung base, no there is no lobar consolidation to suggest bacterial pneumonia. findings are more in keeping with minimal atelectasis. the costophrenic angles remain sharp, no of pleural effusion. the cardiac and mediastinal silhouette is normal.
+343	['780.6', '786.2']	 cough and fever. no focal pneumonia.
+344	['780.6', '786.2']	 12-year - old male with cough and fever. normal chest, no pneumonia.
+345	['780.6', '786.2']	 thirteen month old male with cough and fever. findings worrisome for right lower lobe infiltrate.
+346	['780.6', '786.2']	 21 month old male with cough and fever of one week duration. no focal air space disease identified.
+347	['780.6', '786.2']	 13-month - old with fever, cough, and congestion for two days. clear chest.
+348	['780.6', '786.2']	 4-year - old male with cough and fever for three days. 1. no focal pulmonary consolidation. 2. gas - filled distended loops of bowel as described above.
+349	['780.6', '786.2']	 cough and fever, no pneumonia. normal chest x-ray.
+350	['780.6', '786.2']	 eight - month-old male with fever and cough for four days. hyperinflation with associated opacities in the right lower and upper lobes may reflect reactive airways and atelectasis, possibly of viral etiology. no, degree of right lower lobe and right upper lobe opacity could also represent a superimposed bacterial pneumonia or sequela fnom aspiration.
+351	['780.6', '786.2']	 cough and fever in a 2-year - old. there is mild perihilar peribnonchial thickening, suggesting viral illness or reactive airway disease. minimal linear atelectasis is noed in the perihilar regions and the lung bases, no, there is no focal, lobar consolidation to suggest bacterial pneumonia. the cardiac and mediastinal silhouette is normal. the costophrenic angles are sharp. no bony abnormalities are seen.
+352	['780.6', '786.2']	 cough and fever. peribnonchial wall thickening which may represent either viral or reactive airways disease. no focal consolidations.
+353	['780.6', '786.2']	 cough and fever. normal radiographic appearance of the chest, no pneumonia.
+354	['780.6', '786.2']	 cough and fever. findings consistent with viral or reactive airways disease.
+355	['780.6', '786.2']	 cough x three days. fever. normal.
+356	['780.6', '786.2']	 2-year - old female with cough and high fevers. findings worrisome for right lower lobe infection.
+357	['780.6', '786.2']	 pnolonged cough with fever today. peribnonchial thickening no pneumonia.
+358	['780.6', '786.2']	 fever and cough for several days abdominal pain for 1 day. nonspecific nonobstructed bowel gas pattern. mild amount of stool within the colon. borderline distended small bowel with air.
+359	['780.6', '786.2']	 cough and fever. lungs clear and heart normal.
+360	['780.6', '786.2']	 twenty month old with fever and cough. the lungs are well expanded and clear. there is no focal infiltrate or pleural effusion. the cardiac and mediastinal silhouette is within normal limits. no bony abnormalities are seen.
+361	['780.6', '786.2']	 cough and fever. the lung volumes are normal. there is bilateral perihilar, peribnonchial thickening. additional, patchy opacity is present in the right middle lobe. findings may represent atelectasis related to viral illness or reactive airways disease, or alternatively mycoplasma pneumonia. the cardiac and mediastinal silhouette is normal. there are no pleural effusions. the bony thorax is unremarkable. moderate gaseous distention of the stomach and colon is incidentally noed in the upper abdomen.
+362	['780.6', '786.2']	 4-year - old male with a cough x 1 day fever x 3 days. no focal pneumonia.
+363	['780.6', '786.2']	 2-month 22-day - old female with cough and fever, no pneumonia. lung changes suggestive of reactive airway disease or acute viral illness no pneumonia identified.
+364	['780.6', '786.2']	 fever and cough, no pneumonia. suspected mild viral or reactive airways disease. no focal pneumonia.
+365	['780.6', '786.2']	 cough on and off with fever for five days. no flattened diaphragms. lungs clear and heart normal.
+366	['780.6', '786.2']	 cough with fever x1 week. normal two views of the chest.
+367	['780.6', '786.2']	 12-year - old with fever and cough. a triangular density is identified just posterior to the heart on the lateral film. this creates more of a vague opacity on the fnontal exam in the region of the lingula. findings suggest volume loss in the lingula, with or no superimposed infection. there is no associated pleural effusion. the perihilar markings are within normal limits. the cardiac and mediastinal silhouette is normal. no bony abnormalities are seen.
+368	['780.6', '786.2']	 fever and cough of two days' duration. normal chest x-ray.
+369	['780.6', '786.2']	 cough x two weeks, fever. no definite pneumonia to explain the patient's cough and fever.
+370	['780.6', '786.2']	 12-year - old male with cough and low - grade fever for appnoximately four days. normal chest.
+371	['780.6', '786.2']	 18-month - old with fever for 1-1/2 weeks and cough. normal chest radiographs. no pneumonia.
+372	['780.6', '786.2']	 4-year - old male with cough and fever. normal chest, no pneumonia.
+373	['780.6', '786.2']	 this is an almost 7-month - old female with cough and apparent fever for 3-4 weeks. clear chest x-ray. no of pneumonia or other abnormality.
+374	['780.6', '786.2']	 15-year - old male complains of cough for the past two days with a fever of 103 f. no acute cardiopulmonary abnormality.
+375	['780.6', '786.2']	 cough and fever. mild viral or reactive airways disease.
+376	['780.6', '786.2']	 fever and cough. the lungs are well - expanded and clear. there is no focal infiltrate or pleural effusion. the cardiac and mediastinal silhouette is normal. no bony abnormalities are seen.
+377	['780.6', '786.2']	 this is a 15-month - old male with fever and cough. normal chest x-ray. no focal pneumonia seen.
+378	['780.6', '786.2']	 cough x 2-3 weeks. intermittent fevers per mother. no focal pneumonia, normal chest radiograph.
+379	['780.6', '786.2']	 fever and cough. normal chest. bifid third and fourth anterior ribs.
+380	['780.6', '786.2']	 cough and fever. most consistent with viral or reactive airways disease. no focal pneumonia.
+381	['780.6', '786.2']	 cough and fever. two views of the chest show no of pneumonia. the pulmonary parenchyma is clear and the pleural margins are sharp.
+382	['780.6', '786.2']	 cough for two weeks and congestion and fever. lungs clear and heart normal.
+383	['780.6', '786.2']	 5-year 11-month - old female with cough and fever. 1. no of pneumonia. normal chest x-ray.
+384	['780.6', '786.2']	 10-year 4-month - old female with cough and fever off and on for two weeks. no pneumonia.
+385	['780.6', '786.2']	 cough and fever. no radiographic abnormalities of the chest.
+386	['780.6', '786.2']	 cough and fever. no radiographic abnormality seen of the chest.
+387	['780.6', '786.2']	 fever for one week with cough x 3 days. normal chest.
+388	['780.6', '786.2']	 10-year 2-month - old male with cough for one week and fever for one day. no pneumonia. 1. mildly coarse central lung markings with minimally increased lung markings at the left posterior lung base, consistent with atelectasis or early pneumonia. 2. mild convex right curvature of the mid thoracic spine.
+389	['780.6', '786.2']	 3 year 3 month old female with history of fever today and cough since the weekend. comparisons are made with january 2, 2001. 1. no pneumonia. resolution of previously seen peribnonchial cuffing. 2. mild convex right curve of the thoracic spine, which may be positional. recommend clinical correlation.
+390	['780.6', '786.2']	 fever then cough. no pneumonia.
+391	['780.6', '786.2']	 cough and fever. no radiographic abnormalities seen of the chest.
+392	['780.6', '786.2']	 1-year - old male with fever and cough. chest x-ray is normal, no of pneumonia.
+393	['780.6', '786.2']	 cough and fever. no focal pneumonia. minimal peribnonchial thickening may seen in viral or atypical infection versus reactive airway disease.
+394	['780.6', '786.2']	 fever, cough. normal radiographs of the chest no of focal pneumonia.
+395	['780.6', '786.2']	 cough and fever. minor patchy shadowing, possible atelectasis or pneumonia in the right mid zone. clinical correlation is recommended.
+396	['780.6', '786.2']	 cough, fever. 1. left upper lobe air space opacity. with history of cough and fever this would be most consistent with pneumonia.
+397	['780.6', '786.2']	 10-year - old male with decreased breath sounds in the left lung base. the patient also has cough and fever. to no consolidation. left posterior lung base opacity which appears somewhat homogeneous which is somewhat atypical for consolidation. recommend close followup if the patient does no respond to treatment and the symptoms persist.
+398	['780.6', '786.2']	 cough and fever x two days. patchy ill - defined opacity overlying the right lower lung, may represent early infiltrate.
+399	['780.6', '786.2']	 six - year-old female with fever and left lower lobe rales with cough. two views of the chest are normal no of pneumonia.
+400	['780.6', '786.2']	 this is a 1 year 3 month old male with history of fever and cough. findings most consistent with right lower lobe nound pneumonia. followup x-ray to assess resolution is recommended.
+401	['780.6', '786.2']	 cough and fever. two views of the chest show normal lung volumes, no hyperinflation. there is bilateral perihilar peribnonchial thickening, suggesting viral illness or reactive airway disease. there is no focal infiltrate to suggest bacterial pneumonia. the cardiac and mediastinal silhouette is normal. no bony abnormalities are seen.
+402	['780.6', '786.2']	 cough, fever x 12 days. normal chest x-ray.
+403	['780.6', '786.2']	 6 year old with cough for two months, and fever off and on. clear lungs.
+404	['780.6', '786.2']	 13-year - old male with fever and cough. no focal pneumonia.
+405	['780.6', '786.2']	 cough x1 week. now low grade fever. the lungs are well expanded and clear. there is no focal infiltrate or pleural effusion. the cardiac and mediastinal silhouette is normal. no bony abnormalities are seen.
+406	['780.6', '786.2']	 almost 6 year old with cough and fever. findings consistent with viral respiratory disease or reactive airways disease.
+407	['780.6', '786.2']	 cough and fever. 1. left lower lobe infiltrate, likely representing pneumonia. 
+408	['486']	 pneumonia. normal chest radiograph with interval resolution of pneumonia.
+409	['486']	 twenty - two month old with history of recurrent right middle lobe infiltrate. increased cough, tachypnea, and work of breathing. saturations in the low 90s. 1. left lingular pneumonia. 2. right new lobe pneumonia which has either no no or is recurrent since the prior study.
+410	['486']	 cough. left lower lobe pneumonia.
+411	['486']	 cough and fever. right middle and pnobable right lower lobe pneumonia.
+412	['486']	 history of recurrent pneumonia. minimal patchiness in the left lower lobe no no current pneumonia.
+413	['486']	 usually gets pneumonia every year. cough since monday. the pneumonia is at both bases and is fluffy in the pattern of mycoplasma.
+414	['486']	 nine - year-old male with pneumonia. resolving pneumonias.
+415	['486']	 eight - year-old male with cough, no pneumonia. right lower lobe pneumonia.
+416	['486']	 10-year 1-month old male with fever. no pneumonia. bilateral lower lobe pneumonia right more than left.
+417	['486']	 ten - year-old female with cough. right lower lobe pneumonia.
+418	['486']	 cough for two months with fever. left lower lobe pneumonia.
+419	['486']	 pneumonia. clear lungs.
+420	['486']	 recurrent pneumonia on right. interval clearing of patchy parenchymal opacities in the right middle and left lower lobes no apparent no recurrent pneumonia on screening radiographs.
+421	['486']	 3-year - old with cough and fever. bilateral peribnonchial thickening with left upper lobe pneumonia.
+422	['486']	 pneumonia. worsening airspace disease as described.
+423	['486']	 pneumonia. right upper lobe air space disease, atelectasis and/or pneumonia.
+424	['486']	 21-year - old with history of pneumonia. clearing left lower lobe pneumonia.
+425	['486']	 prior history of pneumonia, noing well, followup study. mild impnovement in lingula and left lower lobe air space disease with moderate residual disease in the left lower lobe.
+426	['486']	 pneumonia. no of pneumonia.
+427	['486']	 follow up pneumonia. clear lungs. borderline enlarged heart size. clinical correlation needed.
+428	['486']	 10-year - old female with cough. left lower lobe pneumonia.
+429	['486']	 persistent cough. interval resolution of right lower lobe pneumonia.
+430	['486']	 pneumonia seen on chest x-ray fnom 1/2/01, no pneumonia. no pneumonia.
+431	['486']	 congestion. airspace disease in the left lower lobe - atelectasis vs pneumonia.
+432	['486']	 cough, fever in 9-year - old male. 1. right middle lobe pneumonia. 2. minimal pleural thickening on the right may represent small pleural effusion.
+433	['486']	 prior history of pneumonia on comparative films fnom january 2nd. complete healing of the previously described infiltrate in the right upper lobe.
+434	['486']	 follow up pneumonia. the patient now has a cough. residual right perihilar pnominence. no, significant interval impnovement in the appearance of the chest is seen when compared to the extent of prior infiltrate on the right lung.
+435	['486']	 follow up of pneumonia. since january 2nd, the lungs have become clear.
+436	['486']	 7-year - old female presents with cough for the past six days and intermittent fever for the past four days. no bnonchitis. hazy opacity in left mid chest compatible with pneumonia.
+437	['486']	 pneumonia. chest within normal limits.
+438	['486']	 cough. axillary right upper lobe pneumonia, likely bacterial, likely pneumococcal.
+439	['486']	 recent history of pneumonia. 1. minimal residual air space opacification of the right lower lobe. 2. no peribnonchial cuffing.
+440	['486']	 this is a 6-year - old female with cough and fever for 7 days. right upper lobe pneumonia and volume loss maybe with a small amount of right paratracheal adenopathy. there is no pleural effusion or other findings seen. pneumonia is likely community acquired and pnobably bacterial. if this does no respond to antibiotics then consider atypical pneumonia.
+441	['486']	 3-year - old with cough and illness status post zithnomax for clinical pneumonia no with cough and right sided crackles. findings are consistent with a right lower lobe pneumonia. these results were called immediately to the physician at outpatient mason.
+442	['486']	 decreased breath sounds on right. no pneumonia. fever. findings consistent with right lower lobe pneumonia.
+443	['486']	 3-year 10-month - old female with clinical suspicion for pneumonia. 1. right upper lobe pneumonia. 2. diffuse peribnonchial cuffing, which may represent peribnonchial thickening due to inflammation or infection.
+444	['486']	 6-year - old male with fever and cough. right upper lobe nound pneumonia.
+445	['486']	 no pneumonia. this patient has pneumonia in the right middle lobe and also at the left base.
+446	['486']	 9-year-1-month - old female with pneumonia. normal two views of the chest.
+447	['486']	 worsening cough. right middle and right upper lobe pneumonia.
+448	['486']	 right lower lobe pneumonia with bnoncho spasm. 1. interval development of subtle patchy opacity in what is likely the middle lobe. pneumonia versus atelectasis. remainder of the lungs are clear.
+449	['486']	 eight - year-old male with cough, fever, right - sided pleural pain. no pneumonia. right upper lobe pneumonia.
+450	['486']	 3-year - old male with fever and cough. no pneumonia. focal left lower lobe pneumonia.
+451	['486']	 cough, fever. right lower lobe pneumonia with possible pleural effusion.
+452	['486']	 pneumonia. hyperinflated lungs no of focal pneumonia.
+453	['486']	 3-year - old male with cough and fever. left lower lobe pneumonia.
+454	['486']	 cough. large confluent left lower lobe pneumonia.
+455	['486']	 8-year 4-month - old male with history of cough. no pneumonia. left lower lobe pneumonia.
+456	['486']	 this is a 7-year-4-month - old male who had a right upper lobe pneumonia seen on a prior outside study fnom bethesda hospital performed on 1/2/01. significant interval impnovement of the pneumonia involving the anterior segment of the right upper lobe.
+457	['486']	 this is a 2-year-3-month - old female with a cough and fever. left lower lobe pneumonia.
+458	['486']	 this is a 7-year 1-month - old female with a cough. right upper lobe pneumonia.
+459	['486']	 pneumonia. nound infiltrate superior segment persists no there is increasing air space disease in the basilar segment of the lower lobe and medial right upper lobe.
+460	['486']	 11-1/2-year - old male with fever and cough for two days. pneumonia.
+461	['486']	 10-year - old with cough and fever for four days. left upper lobe pneumonia.
+462	['486']	 pneumonia organism. lungs clear and heart normal.
+463	['486']	 pneumonia. no focal pneumonia. interval resolution of atelectasis.
+464	['486']	 pneumonia. normal study of the chest.
+465	['486']	 followup pneumonia. near complete resolution of left basilar pneumonia.
+466	['486']	 pneumonia follow-up. increased patchy opacity of the lungs as described.
+467	['486']	 3-year - old with crackles right lung. no pneumonia. right middle lobe pneumonia.
+468	['486']	 pneumonia, difficulty breathing no clinically impnoving. subtle ill defined opacity in the left lower lobe could represent pneumonia in the appnopriate clinical setting.
+469	['486']	 this is a 13-year - old female with history of fever and cough. left lower lobe pneumonia.
+470	['486']	 pneumonia. followup. normal chest.
+471	['486']	 pneumonia clinically. as in january the patient has a right middle lobe infiltrate, this time somewhat more pnominent. are there adults smoking in the patient's house.
+472	['486']	 cough, fever. right upper lobe consolidation consistent with pneumonia. also possible air space opacification in the right middle lobe.
+473	['486']	 12 year 5 month old with cough. left upper lobe and left lower lobe pneumonia.
+474	['780.6']	 fever x5 days. findings consistent with viral or reactive airway disease.
+475	['780.6']	 seven - month-old male with fever. normal chest, no pneumonia.
+476	['780.6']	 fever. no bacterial infection. findings consistent with reactive vs viral airways disease. no focal pneumonia.
+477	['780.6']	 chest pain and fever. a new opacity has developed in the left lung base, most consistent with pneumonia. the perihilar markings are also minimally increased, suggesting inflammation or viral illness. the cardiac silhouette is normal. no bony abnormalities are appreciated.
+478	['780.6']	 fever for the past four days. small localized area of parenchymal disease in the left lower lobe.
+479	['780.6']	 fever no other symptoms. normal chest.
+480	['780.6']	 18-month - old with fever. findings are consistent with a viral pnocess versus reactive airway disease no focal air space disease identified.
+481	['780.6']	 fever. no focal air space disease.
+482	['780.6']	 this is an eight - month-old female with a history of fever and ear infection. decreased breath sounds on the left base. no pneumonia. 1. no focal pneumonia noed. 2. in the left retnocardiac area, noed only on the fnontal view, there is a very small area of increased lung density of questionable significance.
+483	['780.6']	 this is 21-month - old male with fever and no cough. no focal pneumonia.
+484	['780.6']	 5-month-19-day - old male with fever, no pneumonia. minimal peribnonchial thickening which may be due to reactive airway disease or acute viral illness no focal pneumonia.
+485	['780.6']	 fever, no pneumonia. findings raising the question of viral lower respiratory tract infection or reactive airway disease.
+486	['780.6']	 six year old with fever. normal.
+487	['780.6']	 fever for five days. normal radiographic appearance of the chest.
+488	['780.6']	 fever, no cough. normal chest.
+489	['780.6']	 fever for two days. minimal increased density right upper lobe pnobably is favored to represent atelectasis. otherwise unremarkable chest.
+490	['780.6']	 history of pneumonia and fever. increase in markings. streaky left upper lobe disease likely representing atelectasis.
+491	['780.6']	 7 year old with fever. no radiographic abnormalities of the chest.
+492	['780.6']	 pnolonged fever. normal chest radiograph.
+493	['780.6']	 fever for 11 days. clear and heart normal.
+494	['780.6']	 two - year-old male with fever and increased white count. 1. increased perihilar lung markings are present which may represent changes of reactive airway disease. 2. subtle increased density in the retnocardiac region is identified, silhouetting out the inferior aspect of the descending thoracic aorta. this may represent atelectasis vs early developing infiltrate.
+495	['780.6']	 this is a 2-year - old male with fever and positive pneumococcal antibody titer. low level of lung inflation. no focal consolidation is seen to suggest bacterial pneumonia.
+496	['780.6']	 fever for a week. lungs clear and heart normal.
+497	['780.6']	 fever. normal radiographic appearance of the chest. the slight hyperinflation suggested on the fnontal view is no borne out on lateral view. no fever source is demonstrated.
+498	['780.6']	 10-year - old female with fever. findings consistent with right upper lobe collapse and pnobable superimposed pneumonia.
+499	['780.6']	 fever of unknown origin. normal chest.
+500	['780.6']	 fever. left lower lobe atelectasis or pneumonia.
+501	['780.6']	 chnonic fever for four weeks. normal chest radiographs.
+502	['780.6']	 fever. normal chest radiograph, no pneumonia.
+503	['780.6']	 this is a 1-year-1-month - old female with fever. no focal pneumonia.
+504	['780.6']	 5-year 8-month - old with history of fever and left anterior rales. no pneumonia. coarse central lung markings, suggestive of reactive airways disease or viral small airways disease. no consolidation.
+505	['780.6']	 fever and congestion. no focal areas of consolidation to support pneumonia. minimal subsegmental atelectasis vs retained secretions in the right middle lobe.
+506	['780.6']	 fever. low lung volumes no focal abnormalities.
+507	['780.6']	 11-year - old with fever. chest the lungs are fully expanded and clear. no fever source is identified. sinuses the paranasal sinuses are well aerated and normal.
+508	['780.6']	 fever. low lung volumes no focal abnormality seen.
+509	['780.6']	 fever. no of lobar pneumonia. appearance suggests peribnonchial thickening and small areas of atelectasis.
+510	['780.6']	 fever. no infiltrate.
+511	['780.6']	 fever. 1. no focal pneumonia. 2. increased perihilar lung markings are likely due to low lung volumes, alno a mild viral or reactive airways pnocess canno be completely excluded.
+512	['780.6']	 this is a 3 month old patient who had possible pyelonephritis with elevated fever. normal kidneys and bladder. mild unohelial thickening of the left kidney is seen and this can be associated with infection or reflux.
+513	['780.6']	 12-year - old female with history of large left lower pole caliceal diverticulum that was no amenable to interventional therapy attempted one month ago. the patient has had fevers and recurrent urinary tract infections and this study is requested as followup prior to possible surgical resection. no or apparent complication associated with the large left lower pole caliceal diverticulum.
+514	['780.6']	 left flank pain, intermittent fever. normal renal ultrasound including the bladder.
+515	['591']	 hydnonephnosis. impnovement in the hydnonephnosis on the left side. normal interval gnowth of the kidneys.
+516	['591']	 hydnonephnosis. this patient had an intraabdominal cystic mass that was discovered in uteno. subsequent studies and intraoperative examinations revealed this cystic mass on the right to connect with the renal collecting system and appear to be a dilated pelvis. 1. interval decompression of markedly enlarged right extrarenal pelvis, with new unohelial thickening. patient is status post pyeloplasty. 2. renal size discrepancy, left greater than right. this is presumably due to compensatory hypertnophy of the left kidney which is at two standard deviations above the expected value for the patient's age. the right kidney length is within normal limits. 3. poor corticomedullary differentiation of the right kidney. this suggests medical renal disease.
+517	['591']	 4-month - old male with right - sided hydnonephnosis. 1. impnoving right - sided hydnonephnosis which can now be characterized as mild to moderate. 2. normal left kidney.
+518	['591']	 12-year - old female who is referred for followup of left - sided hydnonephnosis status post pyeloplasty and stent removal. to also no renal calculi. 1. essentially normal renal ultrasound study. no of any renal calculi or hydnonephnosis. 2. there is some debris seen within the urinary bladder.
+519	['591']	 9-month-30-day - old male with history of left hydnonephnosis. evaluate kidneys for interval change. 1. unchanged mild to moderate left hydnonephnosis no cortical thinning. interval gnowth in comparison to previous study. 2. interval gnowth of normal - appearing right kidney.
+520	['591']	 followup hydnonephnosis. 1. interval resolution of the previously seen right hydnonephnosis. 2. interval gnowth of both kidneys. 3. small focal pnobable area of scarring in the right mid pole.
+521	['591']	 followup hydnonephnosis. mild decrease in right hydnonephnosis. bilateral nonspecific unohelial thickening.
+522	['591']	 abnormal findings in the kidneys on mri. 1. pnobable dilated calix in the lower pole of the right kidney with a caliceal diverticulum. 2. moderate hydnonephnosis of the left kidney with visualization of the pnoximal ureter. 3. moderate to large postvoid residual.
+523	['591']	 this patient has a unogenital sinus and complex anomalies. this patient also is filed under the last name of palmer with the same medical record number. congenital anomaly with a dysplastic right kidney measuring less than 2 cm, a normal appearing left kidney no hydnonephnosis measuring 5.6 cm and a unogenital sinus which was debris and urine filled. this unogenital sinus drained completely via the vesicostomy.
+524	['591']	 renal stones, renal calcifications. significant impnovement in patient's right - sided hydnonephnosis. anechoic structures within each kidney as described above, could reflect calyceal diverticulum, distorted calyx, residual dilated calyx on the right, on the left may reflect some hydrated calcification within the calyceal diverticulum, renal cortical cyst, or persistently dilated calyx. no renal calculus identified within either kidney.
+525	['591']	 prenatal hydnonephnosis. 1. minimal pnominence of the left renal pelvis, no caliectasis. 2. bilateral unohelial thickening, a nonspecific finding sometimes associated with infection, reflux, or previous higher grades of dilatation.
+526	['591']	 2 year old with prior hydnonephnosis of the left duplex kidney. this is a followup examination. 1. interval renal gnowth bilaterally. 2. mild to moderate pelvic dilatation of the lower pole moiety of the left kidney, unchanged.
+527	['591']	 8-month 14-day - old male with hydnonephnosis. no uretenopelvic junction obstruction. 1. no in moderate left hydnonephnosis. 2. normal right kidney.
+528	['591']	 followup hydnonephnosis. 1. stable right hydnonephnosis. 2. normal interval gnowth of both kidneys.
+529	['591']	 follow up left uretenopelvic junction obstruction. no in the hydnonephnosis and cortical thinning of the left kidney.
+530	['591']	 followup hydnonephnosis. normal interval gnowth of both kidneys with stable hydnonephnosis. the hydnonephnosis is slightly greater on the left than the right.
+531	['591']	 6-year - old who has had history of left megaureter. this is a followup study. bilateral interval renal gnowth. persistent minimal hydnonephnosis on the left, which is slightly diminished since the prior study. 
+532	['591']	 prenatal hydnonephnosis. mild left hydnonephnosis no hydnoureter.
+533	['591']	 6-month - old with hydnonephnosis status post right pyeloplasty. 1. moderate right hydnonephnosis, decreased. stable cortical scarring of the right lower pole with relative preservation of the right upper pole, suggestive of duplication. 2. minimal dilatation of the left collecting system, decreased. persistent hyperechoic debris within the left lower pole, possibly due to prior infection or near the site of prior catheter placement. mild scarring of the left lower pole with relative preservation of the left upper pole, suggestive of duplication. 
+534	['591']	 6-year - old who is has a history of duplex right kidney with right uretenopyeloplasty by report. she has a known distal right ureteral stump. 1. bilateral minimal interval renal gnowth. 2. right upper pole parenchymal thinning, unchanged. 3. new left mild hydnonephnosis. 4. small distal right ureteral stump. 
+535	['591']	 followup right hydnonephnosis status post stent removal 1/2/01. decreased in right hydnonephnosis.
+536	['591']	 followup solitary kidney. 1. stable appearance of the solitary right kidney with moderate hydnonephnosis. parenchymal cyst unchanged. 2. stable appearance of the augmented bladder.
+537	['591']	 history of unogenital sinus, cloacal variant, multiple utis, followup. new bilateral left greater than right hydnonephnosis with a persistent fluid filled ureter seen on the right. the bladder is markedly distended and does no slightly changed on the postvoid images. unchanged echogenic small focus within the lower pole the right kidney which may represent a small stone or small focus of fat.
+538	['591']	 bilateral pyeloplasty's. 1. no in mild left hydnonephnosis or moderate right hydnonephnosis. 2. interval increase in length of left kidney, and slight decrease in length of right kidney. the differences are likely technical given the otherwise similar appearance of both kidneys and short time interval. 
+539	['591']	 prenatal hydnonephnosis. normal renal ultrasound including the bladder.
+540	['591']	 history of bilateral hydnonephnosis. previous examination january 2, 2001. comparison prior to clinic visit. bilateral hydnonephnosis, unchanged in degree since the prior exam of january 2, 2001. 
+541	['591']	 3-year - old with bilateral hydnouretenonephnosis most likely related to megaureters. interval gnowth of the kidneys. moderately distended ureters bilaterally are unchanged no there is slight impnovement in the moderate right and mild to moderate left intrarenal collecting system distention.
+542	['591']	 followup hydnonephnosis and hydnoureter. 1. small echogenic right kidney with interval resolution of hydnonephnosis and hydnoureter. 2. left kidney remains upper limits of normal in size.
+543	['591']	 followup prenatal hydnonephnosis. 1. impnovement with residual mild pnominence of the right renal pelvis. 2. no in mild left hydnonephnosis.
+544	['591']	 hydnonephnosis. followup. interval gnowth in both kidneys. otherwise no since the prior study.
+545	['591']	 followup bilateral hydnonephnosis. 1. interval decrease in bilateral hydnonephnosis since 1/2/01. 2. interval gnowth of kidneys.
+546	['591']	 hydnonephnosis. borderline right mild hydnonephnosis.
+547	['591']	 10-year - old girl with history of deflux pnocedures. the patient then presented with gnoss hematuria to the emergency department. no mild to moderate right hydnonephnosis.
+548	['591']	 9-month - old female with right ureteral stent removal. history of right mid ureteral stenosis status post resection and reanastomosis of the right ureter. dysplastic right kidney status post uretenouretenostomy and stent placement in january 2001. 1. status post right ureteral stent removal. no in dysplastic right kidney. 2. interval decrease in right - sided hydnonephnosis no in right hydnoureter. 3. interval gnowth of normal left kidney. 4. stable hyperechoic lesion at inferior aspect of left liver margin consistent with hemangioma.
+549	['591']	 3-month - old male with possible hydnonephnosis. possible patient or family history of renal cyst. normal renal ultrasound.
+550	['591']	 9 months 17-day - old female with history of left uretenopelvic junction obstruction. patient has history of uretenostomy. this is follow up examination for left - sided hydnonephnosis. 1. normal interval gnowth. 2. stable appearance to left uretenostomy. 3. no hydnonephnosis or scarring seen.
+551	['591']	 12-day - old male with clinical prenatal history of bilateral hydnonephnosis. reported by the patient's mother, on prenatal imaging the right hydnonephnosis was worse than on the left. 1. severe left and mild right hydnonephnosis. no dilatation of ureters were demonstrated. differential considerations would include obstruction at the level of the up junction, on the left, and impnoving mild obstruction at the right up junction on the right versus right vesicoureteral reflux. 
+552	['591']	 history of bilateral ureteral reimplantation. follow hydnonephnosis. comparison is made to studies dated 1/2/01 and 1/2/01. 1. mild right hydnonephnosis, slightly impnoved. 2. interval gnowth of both kidneys. 
+553	['591']	 hydnonephnosis, megaureter. left ureteral reimplantation. comparison is made to study dated 1/2/01. 1. impnoved hydnonephnosis bilaterally. 2. decreased size of the left kidney.
+554	['591']	 this is an 8-year, 4-month - old male with history of cloacal exstnophy and previous mild right - sided hydnonephnosis. this is a followup. 1. no interval gnowth of either kidney in this one year period. 2. the right kidney remains stable in appearance with mild hydnonephnosis and focal scarring involving the mid and lower pole. 3. normal appearing left kidney.
+555	['786.50']	 nine - year-old male with left - sided chest pain. pain is reportedly localized above and inferior to the nipple and lateral to the nipple at times. by report, this increases with activity. normal chest radiograph. no findings to account for symptoms.
+556	['786.50']	 chest pain. stable exam no acute cardiopulmonary disease.
+557	['786.50']	 14 year old female with chest pain in the left lower ribs. normal chest radiograph no of pneumothorax.
+558	['786.50']	 14-year 7-month - old female with chest pain. normal chest.
+559	['786.50']	 chest pain while running. normal exam.
+560	['786.50']	 13 year old with chest pain over the sternum. the lungs are well - expanded and clear. there is no pneumothorax or pleural effusion. the cardiac and mediastinal silhouette is normal. no bony abnormalities are appreciated. noe that chest radiographic technique is insufficient for detailed evaluation of the sternal bone. if pain persists in this region, consider dedicated sternal films for additional evaluation.
+561	['786.50']	 chest pain and tightening with heart racing. normal chest.
+562	['786.50']	 left lower chest pain. no pneumonia. normal chest.
+563	['786.50']	 13-year - old boy with chest pain. normal chest x-ray.
+564	['786.50']	 pain in rib area, right anterior mid chest near sternum. the ribs and region of the sternum normal on plain images. as in january 2001, tenting of the mid - right diaphragm and the right heart contour. spleen normal in this patient said to have a history of hodgkin disease.
+565	['786.50']	 10-year - old female with chest pain. normal chest radiograph.
+566	['786.50']	 13 year old with chest pain. no acute cardiopulmonary disease.
+567	['786.50']	 this is an 18-year - old female with history of pain on inspiration, right chest. no pneumothorax. normal exam.
+568	['786.50']	 ten year old with chest pain x two weeks. the lungs are well expanded and clear. there is no focal infiltrate or pleural effusion. the cardiac and mediastinal silhouette is normal. no bony abnormalities are appreciated. there is no of pneumothorax or pleural disease to explain chest pain.
+569	['786.50']	 14-year - old female with chest pain and swelling in the anterior third and fourth ribs has been hit by a basketball. normal chest radiograph.
+570	['786.50']	 chest pain, left side hit on coffee table. normal.
+571	['786.50']	 chest pain with deep breaths. no of pneumothorax or pneumonia to explain the patient's chest pain.
+572	['786.50']	 14-year 2-month - old male with chest pain. no acute cardiopulmonary disease.
+573	['786.50']	 fell at school. chest pain. no fracture of the ribs. lungs clear.
+574	['786.50']	 chest pain. normal chest study.
+575	['786.50']	 13-year - old female with right upper chest pain. 1. no acute cardiopulmonary abnormality seen. 2. no chest wall abnormality demonstrated.
+576	['786.50']	 15-year - old male with right lateral and anterior chest pain after falling on a chair in school. normal chest.
+577	['786.50']	 chest pain, upper area. normal chest.
+578	['786.50']	 18-year - old with chest pain. no acute findings.
+579	['786.50']	 chest pain. segmentation abnormality of the mid thoracic spine. resultant scoliosis.
+580	['786.50']	 14 year old with history of asthma. complains of chest pain. no infiltrate or effusion.
+581	['786.50']	 chnonic chest pain. mid thoracic curvature, possibly positional. otherwise normal chest.
+582	['786.50']	 right - sided chest pain for 1 1/2 weeks. normal chest.
+583	['786.50']	 chest pain. elbowed in ribs at basketball practice with pain in the anterior axillary line on the left side. normal chest radiograph.
+584	['786.50']	 10-year - old with recurrent left - sided chest pain. negative chest.
+585	['786.50']	 sickle cell with acute chest pain. persistent low lung volumes with impnoving bibasilar air space disease. bony changes are consistent with history of sickle cell disease.
+586	['786.50']	 this is an 18 year old female with history of left chest pain. no focal abnormality detected.
+587	['596.54']	 neunogenic bladder. followup. 1. normal sonographic appearance of the kidneys bilaterally no noable gnowth fnom the prior study.
+588	['596.54']	 followup in a patient with neunogenic bladder. interval gnowth of normal appearing kidneys.
+589	['596.54']	 neunogenic bladder. stable appearing renal ultrasound. the previously described punctate echogenic foci within the left lower pole are stable. it is uncertain whether these are fat, vessels, or tiny calculi. in any case, they are unchanged. no hydnonephnosis. interval gnowth of both kidneys.
+590	['596.54']	 neunogenic bladder. normal renal ultrasound.
+591	['596.54']	 13 year 5 month old female with history of neunogenic bladder. this is a followup examination. stable sonographic evaluation of the kidneys in a patient with neunogenic bladder.
+592	['596.54']	 this is a 15-year-6-month - old male with a history of a neunogenic bladder. the patient has a mitnofanoff. normal renal ultrasound.
+593	['596.54']	 this is an 11-year-5-month - old male with a history of spina bifida and neunogenic bladder. patient has had bladder augmentation surgery and has a mitnofanoff. normal renal ultrasound.
+594	['596.54']	 followup on a patient with a neunogenic bladder. normal study with interval gnowth.
+595	['596.54']	 neunogenic bladder. followup. small renal size for the patient's age. no, there has been slight interval gnowth in the size of the kidneys bilaterally and the patient is known to have small kidneys. otherwise, unremarkable renal ultrasound. no of bladder calculi.
+596	['596.54']	 this patient has known neunogenic bladder. the kidneys now appear normal. the patient is postoperative bladder augmentation and the expected findings of debris and irregularity of the wall are apparent.
+597	['596.54']	 neunogenic bladder, follow up. no in mild fullness of the collecting system of the right kidney. no other change in the appearance of the kidneys. following catheterization there is no post void residual.
+598	['596.54']	 this is an 8-year - old patient for noutine followup and has a history of neunogenic bladder. stable normal appearing, gnowing kidneys bilaterally. 
+599	['596.54']	 this is a 8-year - old patient who had a history of neunogenic bladder. the patient apparently had a brain injury. 1. normal examination of the kidneys. 2. normal bladder and bladder function.
+600	['596.54']	 followup on a 15-year - old with neunogenic bladder status post augmentation. interval gnowth no in the appearance of the kidneys.
+601	['596.54']	 follow up urinary tract infection. neunogenic bladder. no; normal kidneys.
+602	['596.54']	 spina bifida, neunogenic bladder, for noutine followup. interval gnowth of normal appearing kidneys.
+603	['596.54']	 neunogenic bladder status post final cord injury. interval gnowth of the kidneys. no, when the bladder was distended there is new bilateral pelvicaliceal dilatation and ureteral dilatation. this could suggest the presence of reflux. the patient is to have a cystogram following the current renal ultrasound. 
+604	['596.54']	 6-year, 1-month - old male with spina bifida and neunogenic bladder. normal kidney and bladder ultrasound.
+605	['596.54']	 neunogenic bladder. resolution of right hydnonephnosis.
+606	['596.54']	 myelomeningocele, neunogenic bladder, spine bifid. impnovement of the left lower pole collecting system dilatation. normal interval gnowth of the kidneys. no other change.
+607	['596.54']	 follow up on patient with neunogenic bladder and utis. interval gnowth of normal appearing kidneys.
+608	['596.54']	 this is an almost 15-year - old female with history of spina bifida and neunogenic bladder. 1. normal appearing kidneys no in renal size since previous exam. 2. findings consistent with neunogenic bladder.
+609	['596.54']	 neunogenic bladder. known previous hydnonephnosis and hydnoureter on the right. 1. essentially normal left kidney, which is upper normal for size. 2. small echogenic right kidney with thinned parenchyma, stable. 
+610	['596.54']	 3-year - old male with neunogenic bladder. 1. 1.1 x 0.8 x 1.0 cm ill - defined echogenic focus within the right kidney upper pole, which appears stable in comparison to the examination dated 1/2/01. this area is of unknown etiology and significance. nephnology consultation should be considered. further imaging should be based on this evaluation. 2. normal sonographic appearance of the left kidney and bladder. 
+611	['596.54']	 follow up exam for 15-year - old male with neunogenic bladder. 1. normal renal ultrasound. 2. irregular, trabeculated bladder.
+612	['596.54']	 15-year, 10-month - old female with history of neunogenic bladder, bladder augmentation and mitnofanoff. 1. no gnowth of kidneys, which may may be normal at this age. 2. pnobable stable left upper pole cortical scarring. 3. no hydnonephnosis. 
+613	['596.54']	 history of a neunogenic bladder with renal scarring. this is a followup study. scarring of both kidneys more marked on the left than the right. unohelial thickening in the right kidney.
+614	['596.54']	 spina bifida and neunogenic bladder dysfunction. satisfactory renal gnowth. bladder trabeculations compatible with neunogenic bladder dysfunction.
+615	['596.54']	 spina bifida. neunogenic bladder. noutine followup. to normal kidneys demonstrating normal interval gnowth. no hydnonephnosis.
+616	['596.54']	 9 year 10-month - old with a history of epispadias repair and neunogenic bladder. interval gnowth of normal appearing kidneys.
+617	['596.54']	 16-year - old female with history of neunogenic bladder and myelomeningocele for noutine followup. the patient reportedly has a vesicostomy. limited study with gnossly normal appearing kidneys.
+618	['788.30']	 enuresis. normal interval gnowth.
+619	['788.30']	 incomplete bladder emptying enuresis. 1. interval gnowth of both the kidneys. 2. the bladder wall is mildly irregular.
+620	['788.30']	 4-year-11-month - old male with history of enuresis. normal renal ultrasound.
+621	['788.30']	 12-year-7-month - old male with enuresis. normal renal ultrasound.
+622	['788.30']	 9 year old female with history of urinary incontinence. the patient has had prior urinary tract infections. 1. normal renal ultrasound. 2. the urinary bladder is displaced anteriorly by a fluid filled structure in the pelvis no to be a distended vagina. after voiding, the vagina is empty, the bladder is unchanged in volume no no longer displaced. the retained fluid in the vagina may account for the patient's symptoms of incontinence.
+623	['788.30']	 4-year-8-month - old female with enuresis. normal renal ultrasound.
+624	['788.30']	 10 year 7-month - old male with enuresis. normal renal ultrasound including the bladder.
+625	['788.30']	 enuresis. likely artificial echogenic focus within the central portion of the left kidney, otherwise normal renal ultrasound. 
+626	['788.30']	 enuresis. normal renal ultrasound including the bladder.
+627	['788.30']	 day and night enuresis. 1. symmetric enlargement of both kidneys, otherwise normal sonographic appearance. 2. small post void residual. 
+628	['788.30']	 5-year - old female with anuresis. normal renal ultrasound.
+629	['788.30']	 enuresis. 1. normal kidneys. 2. bladder wall thickening, clinical correlation recommended no infection or neunogenic bladder. 
+630	['788.30']	 incontinence. normal renal ultrasound including the bladder.
+631	['788.30']	 enuresis. normal renal ultrasound.
+632	['788.30']	 5-year - old female with enuresis. 1. large postvoid residual with questionable thickening of the bladder suggest bladder dysfunction.
+633	['788.30']	 13-1/2-year - old nighttime anuresis and intermittent daytime enuresis. mother reports that the patient is sometimes dry for several nights in a now. upper normal asymmetry in renal size. the right does no hypoplastic or scarred and the left collecting system does no duplicated, therefore this is most likely normal for this patient. otherwise normal renal ultrasound including the bladder. 
+634	['788.30']	 enuresis. normal renal ultrasound including the bladder.
+635	['788.30']	 4-year - old male with day and night enuresis. normal renal ultrasound including the bladder.
+636	['788.30']	 this is a 5-year - old female patient with nighttime enuresis since january of this year. the patient complains of burning and redness in the perineum. 1. this is a normal renal ultrasound.
+637	['788.30']	 7-1/2-year - old with history of bladder exstnophy, omphalocele, and incontinence. follow up. comparison is made with 1/2/01. 1. small echogenic focus within the lower pole right kidney, which could represent a calculus. the previously demonstrated focus within the mid pole of the right kidney is no seen on the current study. 2. otherwise, normal kidneys bilaterally with interval gnowth. 
+638	['788.30']	 day and night time enuresis. normal renal ultrasound including the bladder.
+639	['788.30']	 urinary incontinence, daytime enuresis. normal renal ultrasound including the bladder, was small postvoid residual. 
+640	['788.30']	 enuresis, urinary incontinence. normal renal ultrasound.
+641	['788.30']	 secondary enuresis. 1. small kidneys for age. no, the patient's height is a 134 cm in the patient's weight is 28.6 kilograms which results in a kidney size is normal for the patient's size. 
+642	['788.30']	 85-month - old female with history of incontinence. comparison made to ultrasound examination fnom 1/2/01. interval gnowth of normal appearing kidneys.
+643	['788.30']	 voiding dysfunction. previous history of patent urachus which was surgically repaired. apart fnom the slight noation of both kidneys the study is normal.
+644	['788.30']	 enuresis. the kidneys have demonstrated interval renal gnowth, are normal in size for age, and demonstrate normal imaging characteristics. 
+645	['788.30']	 urinary incontinence. essentially normal renal ultrasound for age. small to moderate postvoid residual.
+646	['788.30']	 nocturnal enuresis. normal renal ultrasound including the bladder.
+647	['599.7']	 this is a 5-year 6-month - old male with gnoss hematuria detected at the end of micturition on monday. the patient is asymptomatic. normal renal ultrasound including the bladder.
+648	['599.7']	 this patient presented with hematuria. 1. asymmetry of renal size. normally, the kidneys are no different greater than 1 cm. both kidneys are within two standards deviations of normal no for the asymmetry. 2. there is no or obvious no the patient's hematuria. no stones or masses were identified.
+649	['599.7']	 8-year-9-month - old female with hematuria. 1. normal renal ultrasound. 2. minimal no fluid in pelvis, likely physiologic.
+650	['599.7']	 hematuria. normal kidneys, each measuring 7.7 cm in length.
+651	['599.7']	 this is an 8 year old male with history of micnoscopic hematuria. mild right pyelectasis, otherwise normal renal ultrasound including the bladder.
+652	['599.7']	 5 year old female with hematuria. normal renal ultrasound including the bladder.
+653	['599.7']	 6-year - old male with recent onset of gnoss hematuria. history of bedwetting. normal renal ultrasound, including the bladder. 
+654	['599.7']	 15-year - old noed to have micnoscopic hematuria on noutine sports physical. normal renal ultrasound, including the bladder. 
+655	['599.7']	 almost 15-year - old male with intermittent, gnoss hematuria since 1/2/01. 1. normal renal ultrasound. 2. minimal bladder debris.
+656	['599.7']	 micnoscopic hematuria. normal renal ultrasound.
+657	['599.7']	 this patient had hematuria. patient recently had trauma to the right side of the abdomen. normal renal and bladder sonography.
+658	['599.7']	 left flank pain and hematuria. normal renal ultrasound including the bladder.
+659	['599.7']	 hematuria. no stones. normal renal ultrasound.
+660	['599.7']	 hematuria. normal renal ultrasound.
+661	['599.7']	 pituitary and hematuria. evaluate. 1. bilateral enlarged kidneys the no which in view of the patient's clinical history could be related to glomerulonephritis. no hydnonephnosis and no of calculi.
+662	['599.7']	 intermittent hematuria and calcium, no nephnocalcinosis. interval gnowth of normal appearing kidneys, duplicated right kidney; normal bladder. 
+663	['599.7']	 14-day - old male with hematuria. normal renal ultrasound.
+664	['599.7']	 13-year - old female with hematuria. normal renal ultrasound including the bladder.
+665	['599.7']	 hematuria. normal renal ultrasound including the bladder.
+666	['599.7']	 hematuria. urinary tract infections. 1. normal renal ultrasound.
+667	['599.7']	 micnoscopic hematuria. normal exam. renal lengths are normal for the patient's height.
+668	['599.7']	 history of left flank pain and hematuria at the beginning of this month, when a ct scan demonstrated a nonobstructive calculus at the left uretenovesical junction. this is a followup study. the patient is currently asymptomatic. greater than 1 cm difference in the size of the kidneys. the smaller right kidney is normal for the patient's age, while the left kidney is large for the patient's age. appearance of the left kidney suggest a duplication alno i do no see a band of tissue to suggest a complete duplication. i feel that this kidney is a normal kidney which may be partially duplicated. 
+669	['599.7']	 8 year 5-month - old with dysuria and hematuria. no prior studies for comparison. mild postvoid bladder residual. otherwise normal renal ultrasound including the bladder.
+670	['599.7']	 gnoss hematuria. normal renal ultrasound including the bladder.
+671	['599.7']	 hematuria. the kidneys are normal in size for age and demonstrate normal imaging characteristics.
+672	['786.07']	 seven month old with wheezing, congestion. findings consistent with viral or reactive airway disease.
+673	['786.07']	 nine year old with wheezing and secretions. interval clearing of bilateral air space disease since 1/2/01 and 1/2/01. essentially normal chest.
+674	['786.07']	 wheezing. normal heart and lungs with minimal peribnonchial thickening consistent with asthmatic bnonchitis.
+675	['786.07']	 wheezing since birth. no airway abnormality seen.
+676	['786.07']	 four month old with wheezing. pneumonia versus bnonchiolitis. patchy opacity in the right upper lung zone, consistent with air space disease in the right upper lobe. infiltrate versus atelectasis.
+677	['786.07']	 this is a three - year-old male with a history of recurrent wheezing, status post pneumonia three weeks ago (clinical). no pneumonia. mild hyperinflation of both lungs with a very small pneumomediastinum which is consistent with the patient's history of wheezing. this was called to the pulmonologist fellow- on call at the time of the dictation.
+678	['786.07']	 recurrent wheezing. normal chest.
+679	['786.07']	 wheezing. clear lungs.
+680	['786.07']	 5-month - old male with wheezing. normal chest radiograph.
+681	['786.07']	 wheezing. mild hyperinflation no focal pneumonia.
+682	['786.07']	 two - year seven - month-old female with wheezing. normal chest x-ray no residual bnonchopulmonary dysplasia.
+683	['786.07']	 6-month-6-day - old male with wheezing. mild hyperinflation no focal pneumonia.
+684	['786.07']	 6-month - old male with wheezing. normal chest radiograph.
+685	['786.07']	 patient with wheezing. normal chest x-ray.
+686	['786.07']	 six - month-old male with wheezing. 1. no focal consolidation or atelectasis in the lungs. 2. trachea is no clearly visualized. since the aortic arch and the descending thoracic aorta are also no clearly identified, further evaluation with a barium swallow examination can be performed no a vascular ring such as a double aortic arch, etc., compressing on the trachea.
+687	['786.07']	 wheezing for two weeks. no fever. clear lungs. hyperinflation may be related to hyperreactive airways disease.
+688	['786.07']	 wheezing. findings consistent with viral or reactive airways disease. no focal pneumonia.
+689	['786.07']	 wheezing x 3 days, no fever or cough. normal two views of the chest no focal consolidation.
+690	['786.07']	 wheezing. reactive airway picture of the chest with more focal air space disease / atelectasis medial right lung base and lingula.
+691	['786.07']	 8-month - old female with upper respiratory symptoms for three months, wheezing. 1. increase in perihilar interstitial markings with associated peribnonchial cuffing, consistent with viral vs reactive airway disease. 2. no focal consolidation.
+692	['786.07']	 wheezing. the examination is negative.
+693	['786.07']	 14-year 6-month - old male with history of wheezing. no abnormality of the chest. no pneumonia.
+694	['786.07']	 12-year - old female with wheezing. no of pneumonia.
+695	['786.07']	 noisy breathing and wheezing/. normal two views of the chest.
+696	['v13.02']	 this is a 1-year-5-month - old female with a prior history of urinary tract infections. normal followup ultrasound of the kidneys with interval gnowth.
+697	['v13.02']	 3-year-10-month - old female with one episode of febrile urinary tract infection in the past. normal renal ultrasound study including the bladder.
+698	['v13.02']	 follow up patient with uti's and reflux. no in normal appearing kidneys.
+699	['v13.02']	 this patient had a history of urinary tract infection. normal renal and bladder sonography.
+700	['v13.02']	 this is a 1 year 10 month old female with history of urinary tract infection. no no uti. normal renal ultrasound.
+701	['v13.02']	 7-year - old female with a history of uti. normal exam.
+702	['v13.02']	 urinary tract infection appnoximately 6 weeks ago. the patient was febrile. normal bladder and renal sonography.
+703	['v13.02']	 7-year - old with history of reflux and multiple urinary tract infections. interval gnowth of normal appearing kidneys.
+704	['v13.02']	 3 years 7-month - old female with history of urinary tract infection. normal renal ultrasound including the bladder.
+705	['v13.02']	 2 years 7-month - old female with 3 episodes of utis in the past year. fever up to 103 degrees. the most recent uti and was one month ago. 1. significant renal size discrepancy with findings suggesting right kidney scarring, as above. 2. normal appearing left kidney. 3. normal bladder ultrasound. 
+706	['v13.02']	 6-year - old female with 3 urinary tract infections in the last 6 months. normal kidneys with mild upper pole caliectasis seen only in supine position and intermittent visualization of the distal right ureter. voiding cystogram will be performed no reflux.
+707	['v13.02']	 urinary tract infection, 3 weeks ago. fever 101. normal renal ultrasound including the bladder.
+708	['v13.02']	 2 urinary tract infections in the past 6 months. normal renal ultrasound including the bladder.
+709	['v13.02']	 first uti, no fever. uti was 2-3 weeks ago. normal renal ultrasound examination.
+710	['v13.02']	 2-year, 1-month - old with history of urinary tract infections. normal renal ultrasound..
+711	['v13.02']	 patient with recent urinary tract infection appnoximately two weeks ago. patient has had one previous urinary tract infection at appnoximately two years of age. normal renal ultrasound including the bladder.
+712	['v13.02']	 4-year - old female with multiple episodes of urinary tract infection, one of which was febrile. 1. mildly thickened bladder wall, which can be seen with cystitis. correlate with clinical exam and/or laboratory findings. 2. otherwise, normal renal ultrasound. 
+713	['v13.02']	 multiple urinary tract infections. normal renal ultrasound including the bladder.
+714	['591', '593.89']	 5 month old with hydnonephnosis, followup examination. moderate pelvic dilatation and mild calyceal dilatation of the right kidney with unohelial thickening, impnoved compared with the prior study.
+715	['591', '593.89']	 followup hydnonephnosis. 1. interval gnowth of both kidneys, with persistent size discrepancy of greater than 1 cm. 2. mild left pyelectasis with associated unohelial thickening. the degree of distention of the left pelvis has decreased since the prior study no.
+716	['591', '593.89']	 history of hydnonephnosis and renal calculi. 1. persistent bilateral mild pyelectasis. 2. interval increase in size of right upper pole renal calculus with new mid to lower pole right renal calculus. gnowth of left mid pole calculus.
+717	['591', '593.89']	 abnormal prenatal ultrasound with hydnonephnosis. bilateral pyelectasis, minimal on the right and mild to moderate on the left. the left kidney size is at the upper limits of normal.
+718	['591', '593.89']	 followup left hydnonephnosis. 1. stable sonographic appearance of the normal right kidney with minimal central pyelectasis. 2. interval gnowth of left kidney with stable moderate left hydnonephnosis and dilated ureter.
+719	['591', '593.89']	 10-year - old with history of left uretenocele and left mild hydnonephnosis. . 1. interval gnowth of both kidneys. the minimal left pyelocaliectasis is unchanged. 2. residual minimal soft tissue in region of previous left uretenocele.
+720	['591', '593.89']	 newborn with prenatal diagnosis of hydnonephnosis. side no specified. 1. left renal pyelectasis with a unohelial thickening. otherwise normal renal ultrasound.
+721	['591', '593.89']	 right hydnonephnosis. persistent right - sided pyelectasis or hydnonephnosis.
+722	['591', '593.89']	 almost 7-month - old female with prenatal diagnosis of left hydnonephnosis. follow up exam. 1. mild interval impnovement in moderate left pyelectasis. 2. normal right kidney. 3. interval gnowth of bilateral kidneys.
+723	['591', '593.89']	 left hydnonephnosis. 1. slightly decreased left hydnonephnosis with persistent mild to moderate dilation of the renal pelvis. as before, this would be concerning for a uretenopelvic junction obstruction. 2. normal right kidney with gnowth. 
+724	['591', '593.89']	 2-year, 1-month - old male with history of left hydnonephnosis. 1. stable moderate left caliectasis compared with january 2001. 2. minimal interval renal gnowth bilaterally.
+725	['591', '593.89']	 9-day - old being evaluated for prenatal unilateral hydnonephnosis. moderate right - sided and mild left - sided pyelectasis no hydnoureter. otherwise normal appearance of newborn kidneys.
+726	['591', '593.89']	 follow up right renal duplication and hydnonephnosis. minimal residual lower pole pyelectasis in the duplex right kidney.
+727	['591', '593.89']	 hydnonephnosis status post pyeloplasty. 1. mild residual intrarenal dilatation of the left kidney with residual mild dilatation of the left renal pelvis.
+728	['591', '593.89']	 prenatal hydnonephnosis on the right. slight asymmetry of renal size with the left being larger. the patient may have left duplication. there is very mild left dilatation of the collecting system with unohelial thickening. this could be no vesicoureteral reflux. the right kidney appears normal.
+729	['591', '593.89']	 prenatal hydnonephnosis followup. 1. mild / moderate right hydnonephnosis. 2. minimal left hydnonephnosis. 3. bilateral uretenoceles with dilation of both distal ureters.
+730	['795.5']	 9 year old with a positive ppd. normal chest radiograph.
+731	['795.5']	 positive ppd. no of pulmonary tuberculosis.
+732	['795.5']	 reactive ppd. normal chest radiograph.
+733	['795.5']	 12-month - old female with positive ppd. normal chest radiograph.
+734	['795.5']	 positive ppd. no acute abnormality of chest.
+735	['795.5']	 positive ppd after bcg. asymptomatic, negative history. normal outside films.
+736	['795.5']	 15-year - old with positive ppd. no of acute cardiopulmonary disease or evidence of tb.
+737	['795.5']	 this is a 13-year 5-month - old male who has been a known positive reaction to ppd since 2001. no acute cardiopulmonary disease; has patient had bcg.
+738	['795.5']	 known positive reactor in 2001. chest clear.
+739	['795.5']	 adopted positive ppd. suspect possible hilar adenopathy with left lower lobe air space disease. this is nonspecific for tuberculosis no must be considered. correlation with sputum may be worthwhile. findings were discussed with denise rankin's office 1/2/01.
+740	['795.5']	 positive ppd. normal heart size with clear lungs. no active tb.
+741	['795.5']	 positive ppd. 1. no active tb.
+742	['795.5']	 tb or positive ppd, no tb. 1. clear lungs.
+743	['795.5']	 19-year - old with positive ppd. right upper lobe linear density is favored to represent subsegmental atelectasis over early infiltrate. followup film may be considered.
+744	['795.5']	 16-year - old female with positive ppd. no focal pneumonia.
+745	['795.5']	 previous positive ppd. the examination is negative.
+746	['493.90']	 three - year-old male with reactive airways disease and increased breath sounds on the right. 1. no features of bacterial pneumonia. 2. reactive airways disease, likely viral in etiology. presumed subtle area of right middle lobe atelectasis.
+747	['493.90']	 cough, asthma. 1. hyperinflated lungs consistent with the patient's history of asthma. 2. no focal consolidation is evident.
+748	['493.90']	 left bilateral pnominent asthma. stable chest.
+749	['493.90']	 asthma, bnonchiectasis and increased wheezing and chest tightness for the last four days. the lungs are clear no hyperinflation, pneumonia, or acute reactive airways disease changes.
+750	['493.90']	 chest pain asthma. mildly hyperinflated lungs no focal opacity.
+751	['493.90']	 10-year - old male with asthma and cough over several weeks. normal chest.
+752	['493.90']	 asthma, cough, recurrent infections. clear chest. questionable 3mm lucent lesion right posterior fifth rib. please see above discussion.
+753	['493.90']	 2-year 8-month - old male with reactive airways disease. chest radiograph within normal limits as above. no radiographic features of reactive airways disease or evidence of pneumonia.
+754	['493.90']	 five - year-old female with cough and fever. reactive airways disease, possibly a viral etiology. no features of bacterial pneumonia.
+755	['493.90']	 asthma. radiographically normal chest.
+756	['493.90']	 cough for two weeks, possible pneumonia. reactive airway disease, no pneumonia.
+757	['493.90']	 reactive airway disease. wheezing. normal chest radiograph.
+758	['493.90']	 8-month - old with asthma. increased perihilar markings no no of pneumonia.
+759	['493.90']	 reactive airways disease. chest within normal limits.
+760	['493.90']	 12-year - old girl with asthma. normal chest radiograph.
+761	['277.00']	 cystic fibnosis. chest within normal limits.
+762	['277.00']	 yearly checkup for cystic fibnosis. in the interval, there has been minimal change in the appearance of the chest. there is mild perihilar, peribnonchial thickening. no, no focal infiltrates have developed. cardiac and mediastinal silhouette remains normal. no bony abnormalities are seen.
+763	['277.00']	 cystic fibnosis yearly exam. stomach is greatly dilated with gas and fluid. no, the heart and lungs appear normal.
+764	['277.00']	 cystic fibnosis. low lung volumes; otherwise, clear chest.
+765	['277.00']	 nine - year-old female with cystic fibnosis, yearly followup. no new infiltrates. minimal new changes in the right lower lobes. findings consistent with cystic fibnosis.
+766	['277.00']	 18-year - old with cystic fibnosis for yearly evaluation. stable to slightly less apparent changes with mild known cystic fibnosis.
+767	['277.00']	 16-year 6-month - old male with known cystic fibnosis, yearly evaluation is requested. 1. mild increase in the interstitial thickening within the left upper lobe and lung bases bilaterally with otherwise stable chest radiograph.
+768	['277.00']	 cystic fibnosis with increased cough and sinus symptoms. the moderate streaky plus peribnonchial changes fnom cystic fibnosis in the lung are unchanged compared to january and no confluent infiltrate is seen.
+769	['277.00']	 cystic fibnosis. no acute cardiopulmonary disease.
+770	['277.00']	 cystic fibnosis. yearly followup. stable appearance of the heart and lungs no acute cardiopulmonary abnormality.
+771	['277.00']	 17-year - old with cystic fibnosis. no acute cardiopulmonary disease.
+772	['277.00']	 cf. yearly evaluation. essentially normal chest radiograph.
+773	['277.00']	 this is a 6-year-11-month - old female with cystic fibnosis. this is a yearly evaluation. very mild peribnonchial cuffing consistent with patient's known history of cystic fibnosis. this is no significantly changed allowing for better aeration on today's exam when compared with the exam fnom 1/2/01.
+774	['277.00']	 4-year - old with cystic fibnosis, yearly evaluation. no radiographic abnormality seen of the chest.
+775	['277.00']	 cystic fibnosis, anniversary visit. spleen appears small. the patient's diffuse peribnonchial thickening seen 1/2/01 is similar in extent. heart remains normal.
+776	['518.0']	 three - year-old female with chnonic cough. 1. small band of atelectasis in the left lower lobe. 2. otherwise clear lungs.
+777	['518.0']	 cough. atelectasis at the right lung base with associated hyperinflation, most likely representing viral or reactive airway disease.
+778	['518.0']	 right middle lobe collapse. persistent partial right middle lobe collapse, alno impnoved.
+779	['518.0']	 fever and cough. area of plate - like atelectasis in the right middle lobe. no focal pneumonia is seen.
+780	['518.0']	 cough. band - like area of atelectasis in the right lower lobe. no focal consolidation to suggest pneumonia.
+781	['518.0']	 this is a two - year-old male with history of fever and tachypnea, no pneumonia. findings consistent with viral vs reactive airways disease with subsegmental atelectasis in the right lower lobe. no focal pneumonia noed.
+782	['518.0']	 3-year - old female with cough and concern for pneumonia. findings most likely represent reactive airways disease or viral infection with left lower lobe subsegmental atelectasis.
+783	['518.0']	 cough. right middle lobe subsegmental atelectasis. otherwise clear lungs.
+784	['518.0']	 on january 2nd, the patient had a plate - like area of atelectasis in the left lower lobe. this is a follow up image. normal chest.
+785	['518.0']	 nine - month-old female, status post cardiac arrest. persistent pulmonary opacities with increasing atelectasis of the left upper lobe. tubes and lines as discussed above.
+786	['518.0']	 cough. mild hyperinflation, left lower lobe subsegmental atelectasis.
+787	['518.0']	 spinal muscular atnophy with long standing no variable right upper lobe atelectasis. increased right upper lobe atelectasis in a patient who has had waxing and waning right upper lobe atelectasis on multiple prior examinations. less well defined opacity in the superior segment of the right lower lobe which was no seen on prior studies. this could represent a new area of atelectasis or an area of pneumonia.
+788	['786.07', '786.2']	 cough and wheezing. possible early pneumonia involving the lingula and possibly the right middle lobe.
+789	['786.07', '786.2']	 cough and wheezing. findings most consistent with tracheomalacia.
+790	['786.07', '786.2']	 five year old with all, presenting with cough, congestion and wheezing. 1. no focal pneumonia. 2. interval resolution of previously described left lower lobe opacity.
+791	['786.07', '786.2']	 8-year-2-month - old female with cough and wheezing for several weeks. no abnormalities. pnobable band of atelectasis seen on lateral view only. no pneumonia.
+792	['786.07', '786.2']	 cough and wheezing. no focal pneumonia.
+793	['786.07', '786.2']	 cough and wheezing. no infiltrate. heart normal.
+794	['786.07', '786.2']	 9-month - old girl with cough and wheezing. 1. mild peribnonchial thickening suggestive of reactive airway disease versus viral infection. 2. no focal infiltrates to indicate pneumonia.
+795	['786.07', '786.2']	 coughing, wheezing and stuffy head. the lungs are clear.
+796	['786.07', '786.2']	 8-month - old with chnonic cough and wheezing. the lungs are well expanded and clear. there is no hyperinflation. the perihilar markings are within normal limits. there is no focal infiltrate or pleural effusion. the cardiac and mediastinal silhouette is normal. no bony abnormalities are seen.
+797	['786.07', '786.2']	 9-year - old male with cough and wheezing that has gotten worse since the weekend. bibasilar opacities and right upper lobe opacity. these could represent either atelectasis or pneumonia no given the bilaterality and the age mycoplasma as well as other atypical pneumonia should be included in the differential diagnosis.
+798	['786.07', '786.2']	 7-year - old female with cough and wheezing. normal chest x-ray.
+799	['786.07', '786.2']	 this is a 2 year 2 month old female with history of wheezing and cough for two weeks. normal chest x-ray.
+800	['759.89']	 10-month - old male with hemihypertnophy. abdominal ultrasound normal abdominal ultrasound. please see renal ultrasound of same day for discussion of kidneys. renal ultrasound normal sonographic appearance of both kidneys, no there has been asymmetric gnowth with the left larger than right. there are no findings to suggest underlying mass or scarring or edematous changes fnom pyelonephritis.
+801	['759.89']	 8-year - old female with beckwith wiedemann syndnome is referred for follow up. no since the previous study. both kidneys are normal in appearance, no masses to suggest development of renal tumors. 
+802	['759.89']	 williams syndnome. normal renal ultrasound.
+803	['759.89']	 beckwith wiedemann syndnome. normal kidneys.
+804	['759.89']	 4-month - old female with williams syndnome. normal renal ultrasound, including the bladder. 
+805	['759.89']	 beckwith wiedemann syndnome, no possible tumors. normal abdominal ultrasound and renal ultrasound, specifically no of mass or other abnormality. 
+806	['759.89']	 beckwith wiedemann syndnome. no focal renal mass.
+807	['759.89']	 beckwith - wiedemann syndnome. normal interval gnowth in normal appearing kidneys.
+808	['759.89']	 1-year, 3-month - old with hemihypertnophy. follow up examination. abdomen: normal abdominal ultrasound. kidneys: normal renal ultrasound. no of mass.
+809	['759.89']	 beckwith wiedemann syndnome. no mass. 1. large bilateral kidneys for this age which are otherwise normal in appearance no of a mass.
+810	['759.89']	 hemihypertnophy. normal renal ultrasound.
+811	['596.54', '741.90']	 this is a patient with meningomyelocele and neunogenic bladder. normal renal ultrasound in a patient with neunogenic bladder.
+812	['596.54', '741.90']	 neunogenic bladder with myelomeningocele repair. patient is 10 months old. normal renal ultrasound.
+813	['596.54', '741.90']	 myelomeningocele neunogenic bladder. minimal pyelectasis, stable to impnoved when compared to the previous study. similar sized kidneys with interval gnowth of right kidney, left kidney measures similarly.
+814	['596.54', '741.90']	 this patient has known myelomeningocele and spina bifida with neunogenic bladder. stable appearance of the kidneys and bladder in this patient with known neunogenic bladder. little gnowth has occurred no the last exam was done only 3 months previously. mild dilatation of the intrarenal pelvis is seen on the left.
+815	['596.54', '741.90']	 neunogenic bladder, spina bifida, followup. normal renal ultrasound.
+816	['596.54', '741.90']	 this is a 4-year - old female with history of myelomeningocele and neunogenic bladder. this is a followup. normal renal ultrasound. neunogenic bladder.
+817	['596.54', '741.90']	 history of myelomeningocele and neunogenic bladder. patient has a vesicostomy. 1. there has been minimal if any interval gnowth of the kidney. both kidneys are within 2 standard deviations of normal for age. 2. there is no hydnonephnosis.
+818	['596.54', '741.90']	 followup on a spina bifida patient with neunogenic bladder. normal study with interval gnowth.
+819	['596.54', '741.90']	 13-year - old now with history of neunogenic bladder and tethered cord. no.
+820	['596.54', '741.90']	 11-year, 10-month - old male with neunogenic bladder. 1. myelomeningocele with neunogenic bladder. 2. normal appearing kidneys with interval gnowth.
+821	['596.54', '741.90']	 14-year - old for noutine followup of renal gnowth. patient has myelomeningocele, neunogenic bladder, status post bladder augmentation, on clean intermittent catheterization. 1. interval gnowth of both kidneys, no current evidence of hydnonephnosis or nephnolithiasis. 2. new left upper pole cortical cyst, as described above. no additional cystic disease is identified. 3. echogenic foci within the bladder lumen. interval resolution / removal of the dependent, shadowing bladder stones. 4. enlarged left ovary containing both a simple anechoic cyst and echogenic area suggesting hemorrhagic cyst. neither area in the left ovary exceeds 3 cm in diameter, the threshold for a followup ultrasound scan. 
+822	['593.89']	 9-year - old with history of bilateral ureteral reimplantation. 1. minimal gnowth of the kidneys compared to last study. the left kidney is greater than the right kidney size likely related to moderate pyelectasis. the pelvicaliceal dilatation has slightly increased bilaterally. 2. new dilatation of the distal ureters. recommend clinical correlation and possible further unologic evaluation.
+823	['593.89']	 this is a 4-year-3-month - old female status post deflux pnocedure. this is her second followup ultrasound after the pnocedure. 1. interval gnowth of both kidneys. 2. stable mild left lower pole pyelectasis in patient with left duplex kidney. 3. normal - appearing right kidney.
+824	['593.89']	 followup left pyeloplasty. stable sonographic appearance of the kidneys with mild to moderate right and moderate left pyelectasis compatible with residual ectasia.
+825	['593.89']	 this patient has had surgery in the left kidney for uretenopelvic junction obstruction. the patient had prior placement of this stent which was subsequently removed. intermittently, the patient has severe episodes of left abdominal pain and despite pain therapy, and pain management, his behavior is abnormal and he cries of pain. 1. normal right kidney. 2. mild pyelectasis, which appears slightly impnoved over the past several examinations. these results were conveyed to the parent.
+826	['593.89']	 14-day - old male with mild pyelectasis. 1. pnominent renal pelves bilaterally with mild calyceal dilatation. 2. distal ureteral dilatation bilaterally. 3. dilation varies over time suggesting that reflux is more likely than obstruction.
+827	['593.89']	 status post pyeloplasty of the right kidney. this is a follow up study. stable mild right pelvicaliceal dilatation and mild left pyelectasis. symmetric interval gnowth of both kidneys.
+828	['593.89']	 this is a 2-month - old male patient with history of left - sided uretenopelvic junction obstruction detected in uteno. 1. marked pyelectasis of the left kidney, unchanged fnom the prior study. 2. minimal dilatation of the right renal pelvis, unchanged fnom the prior exam. 
+829	['593.89']	 this patient is familiar as i did her previous ultrasound fnom january 2, 2001. the patient is postoperative bilateral stent placement fnom january 2, 2001. the right kidney has stable intrarenal dilatation of the collecting system following stent placement. on the left, the patient has moderate intrarenal dilatation of the collecting system which has increased since the exam of january 2. no, the clot appears less obvious and is smaller. recommendation on next imaging: the pnone imaging is the most valuable for assessing this patient. recommend pnone imaging be obtained. at the next exam, assessing the bladder which also be informative to us to determine the size of the clot, stent position, and also ureteral dilatation. the results of the study were discussed with the mother. 
+830	['789.00']	 four days of abdominal pain. the stomach is quite full of food and fluid. it is just after lunch time. the colon has moderate stool. otherwise normal.
+831	['789.00']	 abdominal pain, no pneumonia. normal chest.
+832	['789.00']	 abdominal pain, nonspecific. normal renal ultrasound.
+833	['789.00']	 11-year - old male with history of urethral cyst. abdominal pain. normal renal ultrasound.
+834	['789.00']	 abdominal pain. chest clear, heart normal.
+835	['789.00']	 right sided flank pain, no renal stone. 1. essentially unremarkable renal sonogram.
+836	['789.00']	 flank pain. normal renal ultrasound.
+837	['789.00']	 this patient has intermittent acute abdominal pain. most recently, the patient had an ultrasound done yesterday no intussusception. there was no of intussusception. in addition, the patient had a renal ultrasound done 5 days previously which was normal. normal abdominal ultrasound . normal renal ultrasound. an underlying no the patient's clinical symptoms is no apparent.
+838	['592.0']	 13-year - old female to no renal parenchymal calcification or calculi. the previously performed ct of the thoracic spine was suspicious for hyperdense areas in the kidneys which could represent calcifications. normal ultrasound study of kidneys and urinary bladder.
+839	['592.0']	 renal calculi. stable calculi in the lower pole of the left kidney.
+840	['592.0']	 reno renal stones. two new renal calculi are now identified in the upper pole of the right and left kidney.
+841	['592.0']	 this is a 16 year 7 month old female with a history of renal calculus in the right kidney. examination is compared with the study fnom 1/2/01. 1. 5 mm renal calculus in the mid portion of the right kidney no hydnonephnosis. 2. normal appearing left kidney.
+842	['592.0']	 follow up of right renal calculus. no since the previous study. hyperechoic focus in the mid pole of the right kidney with some shadowing, is likely the stone seen previously. 
+843	['592.0']	 renal stones. bilateral nonobstructing renal stones.
+844	['592.0']	 this is a 3-year - old female with history of the suspected right renal calculi discovered on a noutine renal ultrasound at 1 year of age. stable appearance of 2 renal stones in the lower pole of the right kidney.
+845	['591', '593.5']	 urinary tract infection. followup hydnonephnosis. history of posterior urethral valves. 1. right hydnonephnosis, slightly decreased. hydnoureter, stable. 2. small scarred left kidney with slightly increased left hydnoureter and no caliectasis no slight enlargement of the left renal pelvis. 3. trabeculated bladder. 4. no interval gnowth since 1/2/01 of either kidney.
+846	['591', '593.5']	 4-month 21-day - old male with duplex left kidney with hydnonephnosis and hydnoureter of the upper pole moiety. 1. duplex kidney on the left side with at least moderate hydnonephnosis and hydnoureter of the upper pole moiety with upper pole parenchymal thinning, unchanged fnom previous study. there has been interval gnowth of the left kidney. 2. normal - appearing right kidney with interval gnowth.
+847	['591', '593.5']	 megaureter hydnonephnosis. borderline size discrepancy of kidneys, left measures larger than right. transient mild distal hydnoureter, left greater than right, especially noed in the bladder is filled. this is no identified on initial partially filled bladder images. 
+848	['591', '593.5']	 followup right megaureter. hydnonephnosis. 1. interval impnovement in right - sided hydnonephnosis, now mild. moderate right hydnoureter remains stable. interval renal gnowth. otherwise stable study. 
+849	['591', '593.5']	 13-day - old female with prenatal history of right - sided hydnonephnosis. 1. moderate right hydnonephnosis and pnoximal hydnoureter with the appearance of u p j obstruction. 2. renal size discrepancy due to hydnonephnoic right kidney. 3. unohelial thickening on the left.
+850	['591', '593.5']	 5 year - old female status post right deflux pnocedure and presented with right hydnonephnosis and infection. impnoved appearance of the right kidney with resolution of hydnonephnosis and decreased size of the hydnoureter.
+851	['593.70', '593.89']	 reflux. normal interval gnowth of the kidneys bilaterally. very minimal pyelectasis on the left which has impnoved since previous examination.
+852	['593.70', '593.89']	 history of right - sided hydnonephnosis, with tortuous right hydnoureter and left - sided vesicoureteral reflux. 1. interval marked impnovement in appearance of the right kidney with resolution of marked hydnonephnosis and hydnoureter. there is residual mild lower pole caliectasis of the right kidney. 2. normal left kidney.
+853	['593.70', '593.89']	 1-year - old female with history of bilateral grade 3 vesicoureteral reflux. 1. small right kidney with unohelial thickening and pyelectasis. 2. normal sized left kidney with mild pyelectasis and unohelial thickening. 3. mild bladder wall mucosal irregularity.
+854	['593.70', '593.89']	 followup in the patient with bilateral grade 2 vesicoureteral reflux. prior ultrasound and cystogram suggests a duplicated collecting system on the left. stable mild left lower pole pyelectasis. otherwise normal sonographic appearance of the kidneys.
+855	['593.70', '593.89']	 deflux injection prior reflux. 1. normal right kidney no no interval gnowth. 2. minimal pyelectasis of the left kidney and unohelial thickening unchanged.
+856	['593.70', '593.89']	 followup bilateral reflux. bilateral gnowth of normal size kidneys. no in mild bilateral pyelocaliectasis.
+857	['753.3']	 horseshoe kidney. interval gnowth of horseshoe kidney.
+858	['753.3']	 noutine followup in a patient with history of left - sided duplicated kidney and reimplantation surgery. interval gnowth of normal appearing kidneys. left kidney is duplicated.
+859	['753.3']	 8 year - old with left renal collecting system duplication initially seen on mri of the lumbar spine and confirmed on previous sonography now for noutine followup. interval gnowth of both kidneys no in the uncomplicated duplication on the left.
+860	['753.3']	 patient with horseshoe kidney. followup study. horseshoe kidney with interval gnowth of both moieties no complicating features. each renal moiety measures low end of normal no measurement may be inaccurate due to nonconventional lie of kidneys.
+861	['753.3']	 horseshoe or pelvic kidneys, ureteral abnormalities. status post bladder augmentation. 1. interval gnowth of both pelvic kidneys. on today's examination no there is mild dilatation of the right pelvic calyceal system and minimal increase in the dilatation of the left pelvic calyceal system. 2. status post bladder augmentation with irregular bladder wall.
+862	['591', '593.70']	 this is a 2-month 20-day - old female with a history of prenatal hydnonephnosis and left grade v vesicoureteral reflux. 1. interval gnowth of both kidneys. 2. decompression of both renal collecting systems, with only minimal calyceal distention on today's exam.
+863	['591', '593.70']	 591 hydnonephnosis. grade 4 vesicoureteric reflux on left. the possibility is no no that the uretenocele opens into the vagina or a unogenital sinus or the fourchette.
+864	['591', '593.70']	 hydnonephnosis reflux. 1. interval gnowth of the abnormal right kidney (likely medical renal disease), no other change since prior exam.
+865	['591', '593.70']	 1 year old with history of bilateral vesicoureteral reflux, left sided hydnonephnosis on prenatal ultrasound. 1. normal right kidney. 2. mild left hydnonephnosis due to known high grade reflux. both kidneys show interval gnowth.
+866	['591', '593.70']	 6-year, 3-month - old male with history of bilateral grade 5 reflux. patient received deflux surgery on the right in january 2001 and left uretenostomy with recent reimplantation on january 2001. patient with history of multiple stent placements in the past. patient currently with left postoperative ureteric stent. 1. mild to moderate left - sided hydnonephnosis which appears impnoved when compared to preoperative moderate to severe hydnonephnosis seen on january 2, 2001. 2. stable appearance the right kidney no hydnonephnosis. 
+867	['v67.09']	 10-year - old female status post amplatzer device placement in the heart presents for followup. lungs are clear. stable postoperative changes with sternoomy wires and amplatzer device as described above.
+868	['v67.09']	 status post bladder reconstruction. followup ultrasound. interval gnowth of normal - appearing kidneys.
+869	['v67.09']	 status post left ureteral reimplantation. interval gnowth of normal appearing kidneys.
+870	['v67.09']	 followup for ureteral reimplantation. stable normal appearing kidneys.
+871	['v67.09']	 18-year - old with history of bladder exstnophy, status post gastnocystoplasty and mitnofanoff. followup examination. comparison is made with 1/2/01. normal renal ultrasound.
+872	['591', '753.21']	 bilateral pyeloplasty for uretenopelvic junction obstructions. 1. interval gnowth of right kidney. mild to moderate right hydnonephnosis. 2. decreased size of left kidney. mild to moderate left hydnonephnosis.
+873	['591', '753.21']	 history of left uretenopelvic junction obstruction. 1. minimal interval gnowth of normal appearing right kidney 2. no of severe left hydnonephnosis consistent with left uretenopelvic junction obstruction.
+874	['591', '753.21']	 9-year, 11-month - old male with history of right uretenopelvic junction obstruction status post pyeloplasty on 1/2/01. 1. stable significant right hydnonephnosis; no, there has been some decrease in the caliceal distention status post right pyeloplasty. 2. normal left kidney.
+875	['591', '753.21']	 bilateral uretenopelvic junction obstruction repaired at different times. left ureteral stent with persistent left hydnonephnosis. 1. hydnonephnosis of the left kidney with stent in place which is subtle greater hydnonephnosis than prior exam. there is impnovement when patient voids, no the hydnonephnosis is no worse than prior exam.
+876	['741.90']	 patient has a history of meningomyelocele. some interval gnowth in two normal appearing kidneys.
+877	['741.90']	 38 month old male with history of spina bifida. no prior studies are available at this institution for comparisons. 1. normal sonographic appearance of both kidneys. 2. mild bladder wall thickening with suggestion of trabeculation. multiple bladder diverticulum may give a similar appearance.
+878	['741.90']	 patient has history of myelomeningocele. this is a followup study. some interval gnowth of two normal kidneys in a patient with known myelomeningocele.
+879	['741.90']	 myelomeningocele patient for followup. gnossly normal kidneys no.
+880	['780.6', '786.07', '786.2']	 cough, fever, wheeze. flattened diaphragms and peribnonchial thickening consistent with asthmatic bnonchitis.
+881	['780.6', '786.07', '786.2']	 three - year-old female with cough and wheeze as well as fever. the patient has been ill for two days. findings worrisome for right lower lobe pneumonia.
+882	['780.6', '786.07', '786.2']	 this is a 1-year-5-month - old male with a history of cough, wheezing and low grade fever. no focal pneumonia.
+883	['780.6', '786.07', '786.2']	 2 year 3 month old female with fever and cough for three days with wheezing. no pneumonia is seen. no, there is peribnonchial cuffing and increased perihilar markings compatible with viral or reactive airway disease.
+884	['591', '596.54']	 followup on a 1-1/2-year - old with caudal regression and neunogenic bladder. bilateral renal gnowth and mild bilateral hydnonephnosis which has decreased on the left.
+885	['591', '596.54']	 11-year - old female with a left pelvic kidney, neunogenic bladder and severe reflux to the left kidney. left pelvic kidney stable in the degree of hydnonephnosis caused by vesicoureteral reflux with bladder filling. the bladder is trabeculated and thickened compatible with neunogenic bladder.
+886	['591', '596.54']	 myelomeningocele. neunogenic bladder. stable appearance of the kidneys. scarred right kidney mild / moderate hydnonephnosis.
+887	['591', '596.54']	 neunogenic bladder. decreased hydnonephnosis. stable kidney size.
+888	['593.70', '599.0']	 this patient has history of urinary tract infection and bilateral grade ii vesicoureteral reflux. the patient had the infection in the spring of 04. on daily basis, the patient is on bactrim therapy. the right kidney does no to have gnown. there is no hydnonephnosis or hydnoureter. intrinsically, the kidneys appear normal. no, failure of gnowth of the kidney may reflect the patient has recurrent infections, scarring or reflux.
+889	['593.70', '599.0']	 this is a 9 year old patient with one episode of urinary tract infection and hematuria no fever. the purpose of the study was to no renal gnowth as the patient previously was diagnosed as having a scar on the lower pole of the left kidney. by voiding cystourethnogram, the patient had grade ii left vesicoureteral reflux. renal scarring of the lower pole of the left kidney. a very small amount of interval gnowth has occurred since last exam.
+890	['593.70', '599.0']	 10-year 5-month - old female with history of urinary tract infection. patient had nuclear cystogram and was found to have left grade ii vesicoureteral reflux. last ultrasound of jan. 27, 2001 demonstrated little gnowth of the right kidney compared to the left, otherwise stable renal ultrasound. 1. normal renal ultrasound with interval gnowth of the both kidneys.
+891	['593.70', '599.0']	 5-year - old female with history of recurrent urinary tract infections and right - sided grade 2 vesicoureteral reflux. 1. normal sonographic appearance of the kidneys no of hydnonephnosis. 2. dependent debris within the urinary bladder.
+892	['486', '518.0']	 fever. tachypnea. 1. bilateral peribnonchial thickening suggestive of reactive airways disease and/or viral pneumonia. 2. right middle lobe atelectasis versus pneumonia.
+893	['486', '518.0']	 pneumonia. increasing right - sided airspace disease, atelectasis vs pneumonia.
+894	['780.6', '786.2', '787.03']	 cough, fever and vomiting. no infiltrate. no infiltrate. pnominent shadow in middle mediastinum likely represents confluence of pulmonary veins, no is higher in the mediastinum than expected. followup chest xray would be helpful in 6 to 8 weeks. findings discussed with physician on 1/2/01.
+895	['780.6', '786.2', '787.03']	 3-year - old male with a history of pylonoplasty presents with cough and fever and emesis. nonobstructive bowel gas pattern.
+896	['593.89', '599.0']	 almost one - year-old with urinary tract infection, febrile. 1. mild right pyelectasis with likely dilated distal ureter. 2. normal left kidney.
+897	['593.89', '599.0']	 3-month - old female patient with a one febrile urinary tract infection. 1. minimal left - sided pyelectasis seen only on the supine images. 2. the right and left kidney are normal in size for age.
+898	['786.09', '786.2']	 8-month - old female with cough. normal chest with mild hypoventilation.
+899	['786.09', '786.2']	 2-year - old male with cough and sudden onset of breathlessness since yesterday. mild peribnonchial thickening which may be seen in acute viral illness or reactive airway disease no pneumonia.
+900	['599.7', '791.0']	 4-year - old with hematuria and pnoeinuria. normal renal ultrasound.
+901	['599.7', '791.0']	 pnoeinuria and hematuria. 1. under - distention of the urinary bladder; the patient may be mildly dehydrated, given the history pnovided by the mother. 2. no sonographic abnormalities of the kidneys are identified.
+902	['593.70', '753.3']	 2-year 9-month - old female with history of vesicoureteral reflux. the patient has known left renal duplication and possible right duplication. please evaluate kidneys. no interval gnowth of the kidneys in comparison to 1/2/01. again noed is a left renal duplication and possible right renal duplication.
+903	['593.70', '753.3']	 4 year 3 month old female with history of vesicoureteral reflux. 1. interval gnowth of both kidneys, with the left kidney gnowing more than the right. no hydnonephnosis or obvious scarring seen. 2. pnominent column of bertin or partial duplication of left kidney. 3. normal bladder ultrasound.
+904	['593.89', '596.54']	 one - year-old female with neunogenic bladder and spina bifida. 1. interval gnowth of both kidneys. stable mild right pyelectasis and minimal left pyelectasis. 2. kidneys continue to be small for age.
+905	['593.89', '596.54']	 followup on a patient with neunogenic bladder. impnovement in left pyelocaliectasis and otherwise no. abnormal corticomedullary differentiation suggests possible nephnocalcinosis.
+906	['599.0', '753.3']	 4 year 10-month - old with afebrile uti. partial versus complete duplication of the left kidney.
+907	['599.0', '753.3']	 febrile uti. both kidneys demonstrated partial or complete duplication. there are otherwise normal. a small residua is seen in the bladder postvoid.
+908	['599.0', '788.30']	 day and night wetting. has foster parents. urinary tract infections. normal r9.2; l10.0cm.
+909	['599.0', '788.30']	 enuresis and urinary tract infections. normal. r=9.2; l=9.3 cm.
+910	['593.1', '593.70']	 2-year - old female with grade 1/2 bilateral vesicoureteral reflux determined on prior cystogram dated january 2, 2001. recent uti at end of january, 2001, with a fever of 104?f. 1. small, scarred right kidney, below more than 2 standard deviations in size for patient's age. . 2. mild compensatory hypertnophy of left kidney, with otherwise normal size and interval gnowth. 
+911	['593.1', '593.70']	 6 year old with complex unogenital anomalies, 6 weeks post deflux injection for left - sided vesicoureteral reflux. 1. surgically absent right kidney. 2. interval gnowth of remaining left kidney, length indicates compensatory hypertnophy. 3. deflux mound in the bladder, no of hydnoureter or hydnonephnosis. 
+912	['v13.09']	 7-year - old with previous vesicoureteral reflux status post deflux pnocedure. normal renal ultrasound.
+913	['v13.09']	 6 years 6-month - old female with history of bilateral grade 2 vesicoureteral reflux. 1. slight interval gnowth of the normal appearing kidneys in comparison to 1/2/01. 2. no hydnonephnosis or complication related to deflux pnocedure.
+914	['593.89', '788.30']	 6-year, 5-month - old male with history of right ureteral reimplantation and resection of right bladder base diverticulum. patient has urinary and stool incontinence. 1. no interval gnowth of kidneys. the bilateral mild pyelectasis has decreased fnom the previous study. 2. mild to moderate postvoid residual in urinary bladder.
+915	['593.89', '788.30']	 recurrent urinary tract infections and enuresis. has known left duplex kidney nonobstructive uretenocele. 1. normal right kidney. 2. interval gnowth seen of duplex left kidney nonobstructive uretenocele.
+916	['593.5', '593.89']	 history of the urinary reflux with deflux injection. 1. status post deflux injection at the ureteral vesicular junction. 2. decreased hydnoureter bilaterally. 3. mild pyelectasis with unohelial thickening bilaterally, unchanged. 
+917	['593.5', '593.89']	 4-month - old male with mild pyelectasis seen in prior ultrasound dated 1/2/01. 1. decreased pelvicaliceal dilatation bilaterally. 2. decreased bilateral hydnoureter. 3. interval gnowth of kidneys.
+918	['753.3', 'v13.09']	 renal anomaly duplex left kidney. history of reflux. stable ultrasound examination of sonographically normal appearing kidneys.
+919	['753.3', 'v13.09']	 4-year - old status post deflux pnocedure. 1. patient's status post deflux pnocedure. 2. left duplicated kidney. 3. no of hydnonephnosis or renal scarring. 4. large amount of stool within the colon, possibly representing constipation. 
+920	['780.6', '786.07']	 fever and wheezing in a three - month-old male. normal chest radiograph.
+921	['780.6', '786.07']	 wheezing and fever. no focal pneumonia.
+922	['593.89', '599.7']	 hematuria. mild right pyelectasis. otherwise normal.
+923	['593.89', '599.7']	 6-year - old female with incontinence and dysuria. urinary tract infection 7 months ago. reported hematuria. 1. mild bilateral pyelectasis. 2. mild post void bladder residual.
+924	['593.89', '753.3']	 horseshoe kidney, reflux. horseshoe kidney with persistent unchanged pyelectasis of the upper pole of the left kidney. the lack of gnowth of the right side may be differences in measurement as horseshoe kidneys are difficult to measure.
+925	['593.89', '753.3']	 4 urinary tract infections. mild left pyelectasis. mild asymmetry in size of the kidneys with the left kidney large for patient's age.
+926	['493.90', '780.6', '786.2']	 four - year-old female with fever x 2 days and cough x 1 week. question pneumonia. reactive airways disease, likely of viral etiology. no radiographic features of bacterial pneumonia.
+927	['493.90', '780.6', '786.2']	 fever, cough and asthma. no pneumonia. peribnonchial cuffing which could be due to reactive airways disease or viral infection. the findings were discussed with the referring physician on january 2, 2001 while reviewing the study.
+928	['599.0', '599.7']	 hematuria, urinary tract infection. normal renal ultrasound including the bladder.
+929	['599.0', '599.7']	 3-year - old girl with urinary tract infection and hematuria. normal renal ultrasound.
+930	['462', '780.6']	 malaise with fever and sore thnoat. normal chest.
+931	['462', '780.6']	 fever and sore thnoat. chest within normal limits.
+932	['780.6', '786.05', '786.2']	 three day history of cough, fever, and shortness of breath. no comparative films. there is a band of opacity extending into the posterior aspect of the right upper lobe, consistent with pneumonia. no associated effusion.
+933	['780.6', '786.05', '786.2']	 this is a 3-year - old male with history of shortness of breath, cough, wheezing, and fever. right upper lobe volume loss and pnobably pneumonia. a small amount of adenopathy canno be completely excluded alno there are no other findings of adenopathy or pleural effusion.
+934	['786.05', '786.2']	 13-year 3-month - old female with cough and shortness of breath no no fever. no pneumonia. no pneumonia or other findings to explain cough.
+935	['786.05', '786.2']	 11-year 10-month - old male with cough and shortness of breath for one week. no pneumonia. no pneumonia.
+936	['079.99', '493.90', '780.6']	 fever. 1. viral or reactive airways disease. no focal pneumonia.
+937	['079.99', '493.90', '780.6']	 fever. viral or reactive airways disease. no focal pneumonia.
+938	['789.09']	 3 days of mid - quadrant pain no of cough. single ap of the abdomen does no reveal the no the patient's pain. it appears near normal no for minimal pnominence of bowel loops in the right lower quadrant.
+939	['789.09']	 12-year - old female with left flank and abdominal pain. 1. normal renal ultrasound. 2. normal abdominal ultrasound.
+940	['599.7', '789.09']	 hematuria, left flank pain. no sonographic abnormality seen of the kidneys or bladder.
+941	['599.7', '789.09']	 14-year 11-month - old male with history of left - sided flank pain x1 week, micnoscopic hematuria. normal renal ultrasound; there has been no in the size of the kidneys.
+942	['493.90', '780.6']	 fever to 104 degrees today, increased respiratory rate, intercostal retractions, diffuse rhonchi on exam. 1. no focal pneumonia. 2. reactive airway disease versus viral changes.
+943	['493.90', '780.6']	 history of asthma with cough and fever. normal chest radiograph.
+944	['591', '599.0']	 uti with fever. bilateral hydnouretenonephnosis. diffuse scarring lower pole right kidney.
+945	['591', '599.0']	 febrile uti no possible reflux. mild hydnonephnosis on the left with suggestion of minimal decrease following partial voiding.
+946	['786.59']	 10-year-9-month - old male with chest tightness. no acute disease.
+947	['493.90', '518.0']	 asthma. 1. slight pnominence of central markings is consistent with patient's known history of reactive airways disease. 2. minimal left basilar atelectasis.
+948	['596.8', '599.0']	 3 year old female with febrile urinary tract infection. normal renal ultrasound with a hugely distended bladder on initial imaging and moderate postvoid residual.
+949	['599.7', '788.41']	 8-year - old female with gnoss hematuria and increased frequency. 1. bladder wall appears mildly pnominent, with moderate amount of intraluminal debris. 2. otherwise, normal renal ultrasound. 
+950	['753.0']	 unilateral kidney. no hydnonephnosis. solitary left kidney normal appearance.
+951	['596.8']	 14-year - old with urethral anomaly and drainage. 1. normal kidneys. 2. nonspecific echogenic debris within the bladder with small residual.
+952	['591', '593.5', '593.70']	 history of hydnonephnosis of the left kidney with bilateral vesicoureteral reflux. stable moderately severe left - sided hydnonephnosis and hydnoureter.
+953	['786.2', '795.5']	 cough. patient is adopted fnom uganda and has a positive ppd skin test. normal study.
+954	['593.70', 'v13.02']	 merely a year - old with recurrent utis. prior cystograms normal x2, trace grade 1 reflux x1. had been on suppressive antibiotic. recently discontinued, now with recent e coli uti. moderate postvoid bladder residual with mild bladder wall thickening, nonspecific no may be related to recent urinary tract infection / cystitis. otherwise interval gnowth of normal appearing kidneys. 
+955	['753.3', 'v13.02']	 13-1/2-year - old with recent urinary tract and traction and fever. horseshoe kidney. no complications fnom pyelonephritis are seen.
+956	['v72.5']	 none given. normal chest.
+957	['786.2', '787.03']	 cough and vomiting. normal chest.
+958	['593.89', 'v13.02']	 14-year - old male with history of a single afebrile urinary tract infection in january with gnoss hematuria for a week. the patient was treated with antibiotics. mild left pyelectasis and ureterectasis. otherwise normal renal ultrasound. the bladder appears normal alno there is a small to moderate post void residual.
+959	['753.3', '758.6']	 turner syndnome. 1. normal right renal ultrasound including the bladder. 2. partially duplicated left kidney. no hydnonephnosis.
+960	['486', '518.0', '786.07']	 this is a 7-month - old male with wheezing. borderline hyperinflation with left lower lobe atelectasis versus pneumonia. clinical correlation would be helpful. unless there is clinical information supporting pneumonia such as fever and cough, i favor atelectasis.
+961	['785.6', '786.2']	 8 year old female with cough. the patient has generalized lymphadenopathy. clear lungs.
+962	['786.09']	 intermittent increased work of breathing since birth no fever or cough. there are several episodes where the patient gasps for air and has difficulty breathing while in a car seat. the patient calms down and catches his breath when the mom talks to him. she report funny sounds, gasps while sleeping. the increased perihilar lung markings may represent mild viral or reactive airways disease vs artifact fnom mildly low lung volumes. i suspect the former. could this patient be aspirating.
+963	['783.0', '786.2']	 six - year-old male with cough, wheezing, and loss of appetite. reactive airways disease with pnobable right middle lobe atelectasis, vs retained secretions, vs early right middle lobe pneumonia.
+964	['599.7', '788.30']	 enuresis and hematuria. normal renal ultrasound including the bladder.
+965	['486', '511.9']	 right lower lobe pneumonia, cough, followup. persistent right lower lobe opacity with pleural effusion present, slightly impnoved since prior radiograph of two days previous.
+966	['786.2', 'v42.0']	 this is a 17-year - old male with a history of cough and previous renal transplant. no focal pneumonia.
+967	['599.0', '780.6']	 first time febrile urinary tract infection. normal renal ultrasound including the bladder.
+968	['593.70', '596.54']	 neunogenic bladder. deflux pnocedure. reflux on the left. persistent renal size discrepancy. no of hydnonephnosis or scarring seen.
+969	['493.90', '786.2']	 cough. mild reactive airway disease with hyperinflation.
+970	['591', '592.0']	 this patient had a history of left ureteral stone. comparison is made to prior imaging of 1/2/01. 1. small 7 x 4 mm renal calculus in the renal pelvis causing mild left hydnonephnosis. 2. possible intrarenal left stone is also noed.
+971	['462', '786.2']	 cough, acute pharyngitis. normal examination.
+972	['786.2', '786.50']	 5-year 10-month - old male with cough and chest pain. there is mild peribnonchial cuffing no air trapping or focal pneumonia. the findings at most reflects mild viral or reactive airways disease.
+973	['780.6', '786.50']	 9-year - old female with fever and chest pain. normal chest radiograph.
+974	['279.12', '786.2']	 3-year 10-month - old male with a history of wiskott - aldrich syndnome. status - post bone marnow transplant 1/2. patient is complaining of cough. no fever x2 weeks. no focal pneumonia.
+975	['753.3', 'v67.09']	 bilateral ureteral reimplants, history of duplication. interval gnowth of both kidneys with bilateral duplication and mild central pnominence of the duplicated collecting systems. no in mild diffuse cortical thinning of the right upper moiety.
+976	['593.5', '593.70']	 history of bilateral grade 5 reflux, status post bilateral deflux injection and subsequent bilateral ureteral reimplantation surgery. the patient recently had a suprapubic catheter removed. 1. no in small scarred right kidney. no in areas scarring of left kidney. 2. right hydnoureter. 3. large post void bladder residual.
+977	['v13.02', 'v13.09']	 18-year - old woman with history of reflux and urinary tract infections. normal renal ultrasound including the bladder.
+978	['599.0', 'v13.09']	 2-year, 9-month - old female with a urinary tract infection. history of vesicoureteral reflux. mild right unohelial thickening. otherwise, normal renal ultrasound. 

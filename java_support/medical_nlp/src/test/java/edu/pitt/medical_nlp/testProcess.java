@@ -36,13 +36,13 @@ public class testProcess {
 		System.out.println(process);
 	}
 
-	// @Test
+	 @Test
 	public void testInitMetaType() {
-		String entry = MetaType.requestWeb("nocturnal enuresis");
+		String entry = MetaType.requestWeb("enuresis");
 		System.out.println(entry);
 	}
 	
-	@Test
+	//@Test
 	public void testFeatureSelect(){
 		FeatureSelect fs = new FeatureSelect();
 		fs.select(10);

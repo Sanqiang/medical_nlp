@@ -1,0 +1,62 @@
+package edu.pitt.is17.assignment7;
+/**
+ * Assignment 7
+ * 
+ * @author Sang Lee
+ * 
+ * This Word class holds a constructor for the word and wordType, 
+ * and also setters and getters for those two variables.
+ */
+
+public class Word {
+	
+	// Declare the instance variables of the Word class and set it to private.
+	private String wordType;
+	private String word;
+	
+	/**
+	 * This is a constructor for Word class it takes in:
+	 * @param wordType which is a String and also initializes the word to an empty string.
+	 */
+	public Word(String wordType){
+		
+		// Sets the wordType property to the String wordType passed.
+		this.wordType = wordType;
+		// Initialize word property to an empty string.
+		this.word = "";
+	}
+	
+	/**
+	 * This method is a getter for wordType which returns:
+	 * @return wordType: String type.
+	 */
+	public String getWordType() {
+		return wordType;
+	}
+	
+	/**
+	 * This method is a setter for wordType which takes in:
+	 * @param wordType: String type.
+	 */
+	public void setWordType(String wordType) {
+		this.wordType = wordType;
+	}
+	
+	/**
+	 * This method is a getter for word which returns:
+	 * @return word: String type.
+	 */
+	public String getWord() {
+		return word;
+	}
+	
+	/**
+	 * This method is a setter for word which takes in:
+	 * @param word: String type.
+	 */
+	public void setWord(String word) {
+		this.word = word;
+	}
+	
+	
+}

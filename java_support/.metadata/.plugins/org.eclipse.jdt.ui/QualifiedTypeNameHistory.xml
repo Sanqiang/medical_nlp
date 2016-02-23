@@ -6,7 +6,6 @@
 <fullyQualifiedTypeName name="edu.pitt.is17.midterm.Player"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="edu.stanford.nlp.ling.Word"/>
-<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="edu.stanford.nlp.patterns.ScorePatternsFreqBased"/>
 <fullyQualifiedTypeName name="edu.stanford.nlp.ling.HasWord"/>
 <fullyQualifiedTypeName name="java.lang.Deprecated"/>
@@ -14,7 +13,6 @@
 <fullyQualifiedTypeName name="edu.pitt.medical_nlp.graph.WordNode"/>
 <fullyQualifiedTypeName name="edu.pitt.medical_nlp.utility.Helper"/>
 <fullyQualifiedTypeName name="gov.nih.nlm.nls.skr.GenericObject"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilderFactory"/>
 <fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilder"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.txw2.Document"/>
@@ -27,7 +25,6 @@
 <fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="javax.net.ssl.HttpsURLConnection"/>
 <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
@@ -35,6 +32,13 @@
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="edu.pitt.medical_nlp.Config"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="edu.pitt.medical_nlp.utility.PartOfSpeech"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,13 @@
+package edu.pitt.ex.structure;
+
+import edu.stanford.nlp.ling.HasWord;
+
+public class Word implements HasWord {
+	public String token;
+	public int idx;
+	
+	public Word(String token, int idx){
+		this.token = token;
+		this.idx = idx;
+	}
+}

@@ -1,9 +1,0 @@
-package text_ex;
-
-public class ProcessEx {
-
-	
-	void processConj(String sentence){
-		
-	}
-}

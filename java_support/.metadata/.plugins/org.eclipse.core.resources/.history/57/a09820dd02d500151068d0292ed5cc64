@@ -1,0 +1,61 @@
+package test;
+
+import static org.junit.Assert.*;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.regex.Pattern;
+
+import org.junit.Test;
+
+import medical_classify.negex.GenNegEx;
+
+public class Negex {
+
+	@Test
+	public void test() throws Exception {
+		GenNegEx g = new GenNegEx();
+		String fillerString = "_";
+		boolean negatePossible = true;
+
+		String triggersFile = "";
+		String sentencesFile = "";
+
+		File ruleFile = new File(triggersFile);
+		File testKitFile = new File(sentencesFile);
+
+		Scanner sc = new Scanner(ruleFile);
+		Scanner scKit = new Scanner(testKitFile);
+
+		ArrayList rules = new ArrayList();
+		String afterNegCheck = "";
+
+		while (sc.hasNextLine()) {
+			rules.add(sc.nextLine());
+		}
+
+		while (scKit.hasNextLine()) {
+			// sentences.add(scKit.nextLine().trim().toLowerCase());
+			Pattern pSplit = Pattern.compile("[\\t]+");
+
+			String line = scKit.nextLine().trim();
+
+			String[] content = pSplit.split(line);
+
+			String phrase = content[1].trim();
+			String sentence = content[2].trim();
+
+			// Show NEGATED and POSSIBLE tags for the testkit and print scope.
+			afterNegCheck = g.negCheck(sentence, phrase, rules, negatePossible);
+			System.out.println(
+					content[0] + "\t" + content[1] + "\t" + content[2] + "\t" + content[3] + "\t" + afterNegCheck);
+
+			sc.close();
+			scKit.close();
+		}
+		// fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,7 @@
+package edu.pitt.ex;
+
+public class DocumentProcess {
+	void removeNeg(String sentence) {
+		
+	}
+}

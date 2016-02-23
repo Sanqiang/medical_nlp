@@ -1,0 +1,63 @@
+package edu.pitt.is17.assignment7;
+
+/**
+ * Assignment7
+ * 
+ * @author Dan McCafferty
+ */
+
+/**
+ * 
+ * class Word stores word to be added to the arraylist in class madlib
+ * also stores wordtype denoted in the madlib class
+ *
+ */
+public class Word {
+	//private string variables to store the user input word and the wordtype from madlib class
+	private String wordType;
+	private String word;
+	
+	/**
+	 * constructor Word that accepts the string wordtype set in class madlib in the arraylist
+	 * @param wordType is accepted and saved to private string wordtype
+	 * also sets word to empty string
+	 */
+	public Word(String wordType){
+		this.wordType = wordType;
+		this.word = "";
+	}
+
+	/**
+	 * 
+	 * method getter to get wordtype in other classes 
+	 */
+	public String getWordType() {
+		return wordType;
+	}
+
+	/**
+	 * 
+	 * method setter for private variable wordtype accepts @param wordType
+	 */
+	public void setWordType(String wordType) {
+		this.wordType = wordType;
+	}
+
+	/**
+	 * 
+	 * method getter for private variable word to get in other classes
+	 */
+	public String getWord() {
+		return word;
+	}
+
+	/**
+	 * 
+	 * method setter or private variable Word accepts @param word
+	 */
+	public void setWord(String word) {
+		this.word = word;
+	}
+	
+	
+}

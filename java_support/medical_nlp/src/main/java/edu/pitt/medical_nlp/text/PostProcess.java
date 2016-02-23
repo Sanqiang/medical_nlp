@@ -12,6 +12,7 @@ import edu.pitt.medical_nlp.utility.Config;
 import edu.pitt.medical_nlp.utility.DependencyType;
 import edu.pitt.medical_nlp.utility.Helper;
 import edu.pitt.medical_nlp.utility.Module;
+import edu.pitt.medical_nlp.utility.PartOfSpeech;
 import edu.stanford.nlp.ling.TaggedWord;
 import edu.stanford.nlp.parser.nndep.DependencyParser;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
@@ -35,7 +36,7 @@ public class PostProcess extends Process {
 				List<List<WordNode>> record = _docs_processed.get(i);
 				for (List<WordNode> sentence : record) {
 					for (WordNode word : sentence) {
-						writer.write(word.word());
+						writer.write(word.word().toLowerCase().replace("_", " "));
 						writer.write(" ");
 					}
 				}
@@ -63,6 +64,23 @@ public class PostProcess extends Process {
 			Graph graph = new Graph();
 			for (List<WordNode> sentence : record) {
 				List<TaggedWord> tagged = tagger.tagSentence(sentence);
+				
+				if (true) {
+					for (int ind = 1; ind < tagged.size(); ind++) {
+						PartOfSpeech prev =Helper.mapPartOfSpeech(tagged.get(ind-1).tag()), cur = Helper.mapPartOfSpeech(tagged.get(ind).tag());
+						if ((prev == PartOfSpeech.ADJECTIVE && cur == PartOfSpeech.NOUN  && 
+								("SignorSymptom".equals(sentence.get(ind).type)|| "DiseaseorSyndrome".equals(sentence.get(ind).type))
+								)
+								||
+								(prev == PartOfSpeech.NOUN && cur == PartOfSpeech.NOUN) &&
+								("SignorSymptom".equals(sentence.get(ind).type)|| "DiseaseorSyndrome".equals(sentence.get(ind).type))
+								) {
+							added_record_features.get(i).add(tagged.get(ind-1).word()+"_"+tagged.get(ind).word());
+						}
+					}
+					
+				}
+				
 				GrammaticalStructure gs = parser.predict(tagged);
 				for (TypedDependency typed_dependence : gs.typedDependenciesCCprocessed(Extras.MAXIMAL)) {
 					int idx_gov = typed_dependence.gov().index() - 1;
@@ -89,7 +107,7 @@ public class PostProcess extends Process {
 							// idx_gov, dependency_type);
 							break;
 						case NominalSubject:
-							graph.createEdge(node_gov, node_dep, dependency_type);
+							//graph.createEdge(node_gov, node_dep, dependency_type);
 							// graph.createEdge(lemma_gov, lemma_dep, idx_gov,
 							// idx_dep, dependency_type);
 							break;
@@ -104,7 +122,7 @@ public class PostProcess extends Process {
 					}
 				}
 			}
-			added_record_features.get(i).addAll(graph.generateFeatures(this));
+			//added_record_features.get(i).addAll(graph.generateFeatures(this));
 		}
 	}
 

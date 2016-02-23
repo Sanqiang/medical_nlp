@@ -119,7 +119,7 @@ for loop_stat in range(0,1):
     scores = []
     report_y_actual = []
     report_y_predict = []
-    kf = cross_validation.KFold(tfidf_train.shape[0], n_folds=10, shuffle=True)
+    kf = cross_validation.KFold(tfidf_train.shape[0], n_folds=5, shuffle=True)
     loop = 0
     for train_index, test_index in kf:
         x_train, x_test = tfidf_train[train_index].toarray(), tfidf_train[test_index].toarray()

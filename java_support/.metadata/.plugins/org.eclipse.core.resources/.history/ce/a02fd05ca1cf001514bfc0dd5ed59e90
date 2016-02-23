@@ -1,0 +1,86 @@
+package medical_classify;
+
+import java.util.ArrayList;
+
+public class GoldClassify {
+	static void classify(String text) {
+		ArrayList<String> codes = new ArrayList<>();
+
+		// 789.00 : Abdominal pain, unspecified sit
+		if (text.contains("abdominal pain") || text.contains("flank pain")) {
+			codes.add("789.00");
+		}
+		// 462 : Acute pharyngitis
+		if (text.contains("pharyngitis") || text.contains("sore throat")) {
+			codes.add("462");
+		}
+		// 783.0 : Anorexia
+		if (text.contains("loss of appetite")) {
+			codes.add("783.0");
+		}
+		// 518.0 : Pulmonary collapse
+		if ((text.indexOf("atelectasis") != -1 && text.indexOf("lobe") != -1
+				&& Math.abs(text.indexOf("atelectasis") - text.indexOf("lobe")) <= 5)
+				|| (text.indexOf("atelectasis") != -1 && text.indexOf("lung") != -1
+						&& Math.abs(text.indexOf("atelectasis") - text.indexOf("lung")) <= 5)
+				|| text.contains("lobe collapse")) {
+			codes.add("518.0");
+		}
+		// 596.54 : Neurogenic bladder NOS
+		if(text.contains("neurogenic bladder")){
+			codes.add("596.54");
+		}
+		// 786.50 : Unspecified chest pain
+		if (text.contains("chest pain")) {
+			codes.add("786.50");
+		}
+		// 786.2 : Cough
+		if (text.contains("cough")) {
+			codes.add("786.2");
+		}
+		// 277.00 : Cystic fibrosis without mention of meconium ileus
+		// 780.6 : Fever
+		// 758.6 : Gonadal dysgenesis
+		// 599.7 : Hematuria
+		// 591 : Hydronephrosis
+		// 592.0 : Calculus of kidney
+		// 786.59 : Other chest pain
+		// 786.09 : Other dyspnea and respiratory abnormality
+		// 596.8 : Other specified disorders of bladder
+		// 593.89 : Other specified disorders of kidney and ureter
+		// 511.9 : Unspecified pleural effusion
+		// 791.0 : Proteinuria
+		// 788.30 : Urinary incontinence, unspecified
+		// V13.02 : Urinary (tract) infection
+		// 599.0 : Urinary tract infection, site not specified
+		// 786.07 : Wheezing
+		// 279.12 : Wiskott-Aldrich syndrome
+		// 079.99 : Unspecified viral infection in conditions classified
+		// elsewhere and of unspecified site
+		// 493.90 : Asthma, unspecified type, without mention of status
+		// asthmaticus
+		// 593.1 : Hypertrophy of kidney
+		// 741.90 : Spina bifida, without mention of hydrocephalus, unspecified
+		// region
+		// 753.0 : Renal agenesis and dysgenesis
+		// 795.5 : Nonspecific reaction to tuberculin skin test without active
+		// tuberculosis
+		// 486 : Pneumonia, organism unspecified
+		// 753.21 : Congenital obstruction of ureteropelvic junction
+		// 789.09 : Abdominal pain, other specified site; multiple sites
+		// V13.09 : Other personal history of disorders of urinary system
+		// 786.05 : Shortness of breath
+		// 753.3 : Other specified congenital anomalies of kidney
+		// 759.89 : Other specified anomalies
+		// 593.70 : Vesicoureteral reflux with reflux nephropathy, unspecified
+		// or without reflux nephropathy
+		// 785.6 : Enlargement of lymph nodes
+		// 593.5 : Hydroureter
+		// 788.41 : Urinary frequency
+		// V42.0 : Kidney replaced by transplant
+		// 787.03 : Vomiting alone
+		// V72.5 : Radiological examination, not elsewhere classified
+		// V67.09 : Follow-up examination following other surgery
+
+	}
+}

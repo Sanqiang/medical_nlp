@@ -1,0 +1,5 @@
+package medical_classify.structure;
+
+public class Edge {
+	public String type;
+}

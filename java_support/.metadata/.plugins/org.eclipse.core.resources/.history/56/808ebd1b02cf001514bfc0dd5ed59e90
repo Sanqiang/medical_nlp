@@ -1,0 +1,17 @@
+package edu.pitt.ex;
+
+import java.util.List;
+
+import edu.pitt.ex.structure.Word;
+import edu.pitt.medical_nlp.utility.Module;
+import edu.stanford.nlp.parser.nndep.DependencyParser;
+import edu.stanford.nlp.tagger.maxent.MaxentTagger;
+import edu.stanford.nlp.trees.GrammaticalStructure;
+
+public class DocumentProcess {
+	void removeNeg(List<Word> sentence) {
+		MaxentTagger tagger = Module.getInst().getTagger();
+		DependencyParser parser = Module.getInst().getDependencyParser();
+		GrammaticalStructure gs = parser.predict(sentence);
+	}
+}

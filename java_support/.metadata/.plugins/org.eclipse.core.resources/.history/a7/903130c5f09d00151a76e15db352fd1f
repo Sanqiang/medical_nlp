@@ -1,0 +1,23 @@
+package edu.pitt.medical_nlp.feature;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Stat {
+	void summary(){
+		try {
+			BufferedReader reader = new BufferedReader(new FileReader(new File("ADD_SYNONYMfalse_ADD_PHRASEtrue_ADD_TYPEfalse_ADD_RELATIONtrue.txt")));
+			String line = null;
+			while (null != (line = reader.readLine())) {
+				
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

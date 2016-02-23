@@ -1,0 +1,6 @@
+package medical_classify.structure;
+
+public class Vertex {
+	public String token;
+	public int idx;
+}

@@ -1,0 +1,36 @@
+package edu.pitt.is17.assignment7;
+
+import javax.swing.JOptionPane;
+
+public class Game {
+
+	public static void main(String[] args) {
+		/*construct a new MadLib: mL*/
+		MadLib mL = new MadLib();
+		
+		/*ask user for the words and replace them into those "_".*/
+		int indexOfMadLib=0;//create an int to count index of madLib
+		int indexOfWordList=0;//create an int to count index of wordList
+		/*go through the madLib*/
+		for(String element: mL.getMadLib()){
+			/*Every time you encounter an underscore _ , ask user to enter a corresponding word*/
+			if(element.equals("_")){
+				String ask = JOptionPane.showInputDialog(null, "Give me a/an " + mL.getWordList().get(indexOfWordList).getWordType() + ":");
+				mL.getMadLib()[indexOfMadLib] = ask;
+				indexOfWordList++;
+			}
+			indexOfMadLib++;
+		}
+		
+		/*Put the entire message back together into a String variable with the underscores replaced by the words the user entered.*/
+		String entireMessage = "";//initialize the entire message
+		for(int i = 0; i<mL.getMadLib().length; i++){
+			entireMessage += mL.getMadLib()[i] + " ";	
+		}
+		
+		/*Display the final MadLib message.*/
+		JOptionPane.showMessageDialog(null, entireMessage);
+		
+	}
+
+}

@@ -1,0 +1,79 @@
+package yiy47_Assignment7;
+
+
+
+/**
+
+ * this class represents all words and word types
+
+ * 
+
+ * @author yaoyi
+
+ *
+
+ */
+
+public class Word {
+
+private String wordType;
+
+private String word;
+
+
+
+/**
+
+* first constructor
+
+* 
+
+* @param wordType-wordType
+
+*            set by users
+
+*/
+
+public Word(String wordType) {
+
+this.wordType = wordType;
+
+this.word = "";
+
+}
+
+
+
+public String getWordType() {// create getter for wordType
+
+return wordType;
+
+}
+
+
+
+public void setWordType(String wordType) {// create setter for wordType
+
+this.wordType = wordType;
+
+}
+
+
+
+public String getWord() {// create getter for word
+
+return word;
+
+}
+
+
+
+public void setWord(String word) {// create setter for word
+
+this.word = word;
+
+}
+
+
+
+}

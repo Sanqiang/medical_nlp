@@ -1,0 +1,29 @@
+package jcb118_Assignment7;
+
+public class Word {
+	private String wordType;
+	private String word;
+	
+	public Word(String wordType){
+		this.wordType = wordType;
+		this.word = "";
+	}
+
+	public String getWordType() {
+		return wordType;
+	}
+
+	public void setWordType(String wordType) {
+		this.wordType = wordType;
+	}
+
+	public String getWord() {
+		return word;
+	}
+
+	public void setWord(String word) {
+		this.word = word;
+	}
+	
+	
+}

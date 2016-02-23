@@ -1,0 +1,9 @@
+package medical_classify.negex;
+
+import java.io.File;
+
+public class MyNegex {
+	public static void processNegex(){
+		BufferedReader buffer = new BufferedReader(new FileReader(new File("")));
+	}
+}

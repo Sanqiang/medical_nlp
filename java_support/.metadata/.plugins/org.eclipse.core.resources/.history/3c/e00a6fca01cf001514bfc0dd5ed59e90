@@ -1,0 +1,12 @@
+package edu.pitt.ex;
+
+import edu.pitt.medical_nlp.utility.Module;
+import edu.stanford.nlp.parser.nndep.DependencyParser;
+import edu.stanford.nlp.tagger.maxent.MaxentTagger;
+
+public class DocumentProcess {
+	void removeNeg(String sentence) {
+		MaxentTagger tagger = Module.getInst().getTagger();
+		DependencyParser parser = Module.getInst().getDependencyParser();
+	}
+}

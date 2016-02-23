@@ -1,0 +1,71 @@
+package yiy47_Assignment7;
+
+
+
+import javax.swing.JOptionPane;
+
+/**
+
+ * this class shows how to replace "_" with answers that users give in MadLib, and show final message
+
+ * @author yaoyi
+
+ *
+
+ */
+
+public class Game {
+
+public static void main(String[] args) {
+
+MadLib m = new MadLib();
+
+String[] word = m.getMadLib();//assign value of MadLib to word variable
+
+int c = 0;
+
+int i = 0;
+
+for (String element : word) {//enhanced for loop 
+
+if (element.equals("_")) {//check whether or not there exists "_"
+
+element = JOptionPane.showInputDialog(m.getWordList().get(c).getWordType());//if yes, replace element with answers that users give us
+
+m.getWordList().get(c).setWord(element);//replace the value of m.getWordList().get(c) with element
+
+word[i] = element;//change the value of word[i] to element
+
+c++;
+
+}
+
+i++;
+
+}
+
+printArray(word);//call printArray(word) method to print final message
+
+}
+
+
+
+/**
+ * this method will print the final array
+ * @param word-print the final word
+ */
+
+public static void printArray(String[] word) {
+
+for (int i = 0; i < word.length - 1; i++) {
+
+System.out.print(word[i] + " ");
+
+}
+
+System.out.println(word[word.length - 1]);
+
+}
+
+}
+

@@ -1,0 +1,98 @@
+package yiy47_Assignment7;
+
+
+
+import java.util.ArrayList;
+
+
+
+/**
+
+ * this class generate a new ArrayList called wordList
+
+ * 
+
+ * @author yaoyi
+
+ *
+
+ */
+
+public class MadLib {
+
+private String[] madLib;
+
+private ArrayList<Word> wordList;
+
+
+
+/**
+
+* default constructor
+
+*/
+
+public MadLib() {
+
+String madLibString = "Dear Art Teacher. Please excuse _ for being late for your _ art class.  "
+
++ "\nIt is my fault.  I feel _ _ was up until the _ hours of the morning finishing \nhis/her _ project.  "
+
++ "Just as we were going out the _ door I saw that \nhis/her only pair of _ had a _ in them. "
+
++ " He/she needed to change!  \nThen it took me an hour to find my _ to drive him/her to school \nthat morning since _ missed the _ .";
+
+this.madLib = madLibString.split(" ");// split madLibString by " "
+
+wordList = new ArrayList<Word>();// generate a new ArrayList called
+
+// wordList
+
+
+
+wordList.add(new Word("person's name"));// add values to wordList
+
+wordList.add(new Word("adjective"));// add values to wordList
+
+wordList.add(new Word("adjective"));// add values to wordList
+
+wordList.add(new Word("same person's name"));// add values to wordList
+
+wordList.add(new Word("adjective"));// add values to wordList
+
+wordList.add(new Word("adjective"));// add values to wordList
+
+wordList.add(new Word("adjective"));// add values to wordList
+
+wordList.add(new Word("nouns"));// add values to wordList
+
+wordList.add(new Word("noun"));// add values to wordList
+
+wordList.add(new Word("nouns"));// add values to wordList
+
+wordList.add(new Word("same person's name"));// add values to wordList
+
+wordList.add(new Word("nouns"));// add values to wordList
+
+}
+
+
+
+public String[] getMadLib() {// create getter for MadLib
+
+return madLib;
+
+}
+
+
+
+public ArrayList<Word> getWordList() {// create getter for wordList
+
+return wordList;
+
+}
+
+
+
+}
+

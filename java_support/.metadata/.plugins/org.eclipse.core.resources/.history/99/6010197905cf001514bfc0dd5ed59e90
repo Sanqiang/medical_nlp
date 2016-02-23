@@ -1,0 +1,49 @@
+package edu.pitt.ex;
+
+import java.io.StringReader;
+import java.util.ArrayList;
+import java.util.List;
+
+import edu.pitt.ex.structure.Word;
+import edu.pitt.medical_nlp.graph.WordNode;
+import edu.pitt.medical_nlp.utility.Module;
+import edu.stanford.nlp.ling.HasWord;
+import edu.stanford.nlp.parser.nndep.DependencyParser;
+import edu.stanford.nlp.process.DocumentPreprocessor;
+import edu.stanford.nlp.tagger.maxent.MaxentTagger;
+import edu.stanford.nlp.trees.GrammaticalStructure;
+import edu.stanford.nlp.trees.TypedDependency;
+import edu.stanford.nlp.trees.GrammaticalStructure.Extras;
+
+public class DocumentProcess {
+
+	List<Word> transform(String doc) {
+		List<Word> nsentence = new ArrayList<>();
+
+		DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(doc));
+		for (List<HasWord> sentence : tokenizer) {
+
+		}
+
+		return nsentence;
+	}
+
+	void removeNeg(List<HasWord> sentence) {
+		MaxentTagger tagger = Module.getInst().getTagger();
+		DependencyParser parser = Module.getInst().getDependencyParser();
+		GrammaticalStructure gs = parser.predict(sentence);
+		for (TypedDependency typed_dependence : gs.typedDependenciesCCprocessed(Extras.MAXIMAL)) {
+			int idx_gov = typed_dependence.gov().index() - 1;
+			int idx_dep = typed_dependence.dep().index() - 1;
+			if (idx_dep >= 0 && idx_gov >= 0 && idx_dep < sentence.size() && idx_gov < sentence.size()) {
+				HasWord node_gov = sentence.get(idx_gov);
+				HasWord node_dep = sentence.get(idx_dep);
+				String lemma_gov = typed_dependence.gov().word(), lemma_dep = typed_dependence.dep().word();
+				if (!node_gov.word().equals(lemma_gov) || !node_dep.word().equals(lemma_dep)) {
+					// intermediate checking !
+					System.err.println(sentence);
+				}
+			}
+		}
+	}
+}

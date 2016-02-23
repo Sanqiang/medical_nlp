@@ -17,9 +17,9 @@ public class Config {
 	public final static String CONFIG_PCFG_PARSER = "edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz";
 	
 	//features
-	public final static boolean ADD_SYNONYM = false;
-	public final static boolean ADD_PHRASE = true;
+	public final static boolean ADD_SYNONYM = true;
+	public final static boolean ADD_PHRASE = false;
 	public final static boolean ADD_TYPE = false;
-	public final static boolean ADD_RAW_TEXT = false;
+	public final static boolean ADD_RAW_TEXT = true;
 	public final static boolean ADD_RELATION = true;
 }

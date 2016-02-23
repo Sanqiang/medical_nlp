@@ -1,0 +1,69 @@
+package edu.pitt.is17.assignment7;
+
+import java.util.ArrayList;
+/**
+ * Assignment 7
+ * 
+ * @author Sang Lee
+ *
+ *
+ */
+
+public class MadLib {
+	
+	// Declare the instance variables (String type array and array list of Word objects) for the madlib class.
+	private String[] madLib;
+	private ArrayList<Word> wordList;
+	
+	/**
+	 * This is a constructor for Madlib which sets the story by using a String
+	 * variable, madLibString, that is then split into words and assigned to the 
+	 * array madLib property, and it also initializes the wordList ArrayList property.
+	 */
+	public MadLib(){
+		
+		// Create the madLibString that holds the actual madlib story.
+		String madLibString = "Dear Art Teacher. Please excuse _ for being late for your _ art class.  \nIt is my fault.  I feel _ _ was up until the _ hours of the morning finishing \nhis/her _ project.  Just as we were going out the _ door I saw that \nhis/her only pair of _ had a _ in them.  He/she needed to change!  \nThen it took me an hour to find my _ to drive him/her to school \nthat morning since _ missed the _ ."; 
+		
+		// Assign words inside the madLibString as elements in the mabLib array by using split method of the String class, 
+		// that splits the String whenever it encounters a space.
+		this.madLib = madLibString.split(" ");
+		
+		// Initialize wordList which currently has zero elements.
+		wordList = new ArrayList<Word>();
+		
+		// Adds new Word objects to the wordList array list.
+		wordList.add(new Word("person's name"));
+		wordList.add(new Word("adjective"));
+		wordList.add(new Word("adjective"));
+		wordList.add(new Word("same person's name"));
+		wordList.add(new Word("adjective"));
+		wordList.add(new Word("adjective"));
+		wordList.add(new Word("adjective"));
+		wordList.add(new Word("nouns"));
+		wordList.add(new Word("noun"));
+		wordList.add(new Word("nouns"));
+		wordList.add(new Word("same person's name"));
+		wordList.add(new Word("nouns"));
+		
+	}
+	
+	/**
+	 * This method is a getter for madLib. 
+	 * @return madLib which is an array that holds String types.
+	 */
+	public String[] getMadLib() {
+		return madLib;
+	}
+	
+	/**
+	 * This method is a getter for wordList.
+	 * @return wordList which is an array list that holds Word objects.
+	 */
+	public ArrayList<Word> getWordList(){
+		return wordList;
+	}
+	
+	
+	
+}

@@ -1,0 +1,7 @@
+package medical_classify.structure;
+
+import java.util.HashMap;
+
+public class Graph {
+	public HashMap<Integer, Vertex> vertexs = new HashMap<>();
+}

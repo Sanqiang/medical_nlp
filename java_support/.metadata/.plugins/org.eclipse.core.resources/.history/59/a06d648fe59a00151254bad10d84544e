@@ -1,0 +1,64 @@
+package edu.pitt.is17.assignment7;
+
+/**
+ * Assignment7
+ * 
+ * @author Dan McCafferty
+ */
+
+import java.util.ArrayList;
+
+/**
+ * 
+ * madLibs class used to hold the text for the madlibs game and the array for storing all
+ * the words input by the user for the madlib
+ *
+ */
+public class MadLib {
+	//private string array for the madlibs text and private arraylist named wordlist for the user input words
+	private String[] madLib;
+	private ArrayList<Word> wordList;
+	
+	/**
+	 * constructor MadLib stores main madlib text with underscores for where the user generated words go.
+	 * creates new ArrayList named wordList to store user text
+	 */
+	public MadLib(){
+		String madLibString = "Dear Art Teacher. Please excuse _ for being late for your _ art class.  \nIt is my fault.  I feel _ _ was up until the _ hours of the morning finishing \nhis/her _ project.  Just as we were going out the _ door I saw that \nhis/her only pair of _ had a _ in them.  He/she needed to change!  \nThen it took me an hour to find my _ to drive him/her to school \nthat morning since _ missed the _ ."; 
+		this.madLib = madLibString.split(" ");
+		wordList = new ArrayList<Word>();
+		
+		wordList.add(new Word("person's name"));
+		wordList.add(new Word("adjective"));
+		wordList.add(new Word("adjective"));
+		wordList.add(new Word("same person's name"));
+		wordList.add(new Word("adjective"));
+		wordList.add(new Word("adjective"));
+		wordList.add(new Word("adjective"));
+		wordList.add(new Word("nouns"));
+		wordList.add(new Word("noun"));
+		wordList.add(new Word("nouns"));
+		wordList.add(new Word("same person's name"));
+		wordList.add(new Word("nouns"));
+		
+	}
+
+	/**
+	 * method getter for array MadLibs 
+	 * @return madlibs
+	 */
+	public String[] getMadLib() {
+		return madLib;
+	}
+	
+	/**
+	 * method getter for array list Wordlist
+	 * @return wordlist
+	 */
+	public ArrayList<Word> getWordList(){
+		return wordList;
+	}
+	
+	
+	
+}

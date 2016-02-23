@@ -1,0 +1,11 @@
+package edu.pitt.ex.structure;
+
+public class Word {
+	public String token;
+	public int idx;
+	
+	public Word(String token, int idx){
+		this.token = token;
+		this.idx = idx;
+	}
+}

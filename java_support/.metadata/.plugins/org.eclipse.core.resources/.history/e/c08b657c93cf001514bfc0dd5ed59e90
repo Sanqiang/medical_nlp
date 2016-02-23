@@ -1,0 +1,45 @@
+package medical_classify;
+
+import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLEncoder;
+import java.util.Scanner;
+
+public class GoogleCount {
+	 private static long getResultsCount(final String query) throws IOException {
+	        final URL url;
+	        url = new URL("https://www.google.com/search?q=" + URLEncoder.encode(query, "UTF-8"));
+	        final URLConnection connection = url.openConnection();
+
+	        connection.setConnectTimeout(60000);
+	        connection.setReadTimeout(60000);
+	        connection.addRequestProperty("User-Agent", "Google Chrome/36");//put the browser name/version
+
+	        final Scanner reader = new Scanner(connection.getInputStream(), "UTF-8");  //scanning a buffer from object returned by http request
+
+	        while(reader.hasNextLine()){   //for each line in buffer
+	            final String line = reader.nextLine();
+
+	            if(!line.contains("\"resultStats\">"))//line by line scanning for "resultstats" field because we want to extract number after it
+	                continue;
+
+	            try{        
+	                return Long.parseLong(line.split("\"resultStats\">")[1].split("<")[0].replaceAll("[^\\d]", ""));//finally extract the number convert from string to integer
+	            }finally{
+	                reader.close();
+	            }
+	        }
+	        reader.close();
+	        return 0;
+	    }
+	
+	public static void main(String[] args) throws Exception {
+		String word1 = "";
+		String word2 = "";
+		
+		
+		long count1 = GoogleCount.getResultsCount(word1), count2 = GoogleCount.getResultsCount(word2);
+		System.out.println(count);
+	}
+}

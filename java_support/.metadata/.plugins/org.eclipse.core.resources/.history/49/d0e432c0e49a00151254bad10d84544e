@@ -1,0 +1,48 @@
+package edu.pitt.is17;
+
+import javax.swing.JOptionPane;
+
+public class Game {
+
+	public static void main(String[] args) {
+		MadLib fun = new MadLib();
+		String [] madLibWords = fun.getMadLib();
+
+		int i = 0;
+		
+		for (String word: madLibWords){
+		/*for(int i = 0; i < madLibWords.length; i++) 
+			String word = madLibWords[i];
+			this would be the the code if not using the enhanced for loop
+			*/
+			if(word.equals("_")){
+				String output = fun.getWordList().get(i).getWordType();//chaining instead of using more code to do the same exact thing
+				String input = JOptionPane.showInputDialog(null, "Please input a(n) " + output);
+				fun.getWordList().get(i).setWord(input);
+				i++;
+				
+			}
+		}
+		
+		
+					i = 0;
+					String finalMadLib = "";
+		for (String word: madLibWords){
+			/*for(int i = 0; i < madLibWords.length; i++) 
+				String word = madLibWords[i];
+				this would be the the code if not using the enhanced for loop
+				*/
+				if(word.equals("_")){
+					String storedWord = fun.getWordList().get(i++).getWord();
+					finalMadLib += storedWord;//adds the word to the whole string
+					
+				}else {
+					finalMadLib += word;//adds the word back in
+				}
+				finalMadLib += " ";//need to add the space otherwise its one big blob
+				
+		}
+		System.out.println(finalMadLib);
+	}
+
+}

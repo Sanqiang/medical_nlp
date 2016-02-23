@@ -1,0 +1,57 @@
+package edu.pitt.is17.assignment7;
+
+import java.util.ArrayList;
+
+import javax.swing.JOptionPane;
+
+/**
+ * Assignment7
+ * 
+ * @author Dan McCafferty
+ * public class game with main String argument to execute the madlib game
+ */
+
+public class Game {
+
+	public static void main(String[] args) {
+		//creates a new madlib object
+		MadLib ml = new MadLib();
+		
+		//sets the madlibtext array text equal to the class madlib getmadlib method which has the madlib paragraph and the array for all the user generated words
+		String[] madLibText = ml.getMadLib();
+		//sets the arraylist wordlist equal to the class madlib method getwordlist
+		ArrayList<Word> wordList = ml.getWordList(); 
+		//creates and sets int variable underscore counter to 0
+		int underscoreCounter = 0;
+		//creates and sets string variable final text to blank 
+		String finalText = "";
+		
+		/**
+		 * enhanced for look to check through the array madlibtext for underscores in the text
+		 * increments underscore counter and asks the user to input the needed word
+		 */
+		for(String text : madLibText){
+			//if-else loop looks for underscore in the madlib text
+			if(text.equalsIgnoreCase("_")){
+				//creates and sets variable word to underscorecounter
+				Word word = wordList.get(underscoreCounter);
+				//creates and sets variable to store user input
+				String userInput = JOptionPane.showInputDialog("Please enter a(n) " + word.getWordType());
+				//calls method setword from class word stores word
+				word.setWord(userInput);
+				//compiles the text and user input into variable final text
+				finalText += word.getWord() + " ";		
+				//increments underscorecounter
+				underscoreCounter++;
+			}
+			else{
+				//compiles the text and user input into variable final text
+				finalText += text + " ";
+			}
+		}
+		//displays all the text with user generated input added 
+		JOptionPane.showMessageDialog(null, finalText);
+
+	}
+
+}

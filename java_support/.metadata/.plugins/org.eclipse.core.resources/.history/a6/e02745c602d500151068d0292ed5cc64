@@ -1,0 +1,42 @@
+package test;
+
+import static org.junit.Assert.*;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import org.junit.Test;
+
+import medical_classify.negex.GenNegEx;
+
+public class Negex {
+
+	@Test
+	public void test() throws Exception {
+		GenNegEx g = new GenNegEx();
+		String fillerString = "_";
+		boolean negatePossible = true;
+
+		String triggersFile = "";
+		String sentencesFile = "";
+
+		File ruleFile = new File(triggersFile);
+		File testKitFile = new File(sentencesFile);
+
+		Scanner sc = new Scanner(ruleFile);
+		Scanner scKit = new Scanner(testKitFile);
+
+		ArrayList rules = new ArrayList();
+		String afterNegCheck = "";
+		
+		while (sc.hasNextLine()) {
+			rules.add(sc.nextLine());
+		}
+		
+		
+		// fail("Not yet implemented");
+	}
+
+}
