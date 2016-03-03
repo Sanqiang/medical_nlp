@@ -15,12 +15,19 @@ import javax.net.ssl.HttpsURLConnection;
 public class MetaType {
 
 	static HashMap<String, String> cached = new HashMap<>();
+	static SynUtility synUtility  = new SynUtility();
 
 	public static String requestWeb(String term) {
 		if (!Config.ADD_SYNONYM) {
 			return term;
 		}
 		try {
+			
+//			String code = synUtility.getFeature(term);
+//			if (code != null) {
+//				return code;
+//			}
+			
 			term = term.replace(" ", "+");
 			if (cached.containsKey(term)) {
 				return cached.get(term);
@@ -59,14 +66,14 @@ public class MetaType {
 					.compile("<TR><TH align=left>Entry Term<\\/TH><TD colspan=1>([a-zA-Z ,]+)<\\/TD><\\/TR>");
 			Matcher matcher = patt.matcher(response);
 			while (matcher.find()) {
-				String group = matcher.group(1);
+				String group = matcher.group(1).replace(" ", "_").replace(",", "_");
 				System.out.println(group);
 			}
 
 			patt = Pattern.compile("<TR><TH align=left>MeSH Heading<\\/TH><TD colspan=1>([a-zA-Z ,]+)<\\/TD><\\/TR>");
 			matcher = patt.matcher(response);
 			while (matcher.find()) {
-				String group = matcher.group(1);
+				String group = matcher.group(1).replace(" ", "_").replace(",", "_");
 				System.out.println(group);
 				cached.put(term, group);
 				return group;

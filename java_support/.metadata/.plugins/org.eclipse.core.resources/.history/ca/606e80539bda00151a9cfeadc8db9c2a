@@ -1,0 +1,9 @@
+package medical_classify;
+
+public class ClassifyByDis {
+	ProcessCodes processCodes = new ProcessCodes();
+	
+	public void classifyDoc(String doc){
+		
+	}
+}

@@ -48,6 +48,8 @@ public class Helper {
 			mappedRelType = DependencyType.NominalSubject;
 			break;
 		case "nmod":
+			mappedRelType = DependencyType.NounModifer;
+			break;
 		case "compound":
 		case "conj":
 			mappedRelType = DependencyType.Compound;

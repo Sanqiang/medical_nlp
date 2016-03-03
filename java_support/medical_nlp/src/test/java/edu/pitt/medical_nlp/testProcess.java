@@ -26,17 +26,17 @@ public class testProcess {
 		System.out.println(WordNetUtility.getStem("was"));
 	}
 
-	// @Test
+	@Test
 	public void testPostProcessDocs() {
 		Module.getInst();
 		PostProcess process = new PostProcess();
 		System.out.println("start processing!");
-		process.processDocs("the heart and lungs appear normal.");
+		process.processDocs("uti .");
 		process.postProcessSingleDocs();
 		System.out.println(process);
 	}
 
-	 @Test
+	// @Test
 	public void testInitMetaType() {
 		String entry = MetaType.requestWeb("enuresis");
 		System.out.println(entry);

@@ -1,0 +1,8 @@
+package edu.pitt.medical_nlp.utility;
+
+public class SynUtility {
+
+	public SynUtility(){
+		
+	}
+}

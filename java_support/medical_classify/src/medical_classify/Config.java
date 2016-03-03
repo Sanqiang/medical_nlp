@@ -4,7 +4,7 @@ import edu.stanford.nlp.parser.nndep.DependencyParser;
 
 public class Config {
 
-	public final static String PATH_DATA = "C:\\Users\\phd2\\PycharmProjects\\medical_nn\\data\\data.txt";
+	public final static String PATH_DATA = "data/data_neg.txt";
 	public final static String PATH_MRCONSO = "C:\\Users\\phd2\\Desktop\\mmsys_direct\\2015AA\\META\\MRCONSO.RRF";
 	public final static String PATH_MRSTY = "C:\\Users\\phd2\\Desktop\\mmsys_direct\\2015AA\\META\\MRSTY.RRF";
 	public final static String PATH_MESH = "C:\\Users\\phd2\\Desktop\\mesh\\desc2016.xml";

@@ -10,8 +10,9 @@ public class App {
 		// p.printAspects(0);
 		Module.getInst();
 		PostProcess postProcess = new PostProcess();
-		String filename = "1ADD_SYNONYM" + Config.ADD_SYNONYM + "_ADD_PHRASE" + Config.ADD_PHRASE + "_ADD_TYPE"
-				+ Config.ADD_TYPE + "_ADD_RELATION" + Config.ADD_RELATION + "1.txt";
-		postProcess.postProcessDocs(filename);
+		String filename = "myXX.txt"; 
+				//"1ADD_SYNONYM" + Config.ADD_SYNONYM + "_ADD_PHRASE" + Config.ADD_PHRASE + "_ADD_TYPE"
+				//+ Config.ADD_TYPE + "_ADD_RELATION" + Config.ADD_RELATION + "_NEG.txt";
+		postProcess.postProcessDocs(filename,0);
 	}
 }

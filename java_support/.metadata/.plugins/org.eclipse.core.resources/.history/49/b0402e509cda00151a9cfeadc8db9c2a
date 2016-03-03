@@ -1,0 +1,14 @@
+package medical_classify;
+
+import java.util.HashMap;
+import java.util.List;
+
+public class ClassifyByDis {
+	ProcessCodes processCodes = new ProcessCodes();
+	
+	public void classifyDoc(String doc){
+		HashMap<Integer, HashMap<String, List<String>>> code_map =  processCodes.code_map;
+		
+		
+	}
+}

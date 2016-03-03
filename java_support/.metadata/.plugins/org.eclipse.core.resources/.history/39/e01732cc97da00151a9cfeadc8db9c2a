@@ -1,0 +1,9 @@
+package medical_classify;
+
+import java.io.File;
+
+public class ProcessCodes {
+	static void process() {
+		BufferedReader reader = new BufferedReader(new FileReader(new File("")));
+	}
+}

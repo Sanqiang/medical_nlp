@@ -7,29 +7,30 @@ public class Graph {
 	public HashMap<Integer, Vertex> vertexs = new HashMap<>();
 	public HashSet<Edge> edges = new HashSet<>();
 
-//	public void addVertex(int idx, String word) {
-//		Vertex vertex = new Vertex();
-//		vertex.idx = idx;
-//		vertex.word = word;
-//		vertexs.put(idx, vertex);
-//	}
-	
-	public void addEdge(int idx1, String word1, int idx2, String word2){
+	// public void addVertex(int idx, String word) {
+	// Vertex vertex = new Vertex();
+	// vertex.idx = idx;
+	// vertex.word = word;
+	// vertexs.put(idx, vertex);
+	// }
+
+	public void addEdge(int idx1, String word1, int idx2, String word2, String dependency_type) {
 		Vertex vertex1 = new Vertex();
 		vertex1.idx = idx1;
 		vertex1.word = word1;
 		vertexs.put(idx1, vertex1);
-		
+
 		Vertex vertex2 = new Vertex();
 		vertex2.idx = idx2;
 		vertex2.word = word2;
 		vertexs.put(idx2, vertex2);
-	
+
 		Edge edge = new Edge();
+		edge.type = dependency_type;
 		edge.vertex1 = vertex1;
 		edge.vertex2 = vertex2;
 		vertex1.edges.add(edge);
 		vertex2.edges.add(edge);
-		edges.add(edge);		
+		edges.add(edge);
 	}
 }

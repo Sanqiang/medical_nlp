@@ -2,6 +2,8 @@ package edu.pitt.medical_nlp.graph;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
 
 import edu.pitt.medical_nlp.text.PostProcess;
 import edu.pitt.medical_nlp.utility.DependencyType;
@@ -23,7 +25,7 @@ public class Graph {
 		node_n.links.add(edge);
 		return edge;
 	}
-	
+
 	public Edge createEdge(WordNode node_adj, WordNode node_n, String type_str) {
 		Edge edge = new Edge(node_adj, node_n, type_str);
 		if (!nodes.containsKey(node_adj)) {
@@ -61,33 +63,102 @@ public class Graph {
 		return edge;
 	}
 
+	public ArrayList<Integer> generateDeleteList(int level) {
+		ArrayList<Integer> features = new ArrayList<>();
+
+		for (Edge edge : edges) {
+			if (edge.type == DependencyType.Negative) {
+				WordNode NodeRemove = edge.node_dep;
+
+				features.add(edge.node_gov.idx);
+				features.add(NodeRemove.idx);
+
+				if (1 == level) {
+					for (Edge edge_loop : NodeRemove.links) {
+						if (edge_loop.type == DependencyType.NounModifer || edge_loop.type == DependencyType.Compound) {
+							WordNode NodeRemove2 = edge_loop.getOtherNode(NodeRemove);
+							if (NodeRemove2 == null) {
+								System.err.println("1");
+							}
+							features.add(NodeRemove2.idx);
+						}
+					}
+				} else {
+					Queue<WordNode> q = new LinkedList<>();
+					q.add(NodeRemove);
+					
+					while (!q.isEmpty()) {
+						WordNode node = q.poll();
+						
+						for (Edge edge2 : node.links) {
+							WordNode node2 = edge2.getOtherNode(node);
+							if (!features.contains(node2.idx)) {
+								q.add(node2);
+							}
+							features.add(node2.idx);
+						}
+					}
+					
+
+				}
+
+			}
+		}
+
+		return features;
+	}
+
 	public ArrayList<String> generateFeatures(PostProcess process) {
 		ArrayList<String> features = new ArrayList<>();
-		DependencyType[] modifys = { DependencyType.AdjectiveModifer, DependencyType.NominalSubject,
-				DependencyType.Negative };
+		// DependencyType[] modifys = { DependencyType.AdjectiveModifer,
+		// DependencyType.NominalSubject,DependencyType.Negative };
 
-		for (DependencyType dependencyType : modifys) {
-			for (Edge edge : edges) {
-				if (edge.type == dependencyType) {
-					if (process._mrconso.containsKey(edge.node_adj.lemma.replace("_", " "))) {
+		for (Edge edge : edges) {
+			if (edge.type == DependencyType.Negative) {
+				WordNode NodeRemove = edge.node_dep;
 
-						if (process._mrconso.containsKey(edge.node_n.lemma.replace("_", " "))) {
-							features.add(edge.node_adj.lemma + "_" + edge.node_n.lemma);
-							features.add(edge.node_adj.lemma + "_" + edge.node_n.core);
+				features.add("no_" + NodeRemove.lemma);
+
+				for (Edge edge_loop : NodeRemove.links) {
+					if (edge_loop.type == DependencyType.NounModifer || edge_loop.type == DependencyType.Compound) {
+						WordNode NodeRemove2 = edge_loop.getOtherNode(NodeRemove);
+						if (NodeRemove2 == null) {
+							System.err.println("1");
 						}
-
-						for (Edge edge_loop : edge.node_n.links) {
-							if (edge_loop.type == DependencyType.Compound) {
-								if (process._mrconso.containsKey(edge_loop.getOtherNode(edge.node_n).lemma.replace("_", " "))) {
-									features.add(edge.node_adj.lemma + "_" + edge_loop.getOtherNode(edge.node_n).lemma);
-									features.add(edge.node_adj.lemma + "_" + edge_loop.getOtherNode(edge.node_n).core);
-								}
-							}
-						}
+						features.add("no_" + NodeRemove2.lemma);
 					}
 				}
 			}
 		}
+
+		// for (DependencyType dependencyType : modifys) {
+		// for (Edge edge : edges) {
+		// if (edge.type == dependencyType) {
+		// if (process._mrconso.containsKey(edge.node_adj.lemma.replace("_", "
+		// "))) {
+		//
+		// if (process._mrconso.containsKey(edge.node_n.lemma.replace("_", "
+		// "))) {
+		// features.add(edge.node_adj.lemma + "_" + edge.node_n.lemma);
+		// features.add(edge.node_adj.lemma + "_" + edge.node_n.core);
+		// }
+		//
+		// for (Edge edge_loop : edge.node_n.links) {
+		// if (edge_loop.type == DependencyType.Compound) {
+		// if
+		// (process._mrconso.containsKey(edge_loop.getOtherNode(edge.node_n).lemma.replace("_",
+		// " "))) {
+		// features.add(edge.node_adj.lemma + "_" +
+		// edge_loop.getOtherNode(edge.node_n).lemma);
+		// features.add(edge.node_adj.lemma + "_" +
+		// edge_loop.getOtherNode(edge.node_n).core);
+		// }
+		// }
+		// }
+		// }
+		// }
+		// }
+		// }
 		return features;
 	}
 }

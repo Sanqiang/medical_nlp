@@ -1,16 +1,18 @@
 package medical_classify;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.StringReader;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import edu.stanford.nlp.ling.HasWord;
+import edu.stanford.nlp.ling.TaggedWord;
 import edu.stanford.nlp.ling.Word;
 import edu.stanford.nlp.parser.nndep.DependencyParser;
 import edu.stanford.nlp.process.DocumentPreprocessor;
@@ -26,13 +28,16 @@ public class Process {
 	protected ArrayList<String> _docs = null;
 
 	public Process() {
-		this._docs = new ArrayList<String>();
 		try {
+			BufferedWriter writer = new BufferedWriter(new FileWriter(new File("data/data_neg2.txt")));
 			BufferedReader reader = new BufferedReader(new FileReader(new File(Config.PATH_DATA)));
 			String line = null;
 			while (null != (line = reader.readLine())) {
 				String[] items = line.split("\t");
-				this._docs.add(items[2]);
+				String doc = processSentence(items[2]);
+				writer.write(items[1]);
+				writer.write("\t");
+				writer.write(doc);
 			}
 			reader.close();
 		} catch (FileNotFoundException e) {
@@ -45,17 +50,14 @@ public class Process {
 	MaxentTagger tagger = Module.getInst().getTagger();
 	DependencyParser parser = Module.getInst().getDependencyParser();
 
-	public void processDocs() {
-		for (String doc : _docs) {
 
-		}
-	}
-
-	public void processSentence(String doc) {
+	public String processSentence(String doc) {
+		StringBuilder sb = new StringBuilder();
 		DocumentPreprocessor tokenizer = new DocumentPreprocessor(new StringReader(doc));
 		for (List<HasWord> sentence : tokenizer) {
+			List<TaggedWord> tagged = tagger.tagSentence(sentence);
 			Graph graph = new Graph();
-			GrammaticalStructure gs = parser.predict(sentence);
+			GrammaticalStructure gs = parser.predict(tagged);
 			for (TypedDependency typed_dependence : gs.typedDependenciesCCprocessed(Extras.MAXIMAL)) {
 				int idx_gov = typed_dependence.gov().index() - 1;
 				int idx_dep = typed_dependence.dep().index() - 1;
@@ -68,7 +70,7 @@ public class Process {
 					}
 					String dependency_type = typed_dependence.reln().getShortName();
 
-					graph.addEdge(idx_gov, lemma_gov, idx_dep, lemma_dep);
+					graph.addEdge(idx_gov, lemma_gov, idx_dep, lemma_dep, dependency_type);
 				}
 			}
 
@@ -79,36 +81,41 @@ public class Process {
 					remove_idxs.add(edge.vertex1.idx);
 					remove_idxs.add(edge.vertex2.idx);
 
-					for (Edge edge2 : edge.vertex1.edges) {
-						if (edge2.type.equals("nmod") || edge2.type.equals("conj")) {
-							remove_idxs.add(edge2.vertex1.idx);
-							remove_idxs.add(edge2.vertex2.idx);
-						}
-					}
+					// delete associate
+					// for (Edge edge2 : edge.vertex1.edges) {
+					// if (edge2.type.equals("nmod") ||
+					// edge2.type.equals("conj")) {
+					// remove_idxs.add(edge2.vertex1.idx);
+					// remove_idxs.add(edge2.vertex2.idx);
+					// }
+					// }
+					//
+					// for (Edge edge2 : edge.vertex2.edges) {
+					// if (edge2.type.equals("nmod") ||
+					// edge2.type.equals("conj")) {
+					// remove_idxs.add(edge2.vertex1.idx);
+					// remove_idxs.add(edge2.vertex2.idx);
+					// }
+					// }
+					// }
+				}
 
-					for (Edge edge2 : edge.vertex2.edges) {
-						if (edge2.type.equals("nmod") || edge2.type.equals("conj")) {
-							remove_idxs.add(edge2.vertex1.idx);
-							remove_idxs.add(edge2.vertex2.idx);
-						}
-					}
+				for (int remove_idx : remove_idxs) {
+					sentence.set(remove_idx, new Word(" "));
 				}
 			}
-
-			for (int remove_idx : remove_idxs) {
-				sentence.set(remove_idx, new Word("-DEL-"));
-			}
-			
 			for (HasWord word : sentence) {
-				System.out.print(word.word() + " ");
+				//System.out.print(word.word() + " ");
+				sb.append(word.word()).append(" ");
 			}
-
 		}
+		sb.append("\n");
+		return sb.toString();
 	}
 
 	public static void main(String[] args) {
 		Process process = new Process();
-		process.processSentence("no AAA or BBB");
+		//process.processSentence("no AAA and BBB");
 	}
 
 }

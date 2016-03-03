@@ -74,19 +74,19 @@ public class ProcessEx {
 			// check parallel word
 			for (Edge edge : graph.edges) {
 				if ("conj".equals(edge)) {
-					for (Edge edge_check : edge.node_adj.links) {
+					for (Edge edge_check : edge.node_gov.links) {
 						if ("nsubj".equals(edge_check.type_str) || "amod".equals(edge_check.type_str)) {
 							is_checked = true;
 							break;
 						}
 					}
 					if (is_checked) {
-						parallel_node = edge.node_n;
+						parallel_node = edge.node_dep;
 					}
 					if (is_checked) {
-						for (Edge edge_check : edge.node_adj.links) {
+						for (Edge edge_check : edge.node_gov.links) {
 							if ("cc".equals(edge_check.type_str)) {
-								parallel_ccnode = edge_check.node_n;
+								parallel_ccnode = edge_check.node_dep;
 							}
 						}
 					}
